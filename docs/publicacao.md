@@ -42,6 +42,8 @@ A Play exige um URL público que não seja PDF. A proposta é o **GitHub Pages**
 2. no GitHub, ir a Settings → Pages → "Deploy from a branch" → `main` / `/docs`;
 3. os URL ficam `https://<conta>.github.io/<repositório>/privacidade.html` e `…/privacy.html`.
 
+**Feito a 2026-11-22:** https://goncalogoncalves.github.io/resilia/privacidade.html e https://goncalogoncalves.github.io/resilia/privacy.html. Este é o URL a pôr na Play Console.
+
 Dentro da app, a política já está em Definições → Privacidade.
 
 ## 3. Data safety (proposta de respostas)

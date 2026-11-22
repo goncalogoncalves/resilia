@@ -7,7 +7,7 @@ lang: pt-PT
 
 > Última atualização: 2026-11-22. [English version](privacy.md).
 
-Esta política aplica-se à app Android de preparação para emergências publicada a partir deste repositório. O nome da app está no topo do [README](../README.md).
+Esta política aplica-se à app Android de preparação para emergências publicada a partir deste repositório. O nome da app está no topo do [README](https://github.com/goncalogoncalves/resilia#readme).
 
 ## Resumo
 

@@ -7,7 +7,7 @@ lang: en
 
 > Last updated: 2026-11-22. [Versão portuguesa](privacidade.md).
 
-This policy covers the Android emergency-preparedness app published from this repository. The app's name is at the top of the [README](../README.md).
+This policy covers the Android emergency-preparedness app published from this repository. The app's name is at the top of the [README](https://github.com/goncalogoncalves/resilia#readme).
 
 ## Summary
 
