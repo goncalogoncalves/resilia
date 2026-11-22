@@ -23,10 +23,10 @@ O APK é compilado a partir deste repositório e assinado sempre com a mesma cha
 
 <p>
 <img src="docs/screenshots/marco-7/03-inicio-com-aviso.png" width="200" alt="Início com aviso do IPMA">
-<img src="docs/screenshots/marco-9/06-ligacao-ao-kit.png" width="200" alt="Guia com passos e fontes">
+<img src="docs/screenshots/marco-9/10-guia-sem-selo-fonte-pequena.png" width="200" alt="Guia com passos e fontes">
 <img src="docs/screenshots/marco-9/04-emergencia-letra-200-112-fixo.png" width="200" alt="Modo emergência com o botão 112">
 <img src="docs/screenshots/marco-3/03-inventario.png" width="200" alt="Inventário do kit">
-<img src="docs/screenshots/marco-4/03-plano.png" width="200" alt="Plano familiar">
+<img src="docs/screenshots/marco-4/02-ficha-medica.png" width="200" alt="Plano familiar: ficha médica">
 <img src="docs/screenshots/marco-8/03-os-meus-locais.png" width="200" alt="Os meus locais">
 <img src="docs/screenshots/marco-5/01-ferramentas.png" width="200" alt="Ferramentas">
 <img src="docs/screenshots/marco-6b/01-calma.png" width="200" alt="Calma">
