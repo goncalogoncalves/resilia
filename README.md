@@ -33,7 +33,7 @@ Em desenvolvimento, por marcos. Ver [docs/marco-0-proposta.md](docs/marco-0-prop
 - **Sem conta, sem servidor, sem analytics**. Os dados ficam no telemóvel e são excluídos dos backups na cloud.
 - **Permissões mínimas**. A lanterna não pede acesso à câmara; "Ligar 112" abre o marcador sem pedir permissão de chamadas.
 - **Utilizável sob stress**: letra grande (Atkinson Hyperlegible), alto contraste, passos curtos e numerados.
-- **Honestidade**: conteúdo de saúde e segurança só com fontes oficiais; o restante fica marcado "Por rever".
+- **Honestidade**: conteúdo de saúde e segurança só com fontes oficiais, indicadas em cada passo. O aviso legal diz que os textos não foram revistos por profissionais.
 
 ## Estrutura
 

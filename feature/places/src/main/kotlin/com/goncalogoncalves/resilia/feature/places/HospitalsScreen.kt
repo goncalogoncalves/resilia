@@ -37,7 +37,6 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.goncalogoncalves.resilia.core.designsystem.component.ContactCard
 import com.goncalogoncalves.resilia.core.designsystem.component.DisclaimerFooter
-import com.goncalogoncalves.resilia.core.designsystem.component.DraftBadge
 import com.goncalogoncalves.resilia.core.designsystem.component.SectionTitle
 import com.goncalogoncalves.resilia.core.designsystem.component.SourcesLink
 import com.goncalogoncalves.resilia.core.designsystem.component.copyToClipboard
@@ -45,7 +44,6 @@ import com.goncalogoncalves.resilia.core.designsystem.component.formatIsoDate
 import com.goncalogoncalves.resilia.core.designsystem.component.openInMaps
 import com.goncalogoncalves.resilia.core.domain.model.ContentBundle
 import com.goncalogoncalves.resilia.core.domain.model.Hospital
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.model.UrgencyLevel
 import java.text.Collator
 import java.text.Normalizer
@@ -96,7 +94,6 @@ internal fun HospitalsContent(bundle: ContentBundle) {
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
-                if (data.review.status == ReviewStatus.DRAFT) DraftBadge()
             }
         }
         item {

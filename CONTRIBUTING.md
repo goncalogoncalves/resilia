@@ -56,7 +56,8 @@ content/
 - `kind`: `safety` | `health` (exigem fonte oficial) | `practical` | `wellbeing`.
 - `urgency`: `now` | `soon` | `later` | `info`.
 - `review.status`: novo conteúdo entra **sempre** como `draft`. Só o responsável pela revisão passa a `reviewed`
-  (preenchendo `reviewedAt` e `reviewedBy`). A app mostra "Por rever" em tudo o que é `draft`.
+  (preenchendo `reviewedAt` e `reviewedBy`). A app não mostra este estado em cada passo: o aviso legal diz que os
+  textos resumem fontes oficiais e não foram revistos por profissionais.
 - Para o passo aparecer no modo emergência ("Faz isto agora"), acrescenta o `id` a `emergencyNow` do cenário.
 - `alertTriggers` liga um cenário a avisos do IPMA: `ipma:<awarenessTypeName>` (ex.: `ipma:Vento`) ou `rcm:<1-5>` (risco de incêndio). Cada gatilho só pode estar num cenário.
 

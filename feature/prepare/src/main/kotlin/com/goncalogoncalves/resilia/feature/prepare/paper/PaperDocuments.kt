@@ -15,7 +15,6 @@ import com.goncalogoncalves.resilia.core.domain.model.KitQuantityKind
 import com.goncalogoncalves.resilia.core.domain.model.Member
 import com.goncalogoncalves.resilia.core.domain.model.Phase
 import com.goncalogoncalves.resilia.core.domain.model.PlanContact
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.model.Source
 import com.goncalogoncalves.resilia.core.domain.model.of
 import com.goncalogoncalves.resilia.feature.prepare.R
@@ -254,10 +253,7 @@ internal object PaperDocuments {
                     w.text("${i + 1}. ${step.text.resolve(d.language)}", isBold = true, after = 1f)
                     step.detail?.let { w.text(it.resolve(d.language), size = 10f, indent = 14f, after = 1f) }
                     step.note?.let { w.text(it.resolve(d.language), size = 9f, indent = 14f, after = 1f) }
-                    val meta = listOfNotNull(
-                        sourcesLine(c, d, step.sourceIds).ifBlank { c.getString(R.string.paper_no_source) },
-                        if (step.review.status == ReviewStatus.DRAFT) c.getString(DsR.string.ds_draft_badge) else null,
-                    ).joinToString(" · ")
+                    val meta = sourcesLine(c, d, step.sourceIds).ifBlank { c.getString(R.string.paper_no_source) }
                     w.text(meta, size = 8.5f, indent = 14f, after = 5f)
                 }
             }

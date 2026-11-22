@@ -5,7 +5,7 @@ lang: en
 
 # Privacy policy
 
-> **Draft, to be reviewed.** It must be reviewed by someone with legal training before publication. Last updated: 2026-11-22. [Versão portuguesa](privacidade.md).
+> Last updated: 2026-11-22. [Versão portuguesa](privacidade.md).
 
 This policy covers the Android emergency-preparedness app published from this repository. The app's name is at the top of the [README](../README.md).
 
@@ -63,4 +63,4 @@ Changes to this policy are recorded in this repository's history.
 
 ## Contact
 
-**To be defined before publication.**
+goncalofbg@live.com.pt

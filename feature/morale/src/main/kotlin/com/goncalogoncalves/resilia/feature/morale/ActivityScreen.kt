@@ -21,7 +21,6 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.goncalogoncalves.resilia.core.designsystem.component.DisclaimerFooter
-import com.goncalogoncalves.resilia.core.designsystem.component.DraftBadge
 import com.goncalogoncalves.resilia.core.designsystem.component.SourcesLink
 import com.goncalogoncalves.resilia.core.designsystem.component.currentContentLanguage
 import com.goncalogoncalves.resilia.core.designsystem.component.text
@@ -31,7 +30,6 @@ import com.goncalogoncalves.resilia.core.domain.model.ActivitySetting
 import com.goncalogoncalves.resilia.core.domain.model.ContentBundle
 import com.goncalogoncalves.resilia.core.domain.model.LightNeed
 import com.goncalogoncalves.resilia.core.domain.model.Noise
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 
 @Composable
 internal fun ActivityScreen(activityId: String, viewModel: MoraleViewModel = hiltViewModel()) {
@@ -66,7 +64,6 @@ internal fun androidx.compose.foundation.lazy.LazyListScope.activityDetail(
     item {
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(a.summary.text(), style = MaterialTheme.typography.bodyLarge)
-            if (a.review.status == ReviewStatus.DRAFT) DraftBadge()
         }
     }
     item { Facts(a, b) }

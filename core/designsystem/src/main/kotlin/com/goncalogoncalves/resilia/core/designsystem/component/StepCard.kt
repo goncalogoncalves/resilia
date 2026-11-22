@@ -17,14 +17,12 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.goncalogoncalves.resilia.core.designsystem.R
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.model.Source
 import com.goncalogoncalves.resilia.core.domain.model.Step
 
@@ -69,20 +67,17 @@ fun StepCard(
                         Text(it.text(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
-                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    if (step.review.status == ReviewStatus.DRAFT) DraftBadge()
-                    val label = when {
-                        sources.isEmpty() -> R.string.ds_no_source
-                        sources.none { it.entity.isOfficial } -> R.string.ds_unofficial_source
-                        else -> null
-                    }
-                    label?.let {
-                        Text(
-                            stringResource(it),
-                            style = MaterialTheme.typography.labelMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
-                    }
+                val label = when {
+                    sources.isEmpty() -> R.string.ds_no_source
+                    sources.none { it.entity.isOfficial } -> R.string.ds_unofficial_source
+                    else -> null
+                }
+                label?.let {
+                    Text(
+                        stringResource(it),
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
                 }
                 if (kitItems.isNotEmpty()) {
                     val kitText = stringResource(R.string.ds_in_kit, kitItems.joinToString(", "))

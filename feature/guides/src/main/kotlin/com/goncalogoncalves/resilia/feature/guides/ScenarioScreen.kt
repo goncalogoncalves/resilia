@@ -43,7 +43,6 @@ import androidx.lifecycle.viewModelScope
 import com.goncalogoncalves.resilia.core.designsystem.component.BigActionButton
 import com.goncalogoncalves.resilia.core.designsystem.component.DisclaimerFooter
 import com.goncalogoncalves.resilia.core.designsystem.component.currentContentLanguage
-import com.goncalogoncalves.resilia.core.designsystem.component.DraftBadge
 import com.goncalogoncalves.resilia.core.designsystem.component.HubCard
 import com.goncalogoncalves.resilia.core.designsystem.component.SourceItem
 import com.goncalogoncalves.resilia.core.designsystem.component.StepCard
@@ -52,7 +51,6 @@ import com.goncalogoncalves.resilia.core.designsystem.component.scenarioIcon
 import com.goncalogoncalves.resilia.core.designsystem.component.text
 import com.goncalogoncalves.resilia.core.domain.model.ContentBundle
 import com.goncalogoncalves.resilia.core.domain.model.Phase
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.model.LocalizedText
 import com.goncalogoncalves.resilia.core.domain.model.Scenario
 import com.goncalogoncalves.resilia.core.domain.model.Source

@@ -189,15 +189,16 @@ fun SourcesLink(
 ) {
     if (sources.isEmpty()) return
     var show by remember { mutableStateOf(false) }
+    // Small text on purpose (it is secondary to the step), but still a 48 dp touch target.
     Text(
         label,
-        style = MaterialTheme.typography.labelLarge,
+        style = MaterialTheme.typography.labelSmall,
         color = MaterialTheme.colorScheme.primary,
         modifier = modifier
             .fillMaxWidth()
             .heightIn(min = 48.dp)
             .clickable(role = Role.Button) { show = true }
-            .padding(vertical = 12.dp),
+            .padding(vertical = 16.dp),
     )
     if (show) SourcesDialog(sources) { show = false }
 }

@@ -5,7 +5,7 @@ lang: pt-PT
 
 # Política de privacidade
 
-> **Rascunho, por rever.** Tem de ser revisto por alguém com formação jurídica antes da publicação. Última atualização: 2026-11-22. [English version](privacy.md).
+> Última atualização: 2026-11-22. [English version](privacy.md).
 
 Esta política aplica-se à app Android de preparação para emergências publicada a partir deste repositório. O nome da app está no topo do [README](../README.md).
 
@@ -63,4 +63,4 @@ As alterações a esta política ficam no histórico deste repositório.
 
 ## Contacto
 
-**A definir antes da publicação.**
+goncalofbg@live.com.pt

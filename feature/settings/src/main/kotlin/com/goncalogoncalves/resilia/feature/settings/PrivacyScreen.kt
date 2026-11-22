@@ -11,7 +11,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.goncalogoncalves.resilia.core.designsystem.component.SectionTitle
 
-/** In-app privacy policy (Google Play requires it inside the app too). Legal text: por rever. */
+/** In-app privacy policy (Google Play requires it inside the app too). */
 @Composable
 internal fun PrivacyScreen() {
     val paragraphs = listOf(
@@ -27,12 +27,5 @@ internal fun PrivacyScreen() {
     LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
         item { SectionTitle(stringResource(R.string.privacy_title)) }
         items(paragraphs) { Text(stringResource(it), style = MaterialTheme.typography.bodyLarge) }
-        item {
-            Text(
-                stringResource(R.string.privacy_review_note),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-        }
     }
 }

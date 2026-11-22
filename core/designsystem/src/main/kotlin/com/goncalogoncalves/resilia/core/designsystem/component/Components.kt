@@ -109,18 +109,3 @@ fun DisclaimerFooter(modifier: Modifier = Modifier) {
 }
 
 /** Marks content that has not yet been reviewed. */
-@Composable
-fun DraftBadge(modifier: Modifier = Modifier) {
-    Surface(
-        color = MaterialTheme.colorScheme.secondaryContainer,
-        contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
-        shape = MaterialTheme.shapes.small,
-        modifier = modifier,
-    ) {
-        Text(
-            text = stringResource(R.string.ds_draft_badge),
-            style = MaterialTheme.typography.labelMedium,
-            modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp),
-        )
-    }
-}

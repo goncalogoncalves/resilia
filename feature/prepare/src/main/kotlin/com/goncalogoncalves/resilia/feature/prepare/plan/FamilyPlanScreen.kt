@@ -52,7 +52,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.goncalogoncalves.resilia.core.designsystem.component.BigActionButton
 import com.goncalogoncalves.resilia.core.designsystem.component.DisclaimerFooter
-import com.goncalogoncalves.resilia.core.designsystem.component.DraftBadge
 import com.goncalogoncalves.resilia.core.designsystem.component.SourcesLink
 import com.goncalogoncalves.resilia.core.designsystem.component.text
 import com.goncalogoncalves.resilia.core.domain.model.ContentBundle
@@ -61,7 +60,6 @@ import com.goncalogoncalves.resilia.core.domain.model.MedicalInfo
 import com.goncalogoncalves.resilia.core.domain.model.Member
 import com.goncalogoncalves.resilia.core.domain.model.PlanContact
 import com.goncalogoncalves.resilia.core.domain.model.PlanSectionId
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.repository.ContentRepository
 import com.goncalogoncalves.resilia.core.domain.repository.FamilyPlanRepository
 import com.goncalogoncalves.resilia.core.domain.repository.PreparednessRepository
@@ -278,7 +276,6 @@ private fun LazyListScope.section(
             Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Text(stringResource(title), style = MaterialTheme.typography.titleLarge, modifier = Modifier.semantics { heading() })
                 guide?.hint?.let { Text(it.text(), style = MaterialTheme.typography.bodyMedium) }
-                if (guide?.hint != null && guide.review.status == ReviewStatus.DRAFT) DraftBadge()
                 guide?.let { g -> SourcesLink(g.sourceIds.mapNotNull(state.bundle::source)) }
                 content()
             }

@@ -52,13 +52,11 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.goncalogoncalves.resilia.core.designsystem.component.BigActionButton
 import com.goncalogoncalves.resilia.core.designsystem.component.DisclaimerFooter
-import com.goncalogoncalves.resilia.core.designsystem.component.DraftBadge
 import com.goncalogoncalves.resilia.core.designsystem.component.SourcesLink
 import com.goncalogoncalves.resilia.core.designsystem.component.StepCard
 import com.goncalogoncalves.resilia.core.designsystem.component.text
 import com.goncalogoncalves.resilia.core.domain.device.Torch
 import com.goncalogoncalves.resilia.core.domain.model.ContentBundle
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.repository.ContentRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -258,7 +256,6 @@ internal fun BatteryScreen(viewModel: ToolContentViewModel = hiltViewModel()) {
                 Column(verticalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(top = 8.dp)) {
                     Text(guide.title.text(), style = MaterialTheme.typography.titleLarge, modifier = Modifier.semantics { heading() })
                     Text(guide.summary.text(), style = MaterialTheme.typography.bodyLarge)
-                    if (guide.review.status == ReviewStatus.DRAFT) DraftBadge()
                 }
             }
             itemsIndexed(guide.steps, key = { _, s -> s.id }) { i, step ->

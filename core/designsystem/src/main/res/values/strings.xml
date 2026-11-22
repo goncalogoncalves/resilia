@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ds_disclaimer_footer">General information only. In an emergency, call 112. This app does not replace the emergency services or professional advice, and its authors accept no liability for how it is used.</string>
-    <string name="ds_draft_badge">Not yet reviewed</string>
     <string name="ds_coming_soon">Coming soon</string>
     <string name="ds_sources_title">Sources</string>
     <string name="ds_sources_inline">Source: %1$s</string>

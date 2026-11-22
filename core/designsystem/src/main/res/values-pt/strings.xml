@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ds_disclaimer_footer">Informação geral. Em emergência, liga 112. Esta app não substitui os serviços de emergência nem aconselhamento profissional, e os seus autores não se responsabilizam pelo uso que lhe é dado.</string>
-    <string name="ds_draft_badge">Por rever</string>
     <string name="ds_coming_soon">Em breve</string>
     <string name="ds_sources_title">Fontes</string>
     <string name="ds_sources_inline">Fonte: %1$s</string>

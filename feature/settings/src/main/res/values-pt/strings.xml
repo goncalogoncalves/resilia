@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- TEXTO JURÍDICO: por rever, tem de ser validado por alguém com formação jurídica antes do lançamento. -->
+    <!-- TEXTO JURÍDICO: sem revisão jurídica (decisão do autor, 2026-11-22). -->
     <string name="disclaimer_title">Antes de começar</string>
     <string name="disclaimer_accept">Compreendo e aceito</string>
     <string name="legal_p1_not_112">Em emergência, liga 112. Esta app não substitui os serviços de emergência, a proteção civil, os médicos nem qualquer outro profissional.</string>
     <string name="legal_p2_general_info">A informação desta app é geral e pode não se adequar à tua situação. Segue sempre as indicações das autoridades e dos serviços de emergência no local.</string>
     <string name="legal_p3_no_liability">Usas esta app e a sua informação por tua conta e risco. Os autores e colaboradores não se responsabilizam por qualquer decisão, ação ou omissão baseada nela, nem por danos resultantes do seu uso.</string>
-    <string name="legal_p4_unreviewed">Algum conteúdo ainda está marcado como “Por rever”. Lê-o com cuidado redobrado.</string>
+    <string name="legal_p4_unreviewed">Os textos desta app resumem fontes oficiais, indicadas em cada passo, mas não foram revistos por profissionais de saúde nem de proteção civil. Em caso de dúvida, segue a fonte original e as indicações das autoridades.</string>
     <string name="legal_p5_alerts">Os alertas mostrados na app dependem de dados públicos e da tua ligação à internet. Podem chegar atrasados, incompletos ou não estar disponíveis. Nunca são em tempo real.</string>
     <string name="legal_p6_privacy">A app não tem conta, anúncios nem rastreio. Tudo o que escreves fica só neste telemóvel.</string>
     <string name="settings_legal">Aviso legal</string>
@@ -51,8 +51,7 @@
     <string name="privacy_p5_export">Se exportares os teus dados, o ficheiro fica onde escolheres. Com palavra-passe fica cifrado.</string>
     <string name="privacy_p6_permissions">Permissões: notificações (lembretes e avisos, só se os ligares), internet (ficheiros do IPMA) e biometria (bloqueio opcional das fichas médicas). A app nunca pede localização, câmara, contactos nem chamadas.</string>
     <string name="privacy_p7_delete">Para apagar tudo, desinstala a app ou limpa os dados dela nas definições do telemóvel.</string>
-    <string name="privacy_p8_contact">Contacto: a definir antes da publicação.</string>
-    <string name="privacy_review_note">Rascunho. Tem de ser revisto por alguém com formação jurídica antes da publicação.</string>
+    <string name="privacy_p8_contact">Contacto: goncalofbg@live.com.pt</string>
     <plurals name="backup_password_rule">
         <item quantity="one">Pelo menos %1$d carácter.</item>
         <item quantity="many">Pelo menos %1$d caracteres.</item>

@@ -28,13 +28,11 @@ import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
-import com.goncalogoncalves.resilia.core.designsystem.component.DraftBadge
 import com.goncalogoncalves.resilia.core.designsystem.component.HubCard
 import com.goncalogoncalves.resilia.core.designsystem.component.currentContentLanguage
 import com.goncalogoncalves.resilia.core.designsystem.component.scenarioIcon
 import com.goncalogoncalves.resilia.core.designsystem.component.text
 import com.goncalogoncalves.resilia.core.domain.model.ContentLanguage
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.model.Scenario
 import com.goncalogoncalves.resilia.core.domain.repository.ContentRepository
 import com.goncalogoncalves.resilia.core.domain.repository.FavoritesRepository
@@ -127,11 +125,7 @@ internal fun GuidesScreen(
                                 tint = MaterialTheme.colorScheme.primary,
                             )
                         }
-                        if (scenario.effectiveReviewStatus == ReviewStatus.DRAFT) {
-                            DraftBadge()
-                        } else {
-                            Icon(Icons.AutoMirrored.Outlined.ArrowForward, contentDescription = null)
-                        }
+                        Icon(Icons.AutoMirrored.Outlined.ArrowForward, contentDescription = null)
                     }
                 },
             )

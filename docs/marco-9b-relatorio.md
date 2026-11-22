@@ -52,3 +52,13 @@
 4. **Pesquisa do nome** no INPI e no EUIPO.
 5. **Primeiro commit:** só quando me disseres. Depois, tu fazes o push, tornas o repositório público e ativas o GitHub Pages.
 6. **Conta na Play Console**, formulários e, se se aplicar, o teste fechado com 12 testadores durante 14 dias.
+
+## Depois das tuas respostas (2026-11-22)
+
+- **Versão `1.0.0`** (versionCode 1).
+- **Contacto** `goncalofbg@live.com.pt` na política de privacidade (web e app).
+- **Sem revisão jurídica:** tirei as notas de "rascunho" da política de privacidade.
+- **O selo "Por rever" saiu de todos os ecrãs e do PDF.** Esta indicação está agora no aviso legal: "Os textos desta app resumem fontes oficiais, indicadas em cada passo, mas não foram revistos por profissionais de saúde nem de proteção civil." O estado `draft` continua nos dados, para um dia se poder marcar o conteúdo revisto.
+- **"Fonte:" em letra muito mais pequena**, mantendo a área de toque de 48 dp ([captura](screenshots/marco-9/10-guia-sem-selo-fonte-pequena.png)).
+- Guia de publicação atualizado, com uma secção nova sobre porque é preciso confirmar a licença dos dados do SNS.
+- 138 testes a passar e lint sem erros.

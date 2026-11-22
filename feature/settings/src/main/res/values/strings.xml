@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- LEGAL TEXT: draft, must be reviewed by someone with legal training before release. -->
+    <!-- LEGAL TEXT: no legal review (author's decision, 2026-11-22). -->
     <string name="disclaimer_title">Before you start</string>
     <string name="disclaimer_accept">I understand and accept</string>
     <string name="legal_p1_not_112">In an emergency, call 112. This app does not replace the emergency services, the civil protection authorities, doctors or any other professional.</string>
     <string name="legal_p2_general_info">The information in this app is general and may not suit your situation. Always follow instructions from the authorities and from emergency services on the scene.</string>
     <string name="legal_p3_no_liability">You use this app and its information at your own risk. Its authors and contributors accept no liability for any decision, action or omission based on it, or for any damage resulting from its use.</string>
-    <string name="legal_p4_unreviewed">Some content is still marked “Not yet reviewed”. Read it with extra care.</string>
+    <string name="legal_p4_unreviewed">The texts in this app summarise official sources, shown with each step, but have not been reviewed by health or civil protection professionals. If in doubt, follow the original source and the authorities\' instructions.</string>
     <string name="legal_p5_alerts">Alerts shown in the app depend on public data and on your internet connection. They may be late, incomplete or unavailable. They are never real-time.</string>
     <string name="legal_p6_privacy">The app has no account, no ads and no tracking. Everything you enter stays on this phone.</string>
     <string name="settings_legal">Legal notice</string>
@@ -51,8 +51,7 @@
     <string name="privacy_p5_export">If you export your data, the file is saved where you choose. With a password it is encrypted.</string>
     <string name="privacy_p6_permissions">Permissions: notifications (reminders and warnings, only if you turn them on), internet (IPMA files) and biometrics (optional lock for medical sheets). The app never asks for location, camera, contacts or calls.</string>
     <string name="privacy_p7_delete">To delete everything, uninstall the app or clear its data in the phone\'s settings.</string>
-    <string name="privacy_p8_contact">Contact: to be defined before publication.</string>
-    <string name="privacy_review_note">Draft. To be reviewed by someone with legal training before publication.</string>
+    <string name="privacy_p8_contact">Contact: goncalofbg@live.com.pt</string>
     <plurals name="backup_password_rule">
         <item quantity="one">At least %1$d character.</item>
         <item quantity="other">At least %1$d characters.</item>

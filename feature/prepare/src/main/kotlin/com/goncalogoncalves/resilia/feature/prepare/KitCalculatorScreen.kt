@@ -50,7 +50,6 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewModelScope
 import com.goncalogoncalves.resilia.core.designsystem.component.DisclaimerFooter
-import com.goncalogoncalves.resilia.core.designsystem.component.DraftBadge
 import com.goncalogoncalves.resilia.core.designsystem.component.SourcesLink
 import com.goncalogoncalves.resilia.core.designsystem.component.publisherLabel
 import com.goncalogoncalves.resilia.core.designsystem.component.text
@@ -61,7 +60,6 @@ import com.goncalogoncalves.resilia.core.domain.model.KitCalculator
 import com.goncalogoncalves.resilia.core.domain.model.KitLine
 import com.goncalogoncalves.resilia.core.domain.model.KitList
 import com.goncalogoncalves.resilia.core.domain.model.KitQuantityKind
-import com.goncalogoncalves.resilia.core.domain.model.ReviewStatus
 import com.goncalogoncalves.resilia.core.domain.model.Source
 import com.goncalogoncalves.resilia.core.domain.repository.ContentRepository
 import com.goncalogoncalves.resilia.core.domain.repository.InventoryRepository
@@ -306,7 +304,6 @@ private fun KitLineCard(
                     Text(it.text(), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
-            if (line.item.review.status == ReviewStatus.DRAFT) DraftBadge()
             SourcesLink(sources)
             if (inInventory) {
                 Row(

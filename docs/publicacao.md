@@ -2,13 +2,14 @@
 
 > Data: 2026-11-22. Tudo o que está aqui é **proposta para validares**. Os formulários da Play Console és tu que os submetes. Fontes das regras: ver [marco-9-fontes.md](marco-9-fontes.md) §1.
 
-## 0. Antes de começar (bloqueios)
+## 0. Decisões (2026-11-22)
 
-- [ ] Revisão jurídica do **aviso legal** e da **política de privacidade** ([pt](privacidade.md), [en](privacy.md)).
-- [ ] **Contacto** para a política e para a ficha da loja (email). Obrigatório na Play.
-- [ ] Pesquisa do **nome** no INPI e no EUIPO (existe uma "Resilia-Wellness").
-- [ ] Licença dos dados do **SNS** e resposta do **IPMA** (logótipo e horas UTC).
-- [ ] Decidir a **versão**: hoje é `versionName 0.1.0`, `versionCode 1`. Proposta para a primeira publicação: `1.0.0` (1).
+- **Versão** `1.0.0` (versionCode 1).
+- **Público-alvo** 18 anos ou mais. **Categoria**: Ferramentas.
+- **Contacto**: goncalofbg@live.com.pt (política de privacidade e ficha da loja).
+- **Sem revisão jurídica** (decisão do autor). O aviso legal diz que os textos resumem fontes oficiais e não foram revistos por profissionais; o selo "Por rever" saiu dos ecrãs.
+- **Nome**: fica "Resilia" para já, numa app pessoal. Se um dia houver um conflito de marca, o nome muda num só sítio (`app_name` e `AppInfo.NAME`).
+- **Ainda por resolver**: a licença dos dados do SNS (secção 9).
 
 ## 1. Chave de upload (fazes tu, uma vez)
 
@@ -102,7 +103,7 @@ Proposta:
 >
 > Sem conta, sem anúncios, sem rastreio. Os teus dados ficam só no telemóvel.
 >
-> IMPORTANTE: em emergência, liga 112. Esta app dá informação geral, não substitui os serviços de emergência, a proteção civil nem profissionais de saúde, e os seus autores não se responsabilizam pelo uso que lhe é dado. Esta app não é um dispositivo médico e não diagnostica, trata, cura nem previne nenhuma doença. Algum conteúdo ainda está marcado "Por rever".
+> IMPORTANTE: em emergência, liga 112. Esta app dá informação geral, não substitui os serviços de emergência, a proteção civil nem profissionais de saúde, e os seus autores não se responsabilizam pelo uso que lhe é dado. Esta app não é um dispositivo médico e não diagnostica, trata, cura nem previne nenhuma doença. Os textos resumem fontes oficiais e não foram revistos por profissionais.
 
 **en-GB:**
 
@@ -119,7 +120,7 @@ Proposta:
 >
 > No account, no ads, no tracking. Your data stays on your phone.
 >
-> IMPORTANT: in an emergency, call 112. This app gives general information. It does not replace emergency services, civil protection or health professionals, and its authors accept no liability for how it is used. This app is not a medical device and does not diagnose, treat, cure, or prevent any medical condition. Some content is still marked "To be reviewed".
+> IMPORTANT: in an emergency, call 112. This app gives general information. It does not replace emergency services, civil protection or health professionals, and its authors accept no liability for how it is used. This app is not a medical device and does not diagnose, treat, cure, or prevent any medical condition. The texts summarise official sources and have not been reviewed by professionals.
 
 ### 6.4 Imagens
 
@@ -152,3 +153,10 @@ Passos (fazes tu ou pedes-me):
 ## 8. Teste fechado
 
 Se a tua conta de programador for **pessoal e criada depois de 13/11/2023**, tens de ter **pelo menos 12 testadores** inscritos num teste fechado **durante 14 dias seguidos** antes de pedir acesso à produção.
+
+## 9. Porquê confirmar a licença dos dados do SNS
+
+A app copia para dentro de si a lista das 94 urgências do Portal da Transparência do SNS, e o conteúdo da app é distribuído sob CC BY-SA 4.0. O portal não indica nenhuma licença para esse conjunto de dados, e sem licença não fica claro se se pode redistribuir. Há três caminhos:
+1. perguntar ao SNS (portal da transparência) se a reutilização é livre com atribuição;
+2. manter, com a atribuição e a data, e aceitar o risco: são dados públicos de um organismo público, mas sem licença escrita;
+3. tirar a lista da app e deixar só uma ligação para o portal.
