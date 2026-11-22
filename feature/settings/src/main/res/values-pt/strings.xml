@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TEXTO JURÍDICO: por rever, tem de ser validado por alguém com formação jurídica antes do lançamento. -->
+    <string name="disclaimer_title">Antes de começar</string>
+    <string name="disclaimer_accept">Compreendo e aceito</string>
+    <string name="legal_p1_not_112">Em emergência, liga 112. Esta app não substitui os serviços de emergência, a proteção civil, os médicos nem qualquer outro profissional.</string>
+    <string name="legal_p2_general_info">A informação desta app é geral e pode não se adequar à tua situação. Segue sempre as indicações das autoridades e dos serviços de emergência no local.</string>
+    <string name="legal_p3_no_liability">Usas esta app e a sua informação por tua conta e risco. Os autores e colaboradores não se responsabilizam por qualquer decisão, ação ou omissão baseada nela, nem por danos resultantes do seu uso.</string>
+    <string name="legal_p4_unreviewed">Algum conteúdo ainda está marcado como “Por rever”. Lê-o com cuidado redobrado.</string>
+    <string name="legal_p5_alerts">Os alertas mostrados na app dependem de dados públicos e da tua ligação à internet. Podem chegar atrasados, incompletos ou não estar disponíveis. Nunca são em tempo real.</string>
+    <string name="legal_p6_privacy">A app não tem conta, anúncios nem rastreio. Tudo o que escreves fica só neste telemóvel.</string>
+    <string name="settings_legal">Aviso legal</string>
+    <string name="settings_about">Sobre e licenças</string>
+    <string name="settings_alerts">Avisos meteorológicos (zona e notificações)</string>
+    <string name="about_purpose">Uma app gratuita e de código aberto para te ajudar a preparar e a responder a emergências em Portugal.</string>
+    <string name="about_licenses_title">Licenças</string>
+    <string name="about_licenses">Código: Apache License 2.0.\nConteúdo (guias e textos): CC BY-SA 4.0.\nTipo de letra Atkinson Hyperlegible: SIL Open Font License 1.1 (© Braille Institute of America).\nÍcones: Material Icons, Apache License 2.0.\nDados: IPMA (avisos e risco de incêndio); SNS – Portal da Transparência (hospitais com urgência). Fontes e datas em cada ecrã.</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_language_subtitle">Português ou inglês, só para esta app</string>
+    <string name="settings_language_system">A app segue o idioma do telemóvel</string>
+    <string name="settings_backup">Exportar e importar dados</string>
+    <string name="settings_backup_subtitle">Levar o inventário, o plano familiar e os locais para outro telemóvel</string>
+    <string name="settings_privacy">Privacidade</string>
+    <string name="backup_intro">Os teus dados só existem neste telemóvel e não vão para backups na cloud. Para mudar de telemóvel, exporta um ficheiro, guarda-o num sítio seguro e importa-o no telemóvel novo.</string>
+    <string name="backup_export_title">Exportar</string>
+    <string name="backup_password_required">O teu plano familiar tem fichas médicas, por isso o ficheiro tem de ficar protegido com palavra-passe.</string>
+    <string name="backup_password_optional">A palavra-passe é opcional, mas recomendada: o ficheiro tem o teu plano, contactos e locais.</string>
+    <string name="backup_password">Palavra-passe</string>
+    <string name="backup_password_confirm">Repete a palavra-passe</string>
+    <string name="backup_password_warning">Se esqueceres a palavra-passe, ninguém consegue abrir o ficheiro. Nem nós.</string>
+    <string name="backup_export">Exportar para um ficheiro</string>
+    <string name="backup_import_title">Importar</string>
+    <string name="backup_import_note">Importar substitui o inventário, o plano familiar, os locais e as definições dos avisos deste telemóvel.</string>
+    <string name="backup_import">Escolher um ficheiro para importar</string>
+    <string name="backup_working">A trabalhar… Com palavra-passe pode demorar alguns segundos.</string>
+    <string name="backup_exported">Ficheiro guardado. Guarda-o num sítio seguro.</string>
+    <string name="backup_imported">Dados importados.</string>
+    <string name="backup_replace_title">Substituir os dados deste telemóvel?</string>
+    <string name="backup_replace_text">O inventário, o plano familiar, os locais e as definições dos avisos deste telemóvel vão ser substituídos pelos do ficheiro. Não é possível desfazer.</string>
+    <string name="backup_replace_confirm">Substituir</string>
+    <string name="backup_cancel">Cancelar</string>
+    <string name="backup_error_password">Palavra-passe errada, ou o ficheiro está danificado. Não mudou nada.</string>
+    <string name="backup_error_not_backup">Este ficheiro não é uma cópia dos dados desta app. Não mudou nada.</string>
+    <string name="backup_error_newer">Este ficheiro foi feito por uma versão mais recente da app. Atualiza a app primeiro.</string>
+    <string name="backup_error_generic">Algo correu mal. Não mudou nada.</string>
+    <string name="privacy_title">Privacidade</string>
+    <string name="privacy_p1_summary">A app não tem conta, anúncios, analytics nem rastreio. Não temos nenhum servidor.</string>
+    <string name="privacy_p2_on_device">O que escreves (inventário, plano familiar, fichas médicas, locais e definições) fica só neste telemóvel. As fichas médicas são cifradas. Estes dados ficam fora dos backups na cloud e das transferências entre telemóveis.</string>
+    <string name="privacy_p3_network">A app só usa a internet para descarregar ficheiros públicos do IPMA (avisos meteorológicos e risco de incêndio), e só se escolheres uma zona. Descarrega o ficheiro nacional: o pedido não leva a tua zona nem nenhum identificador. Como em qualquer pedido na internet, o servidor do IPMA vê o teu endereço IP.</string>
+    <string name="privacy_p4_other_apps">Quando tocas em \"Ligar\", \"Abrir na app de mapas\", \"Partilhar\" ou numa fonte, a app abre outra app (marcador, mapas, navegador…) e passa-lhe só o necessário para essa ação. O que acontece lá segue as regras dessa app.</string>
+    <string name="privacy_p5_export">Se exportares os teus dados, o ficheiro fica onde escolheres. Com palavra-passe fica cifrado.</string>
+    <string name="privacy_p6_permissions">Permissões: notificações (lembretes e avisos, só se os ligares), internet (ficheiros do IPMA) e biometria (bloqueio opcional das fichas médicas). A app nunca pede localização, câmara, contactos nem chamadas.</string>
+    <string name="privacy_p7_delete">Para apagar tudo, desinstala a app ou limpa os dados dela nas definições do telemóvel.</string>
+    <string name="privacy_p8_contact">Contacto: a definir antes da publicação.</string>
+    <string name="privacy_review_note">Rascunho. Tem de ser revisto por alguém com formação jurídica antes da publicação.</string>
+    <plurals name="backup_password_rule">
+        <item quantity="one">Pelo menos %1$d carácter.</item>
+        <item quantity="many">Pelo menos %1$d caracteres.</item>
+        <item quantity="other">Pelo menos %1$d caracteres.</item>
+    </plurals>
+</resources>

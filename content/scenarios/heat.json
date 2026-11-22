@@ -1,0 +1,249 @@
+{
+  "id": "heat",
+  "title": {
+    "pt-PT": "Onda de calor",
+    "en": "Heatwave"
+  },
+  "summary": {
+    "pt-PT": "Como te protegeres e às pessoas mais vulneráveis quando o calor é extremo.",
+    "en": "How to protect yourself and the most vulnerable people when the heat is extreme."
+  },
+  "icon": "thermostat",
+  "typicalSeverity": "high",
+  "typicalDuration": {
+    "pt-PT": "Dias",
+    "en": "Days"
+  },
+  "keywords": {
+    "pt-PT": [
+      "calor",
+      "onda de calor",
+      "temperaturas altas",
+      "golpe de calor",
+      "verão"
+    ],
+    "en": [
+      "heat",
+      "heatwave",
+      "hot weather",
+      "high temperatures",
+      "summer"
+    ]
+  },
+  "phases": {
+    "before": [
+      {
+        "id": "heat.before.01",
+        "text": {
+          "pt-PT": "Acompanha os avisos de calor do IPMA.",
+          "en": "Follow IPMA heat warnings."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.before.02",
+        "text": {
+          "pt-PT": "Combina como vais acompanhar as pessoas mais vulneráveis ao calor: idosos, crianças e doentes crónicos.",
+          "en": "Plan how you will look after the people most vulnerable to heat: older people, children and people with chronic illnesses."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "during": [
+      {
+        "id": "heat.during.01",
+        "text": {
+          "pt-PT": "Bebe água ou sumos naturais com regularidade, mesmo sem sede.",
+          "en": "Drink water or natural juices regularly, even if you are not thirsty."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.02",
+        "text": {
+          "pt-PT": "Procura sítios frescos e arejados.",
+          "en": "Find cool, airy places."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.03",
+        "text": {
+          "pt-PT": "Não fiques dentro de um carro estacionado ao sol.",
+          "en": "Do not stay inside a car parked in the sun."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.04",
+        "text": {
+          "pt-PT": "Dá atenção especial às pessoas mais vulneráveis ao calor.",
+          "en": "Pay special attention to the people most vulnerable to heat."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.05",
+        "text": {
+          "pt-PT": "Evita bebidas quentes, alcoólicas, gaseificadas, com cafeína ou com muito açúcar.",
+          "en": "Avoid hot, alcoholic, fizzy, caffeinated or very sugary drinks."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.06",
+        "text": {
+          "pt-PT": "Evita o sol direto nas horas de maior calor, entre as 11 e as 17 horas.",
+          "en": "Avoid direct sun during the hottest hours, between 11:00 and 17:00."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.07",
+        "text": {
+          "pt-PT": "Usa roupa leve, solta e clara, de preferência de algodão, chapéu e óculos de sol.",
+          "en": "Wear light, loose, light-coloured clothes, preferably cotton, a hat and sunglasses."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.08",
+        "text": {
+          "pt-PT": "Põe protetor solar de fator 30 ou mais, de 2 em 2 horas.",
+          "en": "Apply sunscreen with SPF 30 or higher every 2 hours."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.09",
+        "text": {
+          "pt-PT": "Evita grandes esforços, como desporto ou lazer ao ar livre.",
+          "en": "Avoid strenuous activity, such as sport or outdoor leisure."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.10",
+        "text": {
+          "pt-PT": "Faz refeições leves e come mais vezes ao dia.",
+          "en": "Eat light meals, more often during the day."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "heat.during.11",
+        "text": {
+          "pt-PT": "Continua atento aos avisos de calor.",
+          "en": "Keep following heat warnings."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "after": []
+  },
+  "emergencyNow": [
+    "heat.during.01",
+    "heat.during.02",
+    "heat.during.03",
+    "heat.during.04"
+  ],
+  "alertTriggers": ["ipma:Tempo Quente"],
+  "relatedScenarioIds": [],
+  "sourceIds": [
+    "anepc-riscos-naturais"
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

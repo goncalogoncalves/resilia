@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tools_torch">Torch</string>
+    <string name="tools_torch_is_on">On — tap to turn off</string>
+    <string name="tools_torch_is_off">Off — tap to turn on</string>
+    <string name="tools_torch_unavailable">This phone has no torch. Use the screen as a light instead.</string>
+    <string name="tools_screen_light">Screen as a light</string>
+    <string name="tools_sos">SOS light signal</string>
+    <string name="tools_battery">Make your battery last</string>
+    <string name="tools_contacts">Useful contacts</string>
+    <string name="tools_contacts_subtitle">112, SNS 24, poison centre, power faults</string>
+    <string name="tools_contacts_intro">Tapping a number opens the phone dialler. You confirm the call there.</string>
+    <string name="tools_contacts_madeira_note">Madeira: we have not yet confirmed the power-fault number from an official source. Contact the Madeira electricity company (EEM).</string>
+    <string name="tools_screen_light_subtitle">The whole screen as a white or warm light</string>
+    <string name="tools_screen_light_hint">Tap to switch between white and warm light. The screen stays on and at full brightness while this is open.</string>
+    <string name="tools_screen_light_switch">Switch colour</string>
+    <string name="tools_sos_subtitle">Flashes ··· ––– ··· with the torch</string>
+    <string name="tools_sos_start">Start SOS signal</string>
+    <string name="tools_sos_stop">Stop</string>
+    <string name="tools_sos_what">Flashes SOS in Morse code (··· ––– ···) slowly and repeatedly, until you stop it.</string>
+    <string name="tools_sos_uses_torch">Uses the torch. Turn the screen off to save battery: the signal keeps going while this screen is open.</string>
+    <string name="tools_sos_uses_screen">This phone has no torch: the screen will flash white instead.</string>
+    <string name="tools_sos_no_source">We found no official source that recommends this signal.</string>
+    <string name="tools_call_112_first">If you can, call 112.</string>
+    <string name="tools_sos_flash_warning">The light flashes at most twice per second, below the limit of 3 used in accessibility standards. If you are sensitive to flashing lights, do not look at it.</string>
+    <string name="tools_whistle">Whistle</string>
+    <string name="tools_whistle_subtitle">A loud, intermittent sound from the speaker</string>
+    <string name="tools_whistle_start">Start whistle</string>
+    <string name="tools_whistle_stop">Stop</string>
+    <string name="tools_whistle_ear">Do not hold the phone against your ear.</string>
+    <string name="tools_whistle_real">A real whistle uses no battery and carries further. ANEPC recommends having one in your kit.</string>
+    <string name="tools_whistle_no_source">We found no official source on how to use sound signals.</string>
+    <string name="tools_battery_subtitle">Battery level, battery saver and a short guide</string>
+    <string name="tools_battery_level">Battery: %1$d%%</string>
+    <string name="tools_battery_open_saver">Open battery saver</string>
+</resources>

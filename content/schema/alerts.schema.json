@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/alerts.schema.json",
+  "title": "IPMA alerts: warning areas, municipalities and labels",
+  "type": "object",
+  "properties": {
+    "sourceIds": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/id" },
+      "minItems": 1
+    },
+    "areas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "pattern": "^[A-Z]{3}$" },
+          "name": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "region": { "enum": ["continent", "madeira", "azores"] }
+        },
+        "required": ["id", "name", "region"],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "municipalities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "dico": { "type": "string", "pattern": "^\\d{4}$" },
+          "name": { "type": "string", "minLength": 1 },
+          "areaId": { "type": "string", "pattern": "^[A-Z]{3}$" }
+        },
+        "required": ["dico", "name", "areaId"],
+        "additionalProperties": false
+      }
+    },
+    "warningTypes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "name": { "$ref": "common.schema.json#/$defs/localizedText" }
+        },
+        "required": ["id", "name"],
+        "additionalProperties": false
+      }
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": { "enum": ["green", "yellow", "orange", "red"] },
+          "name": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "meaning": { "$ref": "common.schema.json#/$defs/localizedText" }
+        },
+        "required": ["level", "name", "meaning"],
+        "additionalProperties": false
+      }
+    },
+    "fireRiskLevels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "name": { "$ref": "common.schema.json#/$defs/localizedText" }
+        },
+        "required": ["level", "name"],
+        "additionalProperties": false
+      }
+    },
+    "review": { "$ref": "common.schema.json#/$defs/review" }
+  },
+  "required": ["sourceIds", "areas", "municipalities", "warningTypes", "levels", "fireRiskLevels", "review"],
+  "additionalProperties": false
+}

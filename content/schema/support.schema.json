@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/support.schema.json",
+  "title": "Emotional support",
+  "type": "object",
+  "properties": {
+    "note": { "$ref": "common.schema.json#/$defs/localizedText" },
+    "guides": { "type": "array", "minItems": 1, "items": { "$ref": "toolguide.schema.json" } },
+    "contactIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } }
+  },
+  "required": ["note", "guides"],
+  "additionalProperties": false
+}

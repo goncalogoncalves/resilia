@@ -1,0 +1,1055 @@
+{
+  "activities": [
+    {
+      "id": "tic-tac-toe",
+      "type": "game",
+      "title": {
+        "pt-PT": "Jogo do galo",
+        "en": "Noughts and crosses"
+      },
+      "summary": {
+        "pt-PT": "Três em linha, com papel ou com pedras.",
+        "en": "Three in a row, on paper or with stones."
+      },
+      "ageMin": 5,
+      "peopleMin": 2,
+      "peopleMax": 2,
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "durationMin": 5,
+      "setting": "both",
+      "noise": "quiet",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Desenhem uma grelha de 3 por 3: duas linhas na vertical e duas na horizontal.",
+          "en": "Draw a 3 by 3 grid: two vertical lines and two horizontal lines."
+        },
+        {
+          "pt-PT": "Um jogador usa X e o outro O. Jogam à vez, uma marca por casa.",
+          "en": "One player uses X and the other O. Take turns, one mark per square."
+        },
+        {
+          "pt-PT": "Ganha quem fizer primeiro três marcas seguidas, na horizontal, na vertical ou na diagonal.",
+          "en": "The first to get three marks in a row, horizontally, vertically or diagonally, wins."
+        },
+        {
+          "pt-PT": "Se a grelha encher sem ninguém ganhar, é empate. Troquem quem começa.",
+          "en": "If the grid fills up with no winner, it is a draw. Swap who goes first."
+        }
+      ],
+      "variants": {
+        "pt-PT": "Sem papel: risquem a grelha no chão e usem pedras e paus, ou feijões e botões, como peças.",
+        "en": "No paper: scratch the grid on the ground and use stones and sticks, or beans and buttons, as pieces."
+      },
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "i-spy",
+      "type": "game",
+      "title": {
+        "pt-PT": "Eu vejo, eu vejo",
+        "en": "I spy"
+      },
+      "summary": {
+        "pt-PT": "Adivinhar uma coisa pela cor ou pela primeira letra.",
+        "en": "Guess something from its colour or first letter."
+      },
+      "ageMin": 4,
+      "peopleMin": 2,
+      "materials": [],
+      "durationMin": 10,
+      "setting": "both",
+      "noise": "moderate",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Uma pessoa escolhe em segredo uma coisa que todos conseguem ver.",
+          "en": "One person secretly picks something everyone can see."
+        },
+        {
+          "pt-PT": "Diz \"Eu vejo, eu vejo uma coisa…\" e dá uma pista: a cor ou a primeira letra.",
+          "en": "They say \"I spy with my little eye something…\" and give a clue: the colour or the first letter."
+        },
+        {
+          "pt-PT": "Os outros tentam adivinhar, à vez.",
+          "en": "The others take turns to guess."
+        },
+        {
+          "pt-PT": "Quem acertar escolhe a coisa seguinte.",
+          "en": "Whoever guesses right picks the next thing."
+        }
+      ],
+      "variants": {
+        "pt-PT": "Para os mais pequenos, usem só cores. Às escuras, joguem \"Eu ouço, eu ouço\" com sons.",
+        "en": "For little ones, use colours only. In the dark, play \"I hear\" with sounds."
+      },
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "who-am-i",
+      "type": "game",
+      "title": {
+        "pt-PT": "Quem sou eu?",
+        "en": "Who am I?"
+      },
+      "summary": {
+        "pt-PT": "Adivinhar com perguntas de sim ou não. Dá para jogar às escuras.",
+        "en": "Guess with yes-or-no questions. Works in the dark."
+      },
+      "ageMin": 6,
+      "peopleMin": 2,
+      "materials": [],
+      "durationMin": 15,
+      "setting": "both",
+      "noise": "moderate",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Uma pessoa pensa num animal, numa pessoa conhecida ou num objeto.",
+          "en": "One person thinks of an animal, a well-known person or an object."
+        },
+        {
+          "pt-PT": "Os outros fazem perguntas que só se podem responder com \"sim\" ou \"não\".",
+          "en": "The others ask questions that can only be answered \"yes\" or \"no\"."
+        },
+        {
+          "pt-PT": "Contem as perguntas: tentem adivinhar com 20 ou menos.",
+          "en": "Count the questions: try to guess in 20 or fewer."
+        },
+        {
+          "pt-PT": "Quem adivinhar pensa na próxima.",
+          "en": "Whoever guesses thinks of the next one."
+        }
+      ],
+      "variants": {
+        "pt-PT": "Para crianças mais novas, limitem a um tema, como animais ou comida.",
+        "en": "For younger children, stick to one theme, such as animals or food."
+      },
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "telephone",
+      "type": "game",
+      "title": {
+        "pt-PT": "Telefone estragado",
+        "en": "Broken telephone"
+      },
+      "summary": {
+        "pt-PT": "Uma frase passa de ouvido em ouvido e chega mudada.",
+        "en": "A sentence goes from ear to ear and arrives changed."
+      },
+      "ageMin": 5,
+      "peopleMin": 4,
+      "materials": [],
+      "durationMin": 10,
+      "setting": "both",
+      "noise": "quiet",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Sentem-se em fila ou em roda.",
+          "en": "Sit in a line or a circle."
+        },
+        {
+          "pt-PT": "A primeira pessoa diz uma frase ao ouvido da seguinte, baixinho e uma só vez.",
+          "en": "The first person whispers a sentence into the next person's ear, only once."
+        },
+        {
+          "pt-PT": "Cada pessoa passa o que ouviu à seguinte.",
+          "en": "Each person passes on what they heard to the next."
+        },
+        {
+          "pt-PT": "A última diz a frase em voz alta e comparam com a original.",
+          "en": "The last person says the sentence out loud and you compare it with the original."
+        }
+      ],
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "stop",
+      "type": "game",
+      "title": {
+        "pt-PT": "Stop",
+        "en": "Stop (categories)"
+      },
+      "summary": {
+        "pt-PT": "Uma letra, várias categorias, quem escreve mais depressa.",
+        "en": "One letter, several categories, who writes fastest."
+      },
+      "ageMin": 8,
+      "peopleMin": 2,
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "durationMin": 15,
+      "setting": "indoor",
+      "noise": "moderate",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Cada pessoa faz uma tabela com colunas, por exemplo: nome, animal, fruta, país e objeto.",
+          "en": "Each person draws a table with columns, for example: name, animal, fruit, country and object."
+        },
+        {
+          "pt-PT": "Uma pessoa diz o alfabeto em silêncio e outra diz \"stop\". A letra em que parou é a da ronda.",
+          "en": "One person silently runs through the alphabet and another says \"stop\". The letter they stopped at is the letter for the round."
+        },
+        {
+          "pt-PT": "Todos escrevem uma palavra com essa letra em cada coluna. Quem acabar primeiro diz \"stop\" e todos param.",
+          "en": "Everyone writes a word starting with that letter in each column. The first to finish says \"stop\" and everyone stops."
+        },
+        {
+          "pt-PT": "Pontos: 10 por cada palavra que mais ninguém escreveu, 5 por palavra repetida e 0 por coluna vazia.",
+          "en": "Points: 10 for each word nobody else wrote, 5 for a repeated word and 0 for an empty column."
+        }
+      ],
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "guess-the-word",
+      "type": "game",
+      "title": {
+        "pt-PT": "Adivinha a palavra",
+        "en": "Guess the word"
+      },
+      "summary": {
+        "pt-PT": "Descobrir uma palavra letra a letra, antes de a flor perder as pétalas.",
+        "en": "Find a word letter by letter before the flower loses its petals."
+      },
+      "ageMin": 7,
+      "peopleMin": 2,
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "durationMin": 10,
+      "setting": "indoor",
+      "noise": "quiet",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Uma pessoa pensa numa palavra e desenha um traço por cada letra.",
+          "en": "One person thinks of a word and draws a dash for each letter."
+        },
+        {
+          "pt-PT": "Desenha também uma flor com 6 pétalas.",
+          "en": "They also draw a flower with 6 petals."
+        },
+        {
+          "pt-PT": "Os outros dizem letras, uma de cada vez. Se a letra existir, escreve-se no sítio certo. Se não existir, risca-se uma pétala.",
+          "en": "The others call out letters one at a time. If the letter is in the word, write it in the right place. If not, cross out a petal."
+        },
+        {
+          "pt-PT": "Ganham se descobrirem a palavra antes de acabarem as pétalas.",
+          "en": "They win if they find the word before the petals run out."
+        }
+      ],
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "rock-paper-scissors",
+      "type": "game",
+      "title": {
+        "pt-PT": "Pedra, papel, tesoura",
+        "en": "Rock, paper, scissors"
+      },
+      "summary": {
+        "pt-PT": "Rápido, sem materiais, e dá para fazer um torneio.",
+        "en": "Quick, no materials, and you can run a tournament."
+      },
+      "ageMin": 4,
+      "peopleMin": 2,
+      "materials": [],
+      "durationMin": 10,
+      "setting": "both",
+      "noise": "moderate",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Ao mesmo tempo, digam \"pedra, papel, tesoura\" e mostrem uma mão: punho (pedra), mão aberta (papel) ou dois dedos (tesoura).",
+          "en": "At the same time, say \"rock, paper, scissors\" and show a hand: fist (rock), open hand (paper) or two fingers (scissors)."
+        },
+        {
+          "pt-PT": "A pedra ganha à tesoura, a tesoura ganha ao papel e o papel ganha à pedra. Se forem iguais, repetem.",
+          "en": "Rock beats scissors, scissors beats paper and paper beats rock. If they are the same, play again."
+        },
+        {
+          "pt-PT": "Em torneio: joguem aos pares, à melhor de três, e quem ganha passa à ronda seguinte.",
+          "en": "As a tournament: play in pairs, best of three, and the winner goes through to the next round."
+        }
+      ],
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battleships",
+      "type": "game",
+      "title": {
+        "pt-PT": "Batalha naval",
+        "en": "Battleships"
+      },
+      "summary": {
+        "pt-PT": "Afundar os barcos do outro em papel quadriculado.",
+        "en": "Sink the other player's ships on squared paper."
+      },
+      "ageMin": 8,
+      "peopleMin": 2,
+      "peopleMax": 2,
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "durationMin": 30,
+      "setting": "indoor",
+      "noise": "quiet",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Cada jogador desenha duas grelhas de 10 por 10, com letras de A a J em cima e números de 1 a 10 ao lado.",
+          "en": "Each player draws two 10 by 10 grids, with letters A to J across the top and numbers 1 to 10 down the side."
+        },
+        {
+          "pt-PT": "Na primeira grelha, cada um desenha os seus barcos às escondidas, por exemplo: um de 4 casas, dois de 3, três de 2 e quatro de 1, sem se tocarem.",
+          "en": "On the first grid, each player secretly draws their ships, for example: one of 4 squares, two of 3, three of 2 and four of 1, without touching."
+        },
+        {
+          "pt-PT": "À vez, digam uma casa, por exemplo \"C5\". O outro responde \"água\", \"acertou\" ou \"afundou\".",
+          "en": "Take turns to call a square, for example \"C5\". The other player answers \"miss\", \"hit\" or \"sunk\"."
+        },
+        {
+          "pt-PT": "Marquem os tiros na segunda grelha. Ganha quem afundar primeiro todos os barcos do outro.",
+          "en": "Mark your shots on the second grid. The first to sink all the other player's ships wins."
+        }
+      ],
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "chain-story",
+      "type": "stories",
+      "title": {
+        "pt-PT": "História em cadeia",
+        "en": "Chain story"
+      },
+      "summary": {
+        "pt-PT": "Cada pessoa acrescenta uma frase. Dá para fazer às escuras.",
+        "en": "Each person adds a sentence. Works in the dark."
+      },
+      "ageMin": 4,
+      "peopleMin": 2,
+      "materials": [],
+      "durationMin": 15,
+      "setting": "both",
+      "noise": "moderate",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Sentem-se em roda. Alguém começa com \"Era uma vez…\" e diz uma frase.",
+          "en": "Sit in a circle. Someone starts with \"Once upon a time…\" and says one sentence."
+        },
+        {
+          "pt-PT": "A pessoa seguinte continua a história com mais uma frase, e assim sucessivamente.",
+          "en": "The next person continues the story with one more sentence, and so on."
+        },
+        {
+          "pt-PT": "Não há respostas erradas: vale tudo o que a imaginação trouxer.",
+          "en": "There are no wrong answers: anything your imagination comes up with goes."
+        },
+        {
+          "pt-PT": "Combinem quando acaba, por exemplo, ao fim de três voltas.",
+          "en": "Agree when it ends, for example after three rounds."
+        }
+      ],
+      "variants": {
+        "pt-PT": "Cada pessoa só pode dizer três palavras de cada vez.",
+        "en": "Each person may only say three words at a time."
+      },
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "three-words",
+      "type": "stories",
+      "title": {
+        "pt-PT": "Três palavras, uma história",
+        "en": "Three words, one story"
+      },
+      "summary": {
+        "pt-PT": "Inventar uma história curta que use três palavras ao acaso.",
+        "en": "Make up a short story using three random words."
+      },
+      "ageMin": 6,
+      "peopleMin": 1,
+      "materials": [],
+      "durationMin": 10,
+      "setting": "both",
+      "noise": "moderate",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Alguém diz três palavras ao acaso, por exemplo \"chave\", \"nuvem\" e \"bicicleta\".",
+          "en": "Someone says three random words, for example \"key\", \"cloud\" and \"bicycle\"."
+        },
+        {
+          "pt-PT": "Outra pessoa inventa uma história curta que use as três.",
+          "en": "Someone else makes up a short story using all three."
+        },
+        {
+          "pt-PT": "Depois troquem: quem contou escolhe as três palavras seguintes.",
+          "en": "Then swap: whoever told the story picks the next three words."
+        }
+      ],
+      "variants": {
+        "pt-PT": "Sozinho: escolhe três objetos à tua volta e inventa a história de cabeça ou em papel.",
+        "en": "On your own: pick three objects around you and make up the story in your head or on paper."
+      },
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "hand-shadows",
+      "type": "stories",
+      "title": {
+        "pt-PT": "Sombras com as mãos",
+        "en": "Hand shadows"
+      },
+      "summary": {
+        "pt-PT": "Animais de sombra na parede, com uma lanterna.",
+        "en": "Shadow animals on the wall, with a torch."
+      },
+      "ageMin": 3,
+      "peopleMin": 1,
+      "materials": [
+        "torch"
+      ],
+      "durationMin": 15,
+      "setting": "indoor",
+      "noise": "quiet",
+      "light": "torch",
+      "instructions": [
+        {
+          "pt-PT": "Apontem a lanterna para uma parede lisa, a um ou dois passos de distância.",
+          "en": "Point the torch at a plain wall, one or two steps away."
+        },
+        {
+          "pt-PT": "Ponham as mãos entre a lanterna e a parede e experimentem formas: um coelho, um cão, um pássaro.",
+          "en": "Put your hands between the torch and the wall and try out shapes: a rabbit, a dog, a bird."
+        },
+        {
+          "pt-PT": "Inventem uma pequena história com as personagens de sombra.",
+          "en": "Make up a short story with the shadow characters."
+        },
+        {
+          "pt-PT": "Para poupar bateria, desliguem a lanterna quando acabarem.",
+          "en": "To save battery, switch the torch off when you finish."
+        }
+      ],
+      "origin": "traditional",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "guess-the-sound",
+      "type": "stories",
+      "title": {
+        "pt-PT": "Adivinha o som",
+        "en": "Guess the sound"
+      },
+      "summary": {
+        "pt-PT": "De olhos fechados, adivinhar o objeto pelo som.",
+        "en": "Eyes closed, guess the object from its sound."
+      },
+      "ageMin": 3,
+      "peopleMin": 2,
+      "materials": [
+        "household-objects"
+      ],
+      "durationMin": 10,
+      "setting": "indoor",
+      "noise": "moderate",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Quem joga fecha os olhos.",
+          "en": "The player closes their eyes."
+        },
+        {
+          "pt-PT": "Outra pessoa faz um som com um objeto da casa: amarrotar papel, abanar chaves, bater numa caneca.",
+          "en": "Someone else makes a sound with a household object: scrunching paper, shaking keys, tapping a mug."
+        },
+        {
+          "pt-PT": "Tenta adivinhar o objeto. Depois trocam.",
+          "en": "Try to guess the object. Then swap."
+        },
+        {
+          "pt-PT": "Usem só objetos seguros: nada que parta ou corte.",
+          "en": "Only use safe objects: nothing that breaks or cuts."
+        }
+      ],
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "clap-echo",
+      "type": "stories",
+      "title": {
+        "pt-PT": "Eco de palmas",
+        "en": "Clapping echo"
+      },
+      "summary": {
+        "pt-PT": "Repetir ritmos de palmas, cada vez mais difíceis.",
+        "en": "Repeat clapping rhythms that get harder each time."
+      },
+      "ageMin": 3,
+      "peopleMin": 2,
+      "materials": [],
+      "durationMin": 10,
+      "setting": "both",
+      "noise": "loud",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Uma pessoa bate um ritmo curto com palmas.",
+          "en": "One person claps a short rhythm."
+        },
+        {
+          "pt-PT": "Os outros repetem o mesmo ritmo, como um eco.",
+          "en": "The others repeat the same rhythm, like an echo."
+        },
+        {
+          "pt-PT": "A cada ronda, o ritmo fica um pouco mais longo ou mais rápido.",
+          "en": "Each round, the rhythm gets a bit longer or faster."
+        },
+        {
+          "pt-PT": "Quem se enganar passa a ser quem inventa o ritmo.",
+          "en": "Whoever gets it wrong becomes the one who makes up the rhythm."
+        }
+      ],
+      "variants": {
+        "pt-PT": "Usem também os pés, estalos de dedos ou batidas na mesa.",
+        "en": "Also use your feet, finger clicks or taps on the table."
+      },
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kitchen-band",
+      "type": "stories",
+      "title": {
+        "pt-PT": "Orquestra da cozinha",
+        "en": "Kitchen band"
+      },
+      "summary": {
+        "pt-PT": "Tachos, colheres e frascos viram instrumentos.",
+        "en": "Pots, spoons and jars become instruments."
+      },
+      "ageMin": 3,
+      "peopleMin": 2,
+      "materials": [
+        "kitchen-utensils"
+      ],
+      "durationMin": 15,
+      "setting": "indoor",
+      "noise": "loud",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Juntem tachos, colheres de pau, frascos fechados com feijões ou arroz e caixas.",
+          "en": "Gather pots, wooden spoons, closed jars with beans or rice, and boxes."
+        },
+        {
+          "pt-PT": "Cada pessoa escolhe um instrumento.",
+          "en": "Each person picks an instrument."
+        },
+        {
+          "pt-PT": "Um maestro marca o ritmo. Os outros tocam juntos, mais alto quando ele levanta as mãos e mais baixo quando as baixa.",
+          "en": "A conductor sets the beat. The others play together, louder when they raise their hands and quieter when they lower them."
+        },
+        {
+          "pt-PT": "Atenção aos vizinhos e a quem esteja a dormir.",
+          "en": "Mind the neighbours and anyone who is sleeping."
+        }
+      ],
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "breathe-and-stretch",
+      "type": "calm",
+      "title": {
+        "pt-PT": "Pausa para respirar e alongar",
+        "en": "Pause to breathe and stretch"
+      },
+      "summary": {
+        "pt-PT": "Uma pausa curta, em qualquer sítio, mesmo às escuras.",
+        "en": "A short break, anywhere, even in the dark."
+      },
+      "ageMin": 4,
+      "peopleMin": 1,
+      "materials": [],
+      "durationMin": 5,
+      "setting": "both",
+      "noise": "quiet",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Para o que estás a fazer e põe-te confortável, sentado ou de pé.",
+          "en": "Stop what you are doing and get comfortable, sitting or standing."
+        },
+        {
+          "pt-PT": "Respira devagar, com calma, sem pressa.",
+          "en": "Breathe slowly and calmly, without rushing."
+        },
+        {
+          "pt-PT": "Alonga o corpo devagar, por exemplo os braços e os ombros.",
+          "en": "Stretch your body slowly, for example your arms and shoulders."
+        },
+        {
+          "pt-PT": "Faz estas pausas sempre que precisares ao longo do dia.",
+          "en": "Take these breaks whenever you need to during the day."
+        }
+      ],
+      "origin": "guidance",
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "around-me",
+      "type": "calm",
+      "title": {
+        "pt-PT": "O que está à minha volta?",
+        "en": "What is around me?"
+      },
+      "summary": {
+        "pt-PT": "Descrever em voz alta o que vês, ouves e tocas.",
+        "en": "Describe out loud what you see, hear and touch."
+      },
+      "ageMin": 5,
+      "peopleMin": 1,
+      "materials": [],
+      "durationMin": 5,
+      "setting": "both",
+      "noise": "quiet",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Diz em voz alta, devagar, o que vês à tua volta.",
+          "en": "Say out loud, slowly, what you see around you."
+        },
+        {
+          "pt-PT": "Toca em objetos que estejam perto e descreve-os: são frios, macios, pesados?",
+          "en": "Touch objects nearby and describe them: are they cold, soft, heavy?"
+        },
+        {
+          "pt-PT": "Às escuras, descreve o que ouves e o que sentes com as mãos.",
+          "en": "In the dark, describe what you hear and what you feel with your hands."
+        },
+        {
+          "pt-PT": "O guia oficial sugere isto para quando se revive o que aconteceu.",
+          "en": "The official guide suggests this for when you relive what happened."
+        }
+      ],
+      "origin": "guidance",
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "drawing-the-day",
+      "type": "calm",
+      "title": {
+        "pt-PT": "Desenho do dia",
+        "en": "Drawing the day"
+      },
+      "summary": {
+        "pt-PT": "Desenhar e, se quiserem, conversar sobre o desenho.",
+        "en": "Draw and, if they want, talk about the drawing."
+      },
+      "ageMin": 3,
+      "peopleMin": 1,
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "durationMin": 15,
+      "setting": "indoor",
+      "noise": "quiet",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Cada pessoa desenha o que quiser sobre o dia: o que aconteceu, o que sentiu ou outra coisa qualquer.",
+          "en": "Each person draws whatever they like about the day: what happened, how they felt or anything else."
+        },
+        {
+          "pt-PT": "Quem quiser mostra o desenho e conta o que desenhou.",
+          "en": "Anyone who wants to shows their drawing and talks about it."
+        },
+        {
+          "pt-PT": "Os adultos ouvem sem corrigir e aceitam o que a criança sente.",
+          "en": "Adults listen without correcting and accept what the child feels."
+        },
+        {
+          "pt-PT": "Se a criança fizer perguntas, respondam de forma clara, sem mentir e sem dizer mais do que ela pergunta.",
+          "en": "If the child asks questions, answer clearly, without lying and without saying more than they ask."
+        }
+      ],
+      "origin": "guidance",
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "good-things-box",
+      "type": "calm",
+      "title": {
+        "pt-PT": "Caixa das coisas boas",
+        "en": "Good things box"
+      },
+      "summary": {
+        "pt-PT": "Guardar três coisas boas por dia.",
+        "en": "Collect three good things each day."
+      },
+      "ageMin": 5,
+      "peopleMin": 1,
+      "materials": [
+        "paper",
+        "pencil",
+        "box"
+      ],
+      "durationMin": 10,
+      "setting": "indoor",
+      "noise": "quiet",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Ao fim do dia, cada pessoa escreve ou desenha três coisas boas que aconteceram, mesmo pequenas.",
+          "en": "At the end of the day, each person writes or draws three good things that happened, however small."
+        },
+        {
+          "pt-PT": "Dobrem os papéis e guardem-nos numa caixa ou frasco.",
+          "en": "Fold the papers and keep them in a box or jar."
+        },
+        {
+          "pt-PT": "Quando alguém precisar de ânimo, tira um papel e lê-o em voz alta.",
+          "en": "When someone needs cheering up, they take out a paper and read it aloud."
+        }
+      ],
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "find-the-torch",
+      "type": "challenge",
+      "title": {
+        "pt-PT": "Encontrar a lanterna de olhos fechados",
+        "en": "Find the torch with your eyes closed"
+      },
+      "summary": {
+        "pt-PT": "Treinar o caminho até à lanterna, para quando faltar a luz.",
+        "en": "Practise the way to the torch, for when the power goes out."
+      },
+      "ageMin": 6,
+      "peopleMin": 1,
+      "materials": [
+        "torch"
+      ],
+      "durationMin": 5,
+      "setting": "indoor",
+      "noise": "quiet",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Combinem um sítio fixo para guardar a lanterna.",
+          "en": "Agree on a fixed place to keep the torch."
+        },
+        {
+          "pt-PT": "Com a luz acesa, cada pessoa vai até lá de olhos fechados, devagar e com uma mão à frente.",
+          "en": "With the light on, each person walks there with their eyes closed, slowly and with one hand out in front."
+        },
+        {
+          "pt-PT": "Contem quanto tempo demora e repitam até ser fácil.",
+          "en": "Count how long it takes and repeat until it is easy."
+        },
+        {
+          "pt-PT": "Façam-no sempre devagar e com um adulto por perto.",
+          "en": "Always do it slowly, with an adult nearby."
+        }
+      ],
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "contacts-on-paper",
+      "type": "challenge",
+      "title": {
+        "pt-PT": "Contactos em papel",
+        "en": "Contacts on paper"
+      },
+      "summary": {
+        "pt-PT": "Copiar os números importantes para papel.",
+        "en": "Copy the important numbers onto paper."
+      },
+      "ageMin": 8,
+      "peopleMin": 1,
+      "materials": [
+        "paper",
+        "pencil"
+      ],
+      "durationMin": 15,
+      "setting": "indoor",
+      "noise": "quiet",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Escrevam num papel os números de telefone mais importantes: família, vizinhos, médico, escola.",
+          "en": "Write the most important phone numbers on paper: family, neighbours, doctor, school."
+        },
+        {
+          "pt-PT": "Juntem o 112 e a Linha SNS 24 (808 24 24 24).",
+          "en": "Add 112 and the SNS 24 line (808 24 24 24)."
+        },
+        {
+          "pt-PT": "Façam uma cópia para cada pessoa e guardem-na na carteira ou na mochila.",
+          "en": "Make a copy for each person and keep it in a wallet or bag."
+        },
+        {
+          "pt-PT": "A app também imprime um cartão com os contactos do plano familiar, em Preparar › Em papel.",
+          "en": "The app can also print a card with your family plan contacts, under Prepare › On paper."
+        }
+      ],
+      "origin": "guidance",
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "tallest-tower",
+      "type": "challenge",
+      "title": {
+        "pt-PT": "A torre mais alta",
+        "en": "The tallest tower"
+      },
+      "summary": {
+        "pt-PT": "Construir a torre mais alta com o que houver em casa.",
+        "en": "Build the tallest tower with whatever is at home."
+      },
+      "ageMin": 4,
+      "peopleMin": 1,
+      "materials": [
+        "household-objects"
+      ],
+      "durationMin": 15,
+      "setting": "indoor",
+      "noise": "moderate",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Cada pessoa ou equipa junta objetos seguros: caixas, livros, copos de plástico, almofadas.",
+          "en": "Each person or team gathers safe objects: boxes, books, plastic cups, cushions."
+        },
+        {
+          "pt-PT": "Têm 5 minutos para construir a torre mais alta que conseguirem, sem a encostar a nada.",
+          "en": "You have 5 minutes to build the tallest tower you can, without leaning it on anything."
+        },
+        {
+          "pt-PT": "Meçam com palmos. Ganha a torre mais alta que ficar de pé.",
+          "en": "Measure in hand spans. The tallest tower left standing wins."
+        },
+        {
+          "pt-PT": "Não usem objetos de vidro nem pesados.",
+          "en": "Do not use glass or heavy objects."
+        }
+      ],
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "treasure-hunt",
+      "type": "challenge",
+      "title": {
+        "pt-PT": "Caça ao tesouro em casa",
+        "en": "Treasure hunt at home"
+      },
+      "summary": {
+        "pt-PT": "Seguir pistas até um objeto escondido.",
+        "en": "Follow clues to a hidden object."
+      },
+      "ageMin": 4,
+      "peopleMin": 2,
+      "materials": [
+        "paper",
+        "pencil",
+        "household-objects"
+      ],
+      "durationMin": 20,
+      "setting": "indoor",
+      "noise": "moderate",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Uma pessoa esconde um \"tesouro\" (um objeto qualquer) dentro de casa.",
+          "en": "One person hides a \"treasure\" (any object) somewhere in the house."
+        },
+        {
+          "pt-PT": "Escreve ou desenha 3 a 5 pistas, cada uma a levar à seguinte.",
+          "en": "They write or draw 3 to 5 clues, each one leading to the next."
+        },
+        {
+          "pt-PT": "Os outros seguem as pistas até ao tesouro.",
+          "en": "The others follow the clues to the treasure."
+        },
+        {
+          "pt-PT": "Combinem antes onde se pode esconder. Deixem de fora a cozinha, as escadas e as varandas.",
+          "en": "Agree beforehand where things can be hidden. Leave out the kitchen, stairs and balconies."
+        }
+      ],
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "invent-a-game",
+      "type": "challenge",
+      "title": {
+        "pt-PT": "Inventar um jogo com 3 objetos",
+        "en": "Invent a game with 3 objects"
+      },
+      "summary": {
+        "pt-PT": "Criar um jogo novo e ensiná-lo aos outros.",
+        "en": "Create a new game and teach it to the others."
+      },
+      "ageMin": 7,
+      "peopleMin": 2,
+      "materials": [
+        "household-objects"
+      ],
+      "durationMin": 20,
+      "setting": "both",
+      "noise": "moderate",
+      "light": "light",
+      "instructions": [
+        {
+          "pt-PT": "Escolham três objetos ao acaso, por exemplo uma meia, uma colher e uma tampa.",
+          "en": "Pick three random objects, for example a sock, a spoon and a lid."
+        },
+        {
+          "pt-PT": "Em 10 minutos, inventem um jogo que use os três: regras, como se ganha e quantos jogam.",
+          "en": "In 10 minutes, invent a game that uses all three: the rules, how to win and how many can play."
+        },
+        {
+          "pt-PT": "Ensinem o jogo aos outros e joguem uma ronda.",
+          "en": "Teach the game to the others and play a round."
+        },
+        {
+          "pt-PT": "No fim, melhorem uma regra.",
+          "en": "At the end, improve one rule."
+        }
+      ],
+      "origin": "original",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "useful-task",
+      "type": "challenge",
+      "title": {
+        "pt-PT": "Uma tarefa útil para cada um",
+        "en": "A useful task for everyone"
+      },
+      "summary": {
+        "pt-PT": "Pequenas tarefas para todos se sentirem úteis.",
+        "en": "Small tasks so everyone feels useful."
+      },
+      "ageMin": 4,
+      "peopleMin": 2,
+      "materials": [],
+      "durationMin": 10,
+      "setting": "both",
+      "noise": "quiet",
+      "light": "none",
+      "instructions": [
+        {
+          "pt-PT": "Façam uma lista de tarefas pequenas e seguras: arrumar a lanterna, contar as garrafas de água, pôr a mesa, ver se um vizinho precisa de alguma coisa.",
+          "en": "Make a list of small, safe tasks: putting the torch away, counting the water bottles, laying the table, checking whether a neighbour needs anything."
+        },
+        {
+          "pt-PT": "Cada pessoa, incluindo as crianças, escolhe uma.",
+          "en": "Each person, children included, picks one."
+        },
+        {
+          "pt-PT": "Ao fim do dia, cada um conta o que fez.",
+          "en": "At the end of the day, everyone says what they did."
+        },
+        {
+          "pt-PT": "Escolham tarefas próprias para a idade: nada com fogo, eletricidade ou alturas.",
+          "en": "Choose age-appropriate tasks: nothing involving fire, electricity or heights."
+        }
+      ],
+      "origin": "guidance",
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ]
+}

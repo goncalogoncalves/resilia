@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/sources.schema.json",
+  "title": "Sources",
+  "type": "object",
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "entity": {
+            "enum": [
+              "ANEPC",
+              "INEM",
+              "CVP",
+              "DGS",
+              "IPMA",
+              "EU",
+              "SNS24",
+              "GOV", "MUNICIPAL", "AGIF",
+              "UTILITY",
+              "OTHER"
+            ]
+          },
+          "title": {
+            "$ref": "common.schema.json#/$defs/localizedText"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "accessedAt": {
+            "$ref": "common.schema.json#/$defs/date"
+          },
+          "license": {
+            "type": "string"
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publishedAt": {
+            "$ref": "common.schema.json#/$defs/date"
+          }
+        },
+        "required": [
+          "id",
+          "entity",
+          "title",
+          "url",
+          "accessedAt"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "sources"
+  ],
+  "additionalProperties": false
+}

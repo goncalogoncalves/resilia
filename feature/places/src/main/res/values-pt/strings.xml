@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="places_intro">Guarda os locais que importam numa emergência: casa, onde a família se encontra, serviços de saúde. Fica tudo neste telemóvel.</string>
+    <string name="places_add">Adicionar local</string>
+    <string name="places_empty">Ainda não tens locais. Começa pela tua casa e por um ponto de encontro.</string>
+    <string name="places_home_hint">Junta coordenadas à tua casa para veres a que distância fica cada local.</string>
+    <string name="places_official_title">Listas oficiais</string>
+    <string name="places_no_map_note">Ainda não há mapa dentro da app. \"Abrir na app de mapas\" usa a app de mapas do telemóvel; só funciona sem internet se essa app tiver mapas offline.</string>
+    <string name="places_open_maps">Abrir na app de mapas</string>
+    <string name="places_copy_coordinates">Copiar coordenadas</string>
+    <string name="places_copied">Copiado</string>
+    <string name="places_edit">Editar</string>
+    <string name="places_no_maps_app">Não encontrámos nenhuma app de mapas. Copia a morada ou as coordenadas.</string>
+    <string name="places_back">Voltar</string>
+    <string name="places_emergency_title">Os meus locais</string>
+    <string name="places_emergency_empty">Não guardaste nenhum local. Podes juntá-los mais tarde em Preparar → Locais.</string>
+
+    <string name="place_type">Tipo</string>
+    <string name="place_name">Nome</string>
+    <string name="place_address">Morada</string>
+    <string name="place_coordinates">Coordenadas (opcional)</string>
+    <string name="place_coordinates_help">Escreve \"38.7167, -9.1333\" ou cola uma ligação de partilha de uma app de mapas.</string>
+    <string name="place_coordinates_read">Lido como: %1$s</string>
+    <string name="place_coordinates_invalid">Não conseguimos ler coordenadas neste texto.</string>
+    <string name="place_paste">Colar</string>
+    <string name="place_notes">Notas</string>
+    <string name="place_privacy">A app não pede a tua localização. Estes dados ficam neste telemóvel e não vão para backups na cloud.</string>
+    <string name="place_save">Guardar</string>
+    <string name="place_delete">Apagar</string>
+    <string name="place_cancel">Cancelar</string>
+    <string name="place_delete_title">Apagar \"%1$s\"?</string>
+    <string name="place_delete_text">Não é possível desfazer.</string>
+
+    <string name="hospitals_title">Hospitais com urgência (SNS)</string>
+    <string name="hospitals_subtitle">Lista oficial dos hospitais públicos com serviço de urgência</string>
+    <string name="hospitals_data_line">Dados do SNS, atualizados a %1$s.</string>
+    <string name="hospitals_search">Procurar por nome, localidade ou código postal</string>
+    <string name="hospitals_none">Nenhum hospital corresponde a esta pesquisa.</string>
+    <string name="hospitals_copy_address">Copiar morada</string>
+    <string name="hospitals_no_coordinates">A lista do SNS tem coordenadas, mas a 21/11/2026 muitas não batiam com a morada, por isso a app não as usa. \"Abrir na app de mapas\" pesquisa pela morada.</string>
+    <string name="urgency_polyvalent_trauma">Urgência polivalente com centro de trauma</string>
+    <string name="urgency_polyvalent">Urgência polivalente</string>
+    <string name="urgency_medical_surgical">Urgência médico-cirúrgica</string>
+    <string name="urgency_basic">Urgência básica</string>
+</resources>

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/kit.schema.json",
+  "title": "Kit catalogue",
+  "type": "object",
+  "$defs": {
+    "sourceIds": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/id" },
+      "minItems": 1
+    }
+  },
+  "properties": {
+    "minimumDays": { "type": "integer", "minimum": 1 },
+    "minimumDaysSourceIds": { "$ref": "#/$defs/sourceIds" },
+    "dayOptions": {
+      "type": "array",
+      "items": { "type": "integer", "minimum": 1 },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "reviewIntervalMonths": { "type": "integer", "minimum": 1 },
+    "reviewSourceIds": { "$ref": "#/$defs/sourceIds" },
+    "items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/id" },
+          "list": { "enum": ["home", "bag"] },
+          "condition": { "enum": ["always", "baby", "medical", "pets"] },
+          "name": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "detail": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "note": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "quantity": {
+            "type": "object",
+            "properties": {
+              "kind": { "enum": ["perPersonPerDay", "forDuration"] },
+              "amount": { "type": "number", "exclusiveMinimum": 0 },
+              "unit": { "enum": ["litre"] }
+            },
+            "required": ["kind"],
+            "additionalProperties": false
+          },
+          "sourceIds": { "$ref": "#/$defs/sourceIds" },
+          "review": { "$ref": "common.schema.json#/$defs/review" }
+        },
+        "required": ["id", "list", "condition", "name", "sourceIds", "review"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["minimumDays", "minimumDaysSourceIds", "dayOptions", "reviewIntervalMonths", "reviewSourceIds", "items"],
+  "additionalProperties": false
+}

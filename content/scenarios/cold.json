@@ -1,0 +1,252 @@
+{
+  "id": "cold",
+  "title": {
+    "pt-PT": "Frio intenso",
+    "en": "Extreme cold"
+  },
+  "summary": {
+    "pt-PT": "Como te manteres quente em segurança, sem riscos de monóxido de carbono nem de incêndio.",
+    "en": "How to keep warm safely, without carbon monoxide or fire risks."
+  },
+  "icon": "ac_unit",
+  "typicalSeverity": "medium",
+  "typicalDuration": {
+    "pt-PT": "Dias",
+    "en": "Days"
+  },
+  "keywords": {
+    "pt-PT": [
+      "frio",
+      "onda de frio",
+      "temperaturas baixas",
+      "neve",
+      "gelo",
+      "aquecimento",
+      "inverno"
+    ],
+    "en": [
+      "cold",
+      "cold wave",
+      "low temperatures",
+      "snow",
+      "ice",
+      "heating",
+      "winter"
+    ]
+  },
+  "phases": {
+    "before": [
+      {
+        "id": "cold.before.01",
+        "text": {
+          "pt-PT": "Verifica se o aquecimento da casa funciona bem.",
+          "en": "Check that your home heating works properly."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.before.02",
+        "text": {
+          "pt-PT": "Acompanha os avisos de frio do IPMA.",
+          "en": "Follow IPMA cold warnings."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "during": [
+      {
+        "id": "cold.during.01",
+        "text": {
+          "pt-PT": "Se aqueces a casa a lenha (lareira, braseira ou salamandra), abre a janela de vez em quando para renovar o ar: o monóxido de carbono é venenoso e mortal.",
+          "en": "If you heat your home with wood (fireplace, brazier or stove), open a window from time to time to let in fresh air: carbon monoxide is poisonous and deadly."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.02",
+        "text": {
+          "pt-PT": "Veste-te por camadas e protege as mãos, os pés e a cabeça.",
+          "en": "Dress in layers and protect your hands, feet and head."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.03",
+        "text": {
+          "pt-PT": "Não ligues muitos aparelhos elétricos ao mesmo tempo e usa os aquecedores elétricos com cuidado: há risco de incêndio.",
+          "en": "Do not run many electrical appliances at once, and use electric heaters carefully: there is a fire risk."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.04",
+        "text": {
+          "pt-PT": "Em casa, mantém-te agasalhado. Se conseguires, mantém a casa entre 19 e 22 °C.",
+          "en": "At home, stay wrapped up. If you can, keep your home between 19 and 22 °C."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.05",
+        "text": {
+          "pt-PT": "Não fiques muito perto das fontes de calor.",
+          "en": "Do not stay too close to heat sources."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.06",
+        "text": {
+          "pt-PT": "Usa calçado confortável e antiderrapante, para evitar quedas.",
+          "en": "Wear comfortable, non-slip shoes to avoid falls."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.07",
+        "text": {
+          "pt-PT": "Bebe líquidos ao longo do dia, mesmo sem sede, e evita bebidas alcoólicas.",
+          "en": "Drink fluids during the day, even if you are not thirsty, and avoid alcohol."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.08",
+        "text": {
+          "pt-PT": "Faz várias refeições por dia, com fruta e legumes.",
+          "en": "Eat several meals a day, with fruit and vegetables."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.09",
+        "text": {
+          "pt-PT": "Mantém-te ativo, com atividade física moderada.",
+          "en": "Stay active, with moderate physical activity."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.10",
+        "text": {
+          "pt-PT": "Se tomas medicação, segue as indicações recomendadas.",
+          "en": "If you take medication, follow the instructions you were given."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "cold.during.11",
+        "text": {
+          "pt-PT": "Continua atento aos avisos de frio.",
+          "en": "Keep following cold warnings."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "after": []
+  },
+  "emergencyNow": [
+    "cold.during.01",
+    "cold.during.02",
+    "cold.during.03"
+  ],
+  "alertTriggers": ["ipma:Tempo Frio", "ipma:Neve"],
+  "relatedScenarioIds": [],
+  "sourceIds": [
+    "anepc-riscos-naturais"
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

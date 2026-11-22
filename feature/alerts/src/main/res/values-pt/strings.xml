@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alerts_intro">Vê os avisos meteorológicos e o risco de incêndio rural do IPMA para a tua zona. A app verifica sozinha e avisa-te quando há aviso laranja ou vermelho.</string>
+    <string name="alerts_privacy">A app descarrega o ficheiro nacional do IPMA e escolhe a tua zona no telemóvel. O IPMA nunca fica a saber a tua zona.</string>
+    <string name="alerts_choose_zone">Escolher a zona</string>
+    <string name="alerts_none">Sem avisos amarelos, laranja ou vermelhos do IPMA para %1$s.</string>
+    <string name="alerts_fetched">Descarregado às %1$s (%2$s)</string>
+    <string name="alerts_stale">Desatualizado (descarregado %1$s)</string>
+    <string name="alerts_ago_now">agora mesmo</string>
+    <string name="alerts_municipality_line">Concelho: %1$s</string>
+    <string name="alerts_ago_minutes">há %1$d min</string>
+    <string name="alerts_ago_hours">há %1$d h</string>
+    <string name="alerts_source_ipma">Fonte: IPMA</string>
+    <string name="alerts_error">Não foi possível obter os avisos</string>
+    <string name="alerts_error_never">Ainda não há nenhuma leitura. Confirma a ligação à internet.</string>
+    <string name="alerts_error_last_good">Mostramos a última leitura, das %1$s.</string>
+    <string name="alerts_refresh">Atualizar agora</string>
+    <string name="alerts_refreshing">A atualizar…</string>
+    <string name="alerts_level_label">Aviso %1$s</string>
+    <string name="alerts_level_unknown">do IPMA</string>
+    <string name="alerts_text_in_portuguese">Texto do IPMA, em português.</string>
+    <string name="alerts_see_what_to_do">O que fazer: %1$s</string>
+    <string name="alerts_fire_title">Risco de incêndio rural</string>
+    <string name="alerts_fire_islands">Os dados abertos do IPMA só têm o risco de incêndio do continente. Para a Madeira, vê o site do IPMA.</string>
+    <string name="alerts_fire_choose_municipality">Escolhe o teu concelho nas definições dos avisos para veres o risco de incêndio.</string>
+    <string name="alerts_fire_unavailable">Risco de incêndio ainda não disponível. Experimenta atualizar.</string>
+    <string name="alerts_absence_note">A ausência de aviso na app não significa que não haja perigo. Confirma no IPMA e segue as indicações da Proteção Civil.</string>
+    <string name="alerts_link_ipma">Ver os avisos no site do IPMA</string>
+    <string name="alerts_link_anepc">Avisos à população (ANEPC)</string>
+    <string name="alerts_settings_title">Definições dos avisos</string>
+    <string name="alerts_today">Hoje</string>
+    <string name="alerts_tomorrow">Amanhã</string>
+    <string name="alerts_period_same_day">%1$s, das %2$s às %3$s</string>
+    <string name="alerts_period_days">%1$s %2$s até %3$s %4$s</string>
+
+    <string name="alerts_interval_title">Verificar avisos</string>
+    <string name="alerts_interval_hours">De %1$d em %1$d h</string>
+    <string name="alerts_interval_off">Desligado</string>
+    <string name="alerts_interval_note">Só quando há internet. Ao abrir a app também atualiza, se os dados tiverem mais de 1 hora.</string>
+    <string name="alerts_interval_off_note">Sem notificações. Os avisos só se atualizam quando abres a app.</string>
+    <string name="alerts_notify_yellow">Notificar também os avisos amarelos</string>
+    <string name="alerts_notifications_off">As notificações estão desligadas para esta app, por isso os avisos não te chegam.</string>
+    <string name="alerts_allow_notifications">Permitir notificações</string>
+    <string name="alerts_municipality_title">Concelho (para o risco de incêndio)</string>
+    <string name="alerts_municipality_none">Sem concelho</string>
+    <string name="alerts_municipality_note">Opcional. O IPMA publica o risco de incêndio por concelho, só no continente.</string>
+    <string name="alerts_zone_title">Área de aviso</string>
+    <string name="alerts_region_continent">Continente (por distrito)</string>
+    <string name="alerts_region_madeira">Madeira</string>
+    <string name="alerts_region_azores">Açores</string>
+    <string name="alerts_zone_remove">Remover a zona e deixar de verificar</string>
+
+    <string name="alerts_notif_channel">Avisos meteorológicos</string>
+    <string name="alerts_notif_channel_description">Avisos e risco de incêndio do IPMA para a tua zona</string>
+    <string name="alerts_notif_public">Aviso meteorológico</string>
+    <string name="alerts_notif_warning_title">Aviso %1$s: %2$s</string>
+    <string name="alerts_notif_fire_title">Risco de incêndio: %1$s</string>
+    <string name="alerts_notif_where_when">%1$s · %2$s</string>
+    <string name="alerts_action_what_to_do">O que fazer</string>
+    <string name="alerts_action_emergency">Modo emergência</string>
+</resources>

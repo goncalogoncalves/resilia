@@ -1,0 +1,1746 @@
+{
+  "sourceIds": [
+    "ipma-api",
+    "ipma-guia-avisos",
+    "ipma-avisos",
+    "ipma-risco-incendio"
+  ],
+  "areas": [
+    {
+      "id": "AVR",
+      "name": {
+        "pt-PT": "Aveiro",
+        "en": "Aveiro"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "BJA",
+      "name": {
+        "pt-PT": "Beja",
+        "en": "Beja"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "BRG",
+      "name": {
+        "pt-PT": "Braga",
+        "en": "Braga"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "BGC",
+      "name": {
+        "pt-PT": "Bragança",
+        "en": "Bragança"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "CBO",
+      "name": {
+        "pt-PT": "Castelo Branco",
+        "en": "Castelo Branco"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "CBR",
+      "name": {
+        "pt-PT": "Coimbra",
+        "en": "Coimbra"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "FAR",
+      "name": {
+        "pt-PT": "Faro",
+        "en": "Faro"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "GDA",
+      "name": {
+        "pt-PT": "Guarda",
+        "en": "Guarda"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "LRA",
+      "name": {
+        "pt-PT": "Leiria",
+        "en": "Leiria"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "LSB",
+      "name": {
+        "pt-PT": "Lisboa",
+        "en": "Lisboa"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "PTG",
+      "name": {
+        "pt-PT": "Portalegre",
+        "en": "Portalegre"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "PTO",
+      "name": {
+        "pt-PT": "Porto",
+        "en": "Porto"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "STM",
+      "name": {
+        "pt-PT": "Santarém",
+        "en": "Santarém"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "STB",
+      "name": {
+        "pt-PT": "Setúbal",
+        "en": "Setúbal"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "VCT",
+      "name": {
+        "pt-PT": "Viana do Castelo",
+        "en": "Viana do Castelo"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "VRL",
+      "name": {
+        "pt-PT": "Vila Real",
+        "en": "Vila Real"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "VIS",
+      "name": {
+        "pt-PT": "Viseu",
+        "en": "Viseu"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "EVR",
+      "name": {
+        "pt-PT": "Évora",
+        "en": "Évora"
+      },
+      "region": "continent"
+    },
+    {
+      "id": "MCN",
+      "name": {
+        "pt-PT": "Madeira – Costa Norte",
+        "en": "Madeira – North Coast"
+      },
+      "region": "madeira"
+    },
+    {
+      "id": "MCS",
+      "name": {
+        "pt-PT": "Madeira – Costa Sul",
+        "en": "Madeira – South Coast"
+      },
+      "region": "madeira"
+    },
+    {
+      "id": "MPS",
+      "name": {
+        "pt-PT": "Madeira – Porto Santo",
+        "en": "Madeira – Porto Santo"
+      },
+      "region": "madeira"
+    },
+    {
+      "id": "MRM",
+      "name": {
+        "pt-PT": "Madeira – Regiões Montanhosas",
+        "en": "Madeira – Mountain areas"
+      },
+      "region": "madeira"
+    },
+    {
+      "id": "ACE",
+      "name": {
+        "pt-PT": "Açores – Grupo Central",
+        "en": "Azores – Central Group"
+      },
+      "region": "azores"
+    },
+    {
+      "id": "AOC",
+      "name": {
+        "pt-PT": "Açores – Grupo Ocidental",
+        "en": "Azores – Western Group"
+      },
+      "region": "azores"
+    },
+    {
+      "id": "AOR",
+      "name": {
+        "pt-PT": "Açores – Grupo Oriental",
+        "en": "Azores – Eastern Group"
+      },
+      "region": "azores"
+    }
+  ],
+  "municipalities": [
+    {
+      "dico": "0101",
+      "name": "Águeda",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0102",
+      "name": "Albergaria-a-Velha",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0103",
+      "name": "Anadia",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0104",
+      "name": "Arouca",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0105",
+      "name": "Aveiro",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0106",
+      "name": "Castelo de Paiva",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0107",
+      "name": "Espinho",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0108",
+      "name": "Estarreja",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0109",
+      "name": "Santa Maria da Feira",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0110",
+      "name": "Ílhavo",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0111",
+      "name": "Mealhada",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0112",
+      "name": "Murtosa",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0113",
+      "name": "Oliveira de Azeméis",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0114",
+      "name": "Oliveira do Bairro",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0115",
+      "name": "Ovar",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0116",
+      "name": "São João da Madeira",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0117",
+      "name": "Sever do Vouga",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0118",
+      "name": "Vagos",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0119",
+      "name": "Vale de Cambra",
+      "areaId": "AVR"
+    },
+    {
+      "dico": "0201",
+      "name": "Aljustrel",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0202",
+      "name": "Almodôvar",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0203",
+      "name": "Alvito",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0204",
+      "name": "Barrancos",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0205",
+      "name": "Beja",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0206",
+      "name": "Castro Verde",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0207",
+      "name": "Cuba",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0208",
+      "name": "Ferreira do Alentejo",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0209",
+      "name": "Mértola",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0210",
+      "name": "Moura",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0211",
+      "name": "Odemira",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0212",
+      "name": "Ourique",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0213",
+      "name": "Serpa",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0214",
+      "name": "Vidigueira",
+      "areaId": "BJA"
+    },
+    {
+      "dico": "0301",
+      "name": "Amares",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0302",
+      "name": "Barcelos",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0303",
+      "name": "Braga",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0304",
+      "name": "Cabeceiras de Basto",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0305",
+      "name": "Celorico de Basto",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0306",
+      "name": "Esposende",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0307",
+      "name": "Fafe",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0308",
+      "name": "Guimarães",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0309",
+      "name": "Póvoa de Lanhoso",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0310",
+      "name": "Terras de Bouro",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0311",
+      "name": "Vieira do Minho",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0312",
+      "name": "Vila Nova de Famalicão",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0313",
+      "name": "Vila Verde",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0314",
+      "name": "Vizela",
+      "areaId": "BRG"
+    },
+    {
+      "dico": "0401",
+      "name": "Alfandega da Fé",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0402",
+      "name": "Bragança",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0403",
+      "name": "Carrazeda de Ansiães",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0404",
+      "name": "Freixo Espada à Cinta",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0405",
+      "name": "Macedo de Cavaleiros",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0406",
+      "name": "Miranda do Douro",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0407",
+      "name": "Mirandela",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0408",
+      "name": "Mogadouro",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0409",
+      "name": "Torre de Moncorvo",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0410",
+      "name": "Vila Flor",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0411",
+      "name": "Vimioso",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0412",
+      "name": "Vinhais",
+      "areaId": "BGC"
+    },
+    {
+      "dico": "0501",
+      "name": "Belmonte",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0502",
+      "name": "Castelo Branco",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0503",
+      "name": "Covilhã",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0504",
+      "name": "Fundão",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0505",
+      "name": "Idanha-a-Nova",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0506",
+      "name": "Oleiros",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0507",
+      "name": "Penamacor",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0508",
+      "name": "Proença-a-Nova",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0509",
+      "name": "Sertã",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0510",
+      "name": "Vila de Rei",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0511",
+      "name": "Vila Velha de Rodão",
+      "areaId": "CBO"
+    },
+    {
+      "dico": "0601",
+      "name": "Arganil",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0602",
+      "name": "Cantanhede",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0603",
+      "name": "Coimbra",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0604",
+      "name": "Condeixa-a-Nova",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0605",
+      "name": "Figueira da Foz",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0606",
+      "name": "Góis",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0607",
+      "name": "Lousã",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0608",
+      "name": "Mira",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0609",
+      "name": "Miranda do Corvo",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0610",
+      "name": "Montemor-o-Velho",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0611",
+      "name": "Oliveira do Hospital",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0612",
+      "name": "Pampilhosa da Serra",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0613",
+      "name": "Penacova",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0614",
+      "name": "Penela",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0615",
+      "name": "Soure",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0616",
+      "name": "Tábua",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0617",
+      "name": "Vila Nova de Poiares",
+      "areaId": "CBR"
+    },
+    {
+      "dico": "0701",
+      "name": "Alandroal",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0702",
+      "name": "Arraiolos",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0703",
+      "name": "Borba",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0704",
+      "name": "Estremoz",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0705",
+      "name": "Évora",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0706",
+      "name": "Montemor-o-Novo",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0707",
+      "name": "Mora",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0708",
+      "name": "Mourão",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0709",
+      "name": "Portel",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0710",
+      "name": "Redondo",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0711",
+      "name": "Reguengos de Monsaraz",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0712",
+      "name": "Vendas Novas",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0713",
+      "name": "Viana do Alentejo",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0714",
+      "name": "Vila Viçosa",
+      "areaId": "EVR"
+    },
+    {
+      "dico": "0801",
+      "name": "Albufeira",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0802",
+      "name": "Alcoutim",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0803",
+      "name": "Aljezur",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0804",
+      "name": "Castro Marim",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0805",
+      "name": "Faro",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0806",
+      "name": "Lagoa",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0807",
+      "name": "Lagos",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0808",
+      "name": "Loulé",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0809",
+      "name": "Monchique",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0810",
+      "name": "Olhão",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0811",
+      "name": "Portimão",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0812",
+      "name": "São Brás de Alportel",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0813",
+      "name": "Silves",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0814",
+      "name": "Tavira",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0815",
+      "name": "Vila do Bispo",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0816",
+      "name": "Vila Real de Santo António",
+      "areaId": "FAR"
+    },
+    {
+      "dico": "0901",
+      "name": "Aguiar da Beira",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0902",
+      "name": "Almeida",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0903",
+      "name": "Celorico da Beira",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0904",
+      "name": "Figueira de Castelo Rodrigo",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0905",
+      "name": "Fornos de Algodres",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0906",
+      "name": "Gouveia",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0907",
+      "name": "Guarda",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0908",
+      "name": "Manteigas",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0909",
+      "name": "Meda",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0910",
+      "name": "Pinhel",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0911",
+      "name": "Sabugal",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0912",
+      "name": "Seia",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0913",
+      "name": "Trancoso",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "0914",
+      "name": "Vila Nova de Foz Coa",
+      "areaId": "GDA"
+    },
+    {
+      "dico": "1001",
+      "name": "Alcobaça",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1002",
+      "name": "Alvaiázere",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1003",
+      "name": "Ansião",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1004",
+      "name": "Batalha",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1005",
+      "name": "Bombarral",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1006",
+      "name": "Caldas da Rainha",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1007",
+      "name": "Castanheira de Pêra",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1008",
+      "name": "Figueiró dos Vinhos",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1009",
+      "name": "Leiria",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1010",
+      "name": "Marinha Grande",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1011",
+      "name": "Nazaré",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1012",
+      "name": "Óbidos",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1013",
+      "name": "Pedrógão Grande",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1014",
+      "name": "Peniche",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1015",
+      "name": "Pombal",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1016",
+      "name": "Porto de Mós",
+      "areaId": "LRA"
+    },
+    {
+      "dico": "1101",
+      "name": "Alenquer",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1102",
+      "name": "Arruda dos Vinhos",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1103",
+      "name": "Azambuja",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1104",
+      "name": "Cadaval",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1105",
+      "name": "Cascais",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1106",
+      "name": "Lisboa",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1107",
+      "name": "Loures",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1108",
+      "name": "Lourinhã",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1109",
+      "name": "Mafra",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1110",
+      "name": "Oeiras",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1111",
+      "name": "Sintra",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1112",
+      "name": "Sobral de Monte Agraço",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1113",
+      "name": "Torres Vedras",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1114",
+      "name": "Vila Franca de Xira",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1115",
+      "name": "Amadora",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1116",
+      "name": "Odivelas",
+      "areaId": "LSB"
+    },
+    {
+      "dico": "1201",
+      "name": "Alter do Chão",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1202",
+      "name": "Arronches",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1203",
+      "name": "Avis",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1204",
+      "name": "Campo Maior",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1205",
+      "name": "Castelo de Vide",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1206",
+      "name": "Crato",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1207",
+      "name": "Elvas",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1208",
+      "name": "Fronteira",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1209",
+      "name": "Gavião",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1210",
+      "name": "Marvão",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1211",
+      "name": "Monforte",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1212",
+      "name": "Nisa",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1213",
+      "name": "Ponte de Sor",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1214",
+      "name": "Portalegre",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1215",
+      "name": "Sousel",
+      "areaId": "PTG"
+    },
+    {
+      "dico": "1301",
+      "name": "Amarante",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1302",
+      "name": "Baião",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1303",
+      "name": "Felgueiras",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1304",
+      "name": "Gondomar",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1305",
+      "name": "Lousada",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1306",
+      "name": "Maia",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1307",
+      "name": "Marco de Canaveses",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1308",
+      "name": "Matosinhos",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1309",
+      "name": "Paços de Ferreira",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1310",
+      "name": "Paredes",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1311",
+      "name": "Penafiel",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1312",
+      "name": "Porto",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1313",
+      "name": "Póvoa de Varzim",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1314",
+      "name": "Santo Tirso",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1315",
+      "name": "Valongo",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1316",
+      "name": "Vila do Conde",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1317",
+      "name": "Vila Nova de Gaia",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1318",
+      "name": "Trofa",
+      "areaId": "PTO"
+    },
+    {
+      "dico": "1401",
+      "name": "Abrantes",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1402",
+      "name": "Alcanena",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1403",
+      "name": "Almeirim",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1404",
+      "name": "Alpiarça",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1405",
+      "name": "Benavente",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1406",
+      "name": "Cartaxo",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1407",
+      "name": "Chamusca",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1408",
+      "name": "Constância",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1409",
+      "name": "Coruche",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1410",
+      "name": "Entroncamento",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1411",
+      "name": "Ferreira do Zêzere",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1412",
+      "name": "Golegã",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1413",
+      "name": "Mação",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1414",
+      "name": "Rio Maior",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1415",
+      "name": "Salvaterra de Magos",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1416",
+      "name": "Santarém",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1417",
+      "name": "Sardoal",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1418",
+      "name": "Tomar",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1419",
+      "name": "Torres Novas",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1420",
+      "name": "Vila Nova da Barquinha",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1421",
+      "name": "Ourém",
+      "areaId": "STM"
+    },
+    {
+      "dico": "1501",
+      "name": "Alcácer do Sal",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1502",
+      "name": "Alcochete",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1503",
+      "name": "Almada",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1504",
+      "name": "Barreiro",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1505",
+      "name": "Grândola",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1506",
+      "name": "Moita",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1507",
+      "name": "Montijo",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1508",
+      "name": "Palmela",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1509",
+      "name": "Santiago do Cacém",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1510",
+      "name": "Seixal",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1511",
+      "name": "Sesimbra",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1512",
+      "name": "Setúbal",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1513",
+      "name": "Sines",
+      "areaId": "STB"
+    },
+    {
+      "dico": "1601",
+      "name": "Arcos de Valdevez",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1602",
+      "name": "Caminha",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1603",
+      "name": "Melgaço",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1604",
+      "name": "Monção",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1605",
+      "name": "Paredes de Coura",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1606",
+      "name": "Ponte da Barca",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1607",
+      "name": "Ponte de Lima",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1608",
+      "name": "Valença",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1609",
+      "name": "Viana do Castelo",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1610",
+      "name": "Vila Nova de Cerveira",
+      "areaId": "VCT"
+    },
+    {
+      "dico": "1701",
+      "name": "Alijó",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1702",
+      "name": "Boticas",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1703",
+      "name": "Chaves",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1704",
+      "name": "Mesão Frio",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1705",
+      "name": "Mondim de Basto",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1706",
+      "name": "Montalegre",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1707",
+      "name": "Murça",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1708",
+      "name": "Peso da Régua",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1709",
+      "name": "Ribeira de Pena",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1710",
+      "name": "Sabrosa",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1711",
+      "name": "Santa Marta de Penaguião",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1712",
+      "name": "Valpaços",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1713",
+      "name": "Vila Pouca de Aguiar",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1714",
+      "name": "Vila Real",
+      "areaId": "VRL"
+    },
+    {
+      "dico": "1801",
+      "name": "Armamar",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1802",
+      "name": "Carregal do Sal",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1803",
+      "name": "Castro Daire",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1804",
+      "name": "Cinfães",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1805",
+      "name": "Lamego",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1806",
+      "name": "Mangualde",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1807",
+      "name": "Moimenta da Beira",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1808",
+      "name": "Mortágua",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1809",
+      "name": "Nelas",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1810",
+      "name": "Oliveira de Frades",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1811",
+      "name": "Penalva do Castelo",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1812",
+      "name": "Penedono",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1813",
+      "name": "Resende",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1814",
+      "name": "Santa Comba Dão",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1815",
+      "name": "São João da Pesqueira",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1816",
+      "name": "São Pedro do Sul",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1817",
+      "name": "Sátão",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1818",
+      "name": "Sernancelhe",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1819",
+      "name": "Tabuaço",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1820",
+      "name": "Tarouca",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1821",
+      "name": "Tondela",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1822",
+      "name": "Vila Nova de Paiva",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1823",
+      "name": "Viseu",
+      "areaId": "VIS"
+    },
+    {
+      "dico": "1824",
+      "name": "Vouzela",
+      "areaId": "VIS"
+    }
+  ],
+  "warningTypes": [
+    {
+      "id": "Vento",
+      "name": {
+        "pt-PT": "Vento",
+        "en": "Wind"
+      }
+    },
+    {
+      "id": "Precipitação",
+      "name": {
+        "pt-PT": "Chuva",
+        "en": "Rain"
+      }
+    },
+    {
+      "id": "Trovoada",
+      "name": {
+        "pt-PT": "Trovoada",
+        "en": "Thunderstorms"
+      }
+    },
+    {
+      "id": "Agitação Marítima",
+      "name": {
+        "pt-PT": "Agitação marítima",
+        "en": "Rough seas"
+      }
+    },
+    {
+      "id": "Tempo Quente",
+      "name": {
+        "pt-PT": "Tempo quente",
+        "en": "Hot weather"
+      }
+    },
+    {
+      "id": "Tempo Frio",
+      "name": {
+        "pt-PT": "Tempo frio",
+        "en": "Cold weather"
+      }
+    },
+    {
+      "id": "Neve",
+      "name": {
+        "pt-PT": "Neve",
+        "en": "Snow"
+      }
+    },
+    {
+      "id": "Nevoeiro",
+      "name": {
+        "pt-PT": "Nevoeiro",
+        "en": "Fog"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "level": "green",
+      "name": {
+        "pt-PT": "verde",
+        "en": "Green"
+      },
+      "meaning": {
+        "pt-PT": "Não se prevê tempo de risco.",
+        "en": "No hazardous weather expected."
+      }
+    },
+    {
+      "level": "yellow",
+      "name": {
+        "pt-PT": "amarelo",
+        "en": "Yellow"
+      },
+      "meaning": {
+        "pt-PT": "Risco para algumas atividades que dependem do tempo. Acompanha a evolução do tempo.",
+        "en": "Risk for some weather-dependent activities. Keep an eye on the weather."
+      }
+    },
+    {
+      "level": "orange",
+      "name": {
+        "pt-PT": "laranja",
+        "en": "Orange"
+      },
+      "meaning": {
+        "pt-PT": "Risco moderado a elevado. Mantém-te informado e segue as indicações da Proteção Civil.",
+        "en": "Moderate to high risk. Stay informed and follow Civil Protection advice."
+      }
+    },
+    {
+      "level": "red",
+      "name": {
+        "pt-PT": "vermelho",
+        "en": "Red"
+      },
+      "meaning": {
+        "pt-PT": "Risco extremo. Mantém-te informado com frequência e segue as indicações da Proteção Civil.",
+        "en": "Extreme risk. Check for updates often and follow Civil Protection advice."
+      }
+    }
+  ],
+  "fireRiskLevels": [
+    {
+      "level": 1,
+      "name": {
+        "pt-PT": "Reduzido",
+        "en": "Low"
+      }
+    },
+    {
+      "level": 2,
+      "name": {
+        "pt-PT": "Moderado",
+        "en": "Moderate"
+      }
+    },
+    {
+      "level": 3,
+      "name": {
+        "pt-PT": "Elevado",
+        "en": "High"
+      }
+    },
+    {
+      "level": 4,
+      "name": {
+        "pt-PT": "Muito elevado",
+        "en": "Very high"
+      }
+    },
+    {
+      "level": 5,
+      "name": {
+        "pt-PT": "Máximo",
+        "en": "Maximum"
+      }
+    }
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

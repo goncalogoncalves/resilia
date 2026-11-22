@@ -1,0 +1,81 @@
+{
+  "sections": [
+    {
+      "id": "members",
+      "sourceIds": [],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "meeting",
+      "hint": {
+        "pt-PT": "Combina dois pontos de encontro: um perto de casa, a uma distância segura, e outro fora da tua zona, para quando não for possível voltar a casa.",
+        "en": "Agree on two meeting points: one near home, at a safe distance, and one outside your area, for when you cannot get back home."
+      },
+      "sourceIds": ["anepc-sismos-kit", "cvp-kit-familiar", "cm-matosinhos-plano", "cm-valongo-plano"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "contact-person",
+      "hint": {
+        "pt-PT": "Escolhe um familiar ou amigo que sirva de ponto de contacto se a família se separar. Todos devem saber o nome, a morada e o telefone dessa pessoa.",
+        "en": "Choose a relative or friend to act as a point of contact if the family gets separated. Everyone should know their name, address and phone number."
+      },
+      "sourceIds": ["cm-matosinhos-plano", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "roles",
+      "hint": {
+        "pt-PT": "Decide quem ajuda as crianças, os idosos ou os animais, quem leva o kit e quem liga para o 112.",
+        "en": "Decide who helps children, older people or pets, who takes the kit and who calls 112."
+      },
+      "sourceIds": ["cm-valongo-plano", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "exits",
+      "hint": {
+        "pt-PT": "Identifica as saídas seguras da casa e uma alternativa. Garante que todos sabem sair e mantém os acessos desimpedidos.",
+        "en": "Identify the safe ways out of your home and an alternative. Make sure everyone knows how to get out, and keep the way clear."
+      },
+      "sourceIds": ["cm-valongo-plano", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "shutoff",
+      "hint": {
+        "pt-PT": "Ensina todos, incluindo as crianças, a desligar a eletricidade, a água e o gás. Escreve aqui onde fica cada um.",
+        "en": "Teach everyone, including children, how to turn off the electricity, water and gas. Write down where each one is."
+      },
+      "sourceIds": ["anepc-sismos-kit", "cm-matosinhos-plano"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "contacts",
+      "hint": {
+        "pt-PT": "Tem os contactos de emergência à mão e garante que todos sabem ligar para o 112. Podes juntar a escola, o médico de família, a seguradora, vizinhos e a proteção civil da tua câmara.",
+        "en": "Keep emergency contacts to hand and make sure everyone knows how to call 112. You can add the school, your GP, your insurer, neighbours and your council's civil protection service."
+      },
+      "sourceIds": ["anepc-sismos-kit", "cm-matosinhos-plano", "cm-valongo-plano"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "shelter",
+      "hint": {
+        "pt-PT": "Se a tua câmara indicar uma zona de concentração ou um abrigo, escreve-o aqui. Podes perguntar ao serviço municipal de proteção civil.",
+        "en": "If your council has a gathering point or shelter, write it here. You can ask your council's civil protection service."
+      },
+      "sourceIds": ["eu-swd-72h", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "review",
+      "hint": {
+        "pt-PT": "Explica o plano a todos, incluindo as crianças, e treina-o. Revê-o sempre que a família ou a casa mudarem, e também na revisão do kit.",
+        "en": "Explain the plan to everyone, including children, and practise it. Review it whenever your family or home changes, and also at each kit review."
+      },
+      "sourceIds": ["cm-valongo-plano", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    }
+  ]
+}

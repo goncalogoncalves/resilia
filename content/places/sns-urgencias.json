@@ -1,0 +1,952 @@
+{
+  "sourceIds": [
+    "sns-urgencias"
+  ],
+  "dataModified": "2026-06-17",
+  "retrievedAt": "2026-11-21",
+  "hospitals": [
+    {
+      "id": "centro-materno-infantil-norte",
+      "name": "Centro Materno Infantil Norte",
+      "group": "Centro Hospitalar Universitário de Santo António, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Largo da Maternidade",
+      "postalCode": "4050-371",
+      "locality": "Porto",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-amato-lusitano-castelo-branco",
+      "name": "H. Amato Lusitano - Castelo Branco",
+      "group": "Hospital Amato Lusitano - ULS de Castelo Branco, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Pedro Álvares Cabral",
+      "postalCode": "6000-084",
+      "locality": "Castelo Branco",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-beatriz-angelo-loures",
+      "name": "H. Beatriz Ângelo - Loures",
+      "group": "Hospital Beatriz Ângelo - Loures, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Carlos Teixeira, 3",
+      "postalCode": "2674-514",
+      "locality": "Loures",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-bernardino-lopes-oliveira-alcobaca",
+      "name": "H. Bernardino Lopes Oliveira - Alcobaça",
+      "group": "Centro Hospitalar de Leiria, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua do Hospital - Apartado 70",
+      "postalCode": "2460-051",
+      "locality": "Alcobaça",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-braga",
+      "name": "H. Braga",
+      "group": "Hospital de Braga, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Sete Fontes - São Victor",
+      "postalCode": "4710-243",
+      "locality": "Braga",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-candido-figueiredo-tondela",
+      "name": "H. Cândido Figueiredo - Tondela",
+      "group": "Centro Hospitalar Tondela-Viseu, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. General Humberto Delgado",
+      "postalCode": "3460-525",
+      "locality": "Tondela",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-cascais-dr-jose-de-almeida",
+      "name": "H. Cascais Dr. José de Almeida",
+      "group": "Hospital de Cascais Dr. José de Almeida",
+      "urgency": "medical-surgical",
+      "address": "Av. Brigadeiro Victor Novais Gonçalves",
+      "postalCode": "2755-009",
+      "locality": "Alcabideche",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-conde-bertiandos-ponte-lima",
+      "name": "H. Conde Bertiandos - Ponte Lima",
+      "group": "Centro Hospitalar Alto Minho - ULS Alto Minho, E.P.E.",
+      "urgency": "basic",
+      "address": "Largo Conde de Bertiandos",
+      "postalCode": "4990-041",
+      "locality": "Ponte de Lima",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-d-agueda",
+      "name": "H. D. Águeda",
+      "group": "Centro Hospitalar do Baixo Vouga, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua da Misericórdia",
+      "postalCode": "3750-130",
+      "locality": "Águeda",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-d-caldas-rainha",
+      "name": "H. D. Caldas Rainha",
+      "group": "Centro Hospitalar do Oeste, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua Diário de Notícias",
+      "postalCode": "2500-176",
+      "locality": "Caldas da Rainha",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-d-estefania",
+      "name": "H. D. Estefânia",
+      "group": "Centro Hospitalar Universitário de Lisboa Central, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Rua Jacinta Marto",
+      "postalCode": "1169-045",
+      "locality": "Lisboa",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-d-figueira-foz",
+      "name": "H. D. Figueira Foz",
+      "group": "Hospital Distrital da Figueira da Foz, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Gala - São Pedro",
+      "postalCode": "3094-001",
+      "locality": "Figueira da Foz",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-d-santarem",
+      "name": "H. D. Santarém",
+      "group": "Hospital Distrital de Santarém, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Bernardo Santareno - Apartado 115",
+      "postalCode": "2005-177",
+      "locality": "Santarém",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-d-torres-vedras",
+      "name": "H. D. Torres Vedras",
+      "group": "Centro Hospitalar do Oeste, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua Dr. Aurélio Ricardo Belo",
+      "postalCode": "2560-324",
+      "locality": "Torres Vedras",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-divino-espirito-santo-p-delgada",
+      "name": "H. Divino Espírito Santo P. Delgada",
+      "group": "Hospital do Divino Espírito Santo de Ponta Delgada, EPER",
+      "urgency": "polyvalent",
+      "address": "Av. D. Manuel I - Matriz",
+      "postalCode": "9500-370",
+      "locality": "Ponta Delgada",
+      "region": "SRS Açores"
+    },
+    {
+      "id": "h-doutor-jose-maria-grande-portalegre",
+      "name": "H. Doutor José Maria Grande - Portalegre",
+      "group": "Hospitais da ULS do Norte Alentejano, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. de Santo António",
+      "postalCode": "7300-853",
+      "locality": "Portalegre",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "h-dr-manoel-constancio-abrantes",
+      "name": "H. Dr. Manoel Constâncio - Abrantes",
+      "group": "Centro Hospitalar Médio Tejo, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Largo Eng. Bioucas",
+      "postalCode": "2200-202",
+      "locality": "Abrantes",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-dr-nelio-mendonca-cruz-carvalho",
+      "name": "H. Dr. Nélio Mendonça (Cruz Carvalho)",
+      "group": "Hospital Central do Funchal",
+      "urgency": "polyvalent",
+      "address": "Av. Luís de Camões, 57",
+      "postalCode": "9004-514",
+      "locality": "Funchal",
+      "region": "IASAÚDE Madeira"
+    },
+    {
+      "id": "h-eduardo-santos-silva-gaia-unidade-i",
+      "name": "H. Eduardo Santos Silva - Gaia - Unidade I",
+      "group": "Centro Hospitalar de Vila Nova de Gaia/Espinho, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Rua Conceição Fernandes - Vilar de Andorinho",
+      "postalCode": "4434-502",
+      "locality": "Vila Nova de Gaia",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-egas-moniz",
+      "name": "H. Egas Moniz",
+      "group": "Centro Hospitalar de Lisboa Ocidental, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Rua da Junqueira, 126",
+      "postalCode": "1349-019",
+      "locality": "Lisboa",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-espirito-santo-evora",
+      "name": "H. Espírito Santo - Évora",
+      "group": "Hospital Espírito Santo - Évora, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Largo Senhor da Pobreza",
+      "postalCode": "7000-811",
+      "locality": "Évora",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "h-faro",
+      "name": "H. Faro",
+      "group": "Centro Hospitalar Universitário do Algarve, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Rua Leão Penedo",
+      "postalCode": "8000-386",
+      "locality": "Faro",
+      "region": "ARS Algarve"
+    },
+    {
+      "id": "h-garcia-orta",
+      "name": "H. Garcia Orta",
+      "group": "Hospital Garcia de Orta, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Av. Torrado da Silva, Pragal",
+      "postalCode": "2805-267",
+      "locality": "Almada",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-geral-de-coimbra",
+      "name": "H. Geral de Coimbra",
+      "group": "Centro Hospitalar e Universitário de Coimbra, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Quinta dos Vales",
+      "postalCode": "3046-853",
+      "locality": "Coimbra",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-horta",
+      "name": "H. Horta",
+      "group": "Hospital da Horta, EPER",
+      "urgency": "medical-surgical",
+      "address": "Estrada Príncipe Alberto Mónaco",
+      "postalCode": "9900-038",
+      "locality": "Horta",
+      "region": "SRS Açores"
+    },
+    {
+      "id": "h-infante-d-pedro-aveiro",
+      "name": "H. Infante D. Pedro - Aveiro",
+      "group": "Centro Hospitalar do Baixo Vouga, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Artur Ravara",
+      "postalCode": "3814-501",
+      "locality": "Aveiro",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-jose-joaquim-fernandes-beja",
+      "name": "H. José Joaquim Fernandes - Beja",
+      "group": "Hospital José Joaquim Fernandes - Beja - ULS Baixo Alentejo, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua Dr. António Fernando Covas Lima",
+      "postalCode": "7801-849",
+      "locality": "Beja",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "h-lagos",
+      "name": "H. Lagos",
+      "group": "Centro Hospitalar Universitário do Algarve, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua Castelo dos Governadores",
+      "postalCode": "8600-563",
+      "locality": "Lagos",
+      "region": "ARS Algarve"
+    },
+    {
+      "id": "h-litoral-alentejano-santiago-cacem",
+      "name": "H. Litoral Alentejano - Santiago Cacém",
+      "group": "Hospital do Litoral Alentejano - Santiago do Cacém - ULS Litoral Alentejano, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Estrada Nacional 261 - Monte do Gilbardinho",
+      "postalCode": "7540-230",
+      "locality": "Santiago do Cacém",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "h-montijo",
+      "name": "H. Montijo",
+      "group": "Centro Hospitalar Barreiro Montijo, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua Machado dos Santos, 54",
+      "postalCode": "2870-351",
+      "locality": "Montijo",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-n-sra-assuncao-seia",
+      "name": "H. N. Sra. Assunção - Seia",
+      "group": "Hospitais da ULS da Guarda, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua Dona Alexandrina Soares de Albergaria, s/n",
+      "postalCode": "6270-498",
+      "locality": "Seia",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-n-sra-graca-tomar",
+      "name": "H. N. Sra. Graça - Tomar",
+      "group": "Centro Hospitalar Médio Tejo, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. Maria de Lourdes de Mello e Castro, Apartado 118",
+      "postalCode": "2304-909",
+      "locality": "Tomar",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-n-sra-rosario-barreiro",
+      "name": "H. N. Sra. Rosário - Barreiro",
+      "group": "Centro Hospitalar Barreiro Montijo, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Movimento das Forças Armadas",
+      "postalCode": "2834-003",
+      "locality": "Barreiro",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-padre-americo-vale-sousa",
+      "name": "H. Padre Américo - Vale Sousa",
+      "group": "Centro Hospitalar Tâmega e Sousa, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. do Hospital Padre Américo, 210, Guilhufe",
+      "postalCode": "4560-136",
+      "locality": "Penafiel",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-pediatrico-de-coimbra",
+      "name": "H. Pediátrico de Coimbra",
+      "group": "Centro Hospitalar e Universitário de Coimbra, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Av. Afonso Romão",
+      "postalCode": "3000-602",
+      "locality": "Coimbra",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-pedro-hispano",
+      "name": "H. Pedro Hispano",
+      "group": "Hospital Pedro Hispano - ULS Matosinhos, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua Dr. Eduardo Torres",
+      "postalCode": "4464-513",
+      "locality": "Senhora da Hora",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-pero-da-covilha",
+      "name": "H. Pêro da Covilhã",
+      "group": "Centro Hospitalar Universitário Cova da Beira, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Quinta do Alvito",
+      "postalCode": "6200-251",
+      "locality": "Covilhã",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-pombal",
+      "name": "H. Pombal",
+      "group": "Centro Hospitalar de Leiria, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. Heróis do Ultramar - Apartado 40",
+      "postalCode": "3100-462",
+      "locality": "Pombal",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-portimao",
+      "name": "H. Portimão",
+      "group": "Centro Hospitalar Universitário do Algarve, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Sítio do Poço Seco",
+      "postalCode": "8500-338",
+      "locality": "Portimão",
+      "region": "ARS Algarve"
+    },
+    {
+      "id": "h-prof-doutor-fernando-fonseca",
+      "name": "H. Prof. Doutor Fernando Fonseca",
+      "group": "Hospital Prof. Doutor Fernando Fonseca, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "IC 19 - Venteira",
+      "postalCode": "2720-276",
+      "locality": "Amadora",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-rainha-santa-isabel-torres-novas",
+      "name": "H. Rainha Santa Isabel - Torres Novas",
+      "group": "Centro Hospitalar Médio Tejo, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. Xanana Gusmão, apartado 45",
+      "postalCode": "2350-754",
+      "locality": "Torres Novas",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-s-bernardo-setubal",
+      "name": "H. S. Bernardo - Setúbal",
+      "group": "Centro Hospitalar de Setúbal, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua Camilo Castelo Branco - Apartado 140",
+      "postalCode": "2910-446",
+      "locality": "Setúbal",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-s-goncalo-amarante",
+      "name": "H. S. Gonçalo - Amarante",
+      "group": "Centro Hospitalar Tâmega e Sousa, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua da Lama, nº 76",
+      "postalCode": "4600-758",
+      "locality": "Telões-Amarante",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-s-joao-deus-famalicao",
+      "name": "H. S. João Deus - Famalicão",
+      "group": "Centro Hospitalar do Médio Ave, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua de Cupertino de Miranda",
+      "postalCode": "4764-958",
+      "locality": "Vila Nova de Famalicão",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-s-jose-fafe",
+      "name": "H. S. José - Fafe",
+      "group": "Hospital São José - Fafe",
+      "urgency": "basic",
+      "address": "Praça José Florêncio Soares - Apartado 120",
+      "postalCode": "4820-148",
+      "locality": "Fafe",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-s-pedro-goncalves-telmo-peniche",
+      "name": "H. S. Pedro Gonçalves Telmo - Peniche",
+      "group": "Centro Hospitalar do Oeste, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua General Humberto Delgado",
+      "postalCode": "2520-447",
+      "locality": "Peniche",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-s-teotonio-viseu",
+      "name": "H. S. Teotónio - Viseu",
+      "group": "Centro Hospitalar Tondela-Viseu, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Av. do Rei D. Duarte",
+      "postalCode": "3504-509",
+      "locality": "Viseu",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-santa-luzia-elvas",
+      "name": "H. Santa Luzia Elvas",
+      "group": "Hospitais da ULS do Norte Alentejano, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua Mariana Martins - Apartado 242",
+      "postalCode": "7350-954",
+      "locality": "Elvas",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "h-santa-luzia-viana-castelo",
+      "name": "H. Santa Luzia - Viana Castelo",
+      "group": "Centro Hospitalar Alto Minho - ULS Alto Minho, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Estrada de Santa Luzia",
+      "postalCode": "4904-858",
+      "locality": "Viana do Castelo",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-santa-maria",
+      "name": "H. Santa Maria",
+      "group": "Centro Hospitalar Universitário de Lisboa Norte, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Av. Professor Egas Moniz",
+      "postalCode": "1649-035",
+      "locality": "Lisboa",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-santa-maria-maior",
+      "name": "H. Santa Maria Maior",
+      "group": "Hospital de Santa Maria Maior, E.P.E.",
+      "urgency": "basic",
+      "address": "Campo da República, Apartado 181",
+      "postalCode": "4754-909",
+      "locality": "Barcelos",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-santo-andre-leiria",
+      "name": "H. Santo André - Leiria",
+      "group": "Centro Hospitalar de Leiria, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua das Olhalvas - Pousos",
+      "postalCode": "2410-197",
+      "locality": "Leiria",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-santo-antonio",
+      "name": "H. Santo António",
+      "group": "Centro Hospitalar Universitário de Santo António, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Largo Professor Abel Salazar",
+      "postalCode": "4099-001",
+      "locality": "Porto",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-santo-espirito-ilha-terceira",
+      "name": "H. Santo Espírito Ilha Terceira",
+      "group": "Hospital de Santo Espírito da Ilha Terceira, EPER",
+      "urgency": "medical-surgical",
+      "address": "Canada do Barreiro",
+      "postalCode": "9700-851",
+      "locality": "Angra do Heroísmo",
+      "region": "SRS Açores"
+    },
+    {
+      "id": "h-sao-francisco-xavier",
+      "name": "H. São Francisco Xavier",
+      "group": "Centro Hospitalar de Lisboa Ocidental, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Estrada do Forte do Alto do Duque",
+      "postalCode": "1449-005",
+      "locality": "Lisboa",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-sao-joao-porto",
+      "name": "H. São João - Porto",
+      "group": "Centro Hospitalar Universitário de São João, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Alameda Professor Hernâni Monteiro",
+      "postalCode": "4200-319",
+      "locality": "Porto",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-sao-jose-lisboa",
+      "name": "H. São José - Lisboa",
+      "group": "Centro Hospitalar Universitário de Lisboa Central, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Rua José António Serrano",
+      "postalCode": "1150-199",
+      "locality": "Lisboa",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "h-sao-miguel-oliveira-azemeis",
+      "name": "H. São Miguel - Oliveira Azeméis",
+      "group": "Centro Hospitalar de Entre o Douro e Vouga, E.P.E.",
+      "urgency": "basic",
+      "address": "Largo Rizzo Terra",
+      "postalCode": "3720-275",
+      "locality": "Oliveira de Azeméis",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-sao-sebastiao-sta-maria-feira",
+      "name": "H. São Sebastião - Sta. Maria Feira",
+      "group": "Centro Hospitalar de Entre o Douro e Vouga, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua Dr. Cândido de Pinho",
+      "postalCode": "4520-211",
+      "locality": "Santa Maria da Feira",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-sousa-martins-guarda",
+      "name": "H. Sousa Martins - Guarda",
+      "group": "Hospitais da ULS da Guarda, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Rainha Dona Amélia",
+      "postalCode": "6300-858",
+      "locality": "Guarda",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-sra-oliveira-guimaraes",
+      "name": "H. Sra. Oliveira - Guimarães",
+      "group": "Hospital da Senhora da Oliveira - Guimarães, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Rua dos Cutileiros - Creixomil",
+      "postalCode": "4835-044",
+      "locality": "Guimarães",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "h-universidade-coimbra",
+      "name": "H. Universidade Coimbra",
+      "group": "Centro Hospitalar e Universitário de Coimbra, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Av. Bissaya Barreto - Praceta Prof. Mota Pinto",
+      "postalCode": "3000-075",
+      "locality": "Coimbra",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "h-vila-franca-xira",
+      "name": "H. Vila Franca Xira",
+      "group": "Hospital Vila Franca de Xira, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Estrada Carlos Lima Costa, Nº 2, Povos",
+      "postalCode": "2600-009",
+      "locality": "Vila Franca de Xira",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "matern-bissaya-barreto",
+      "name": "Matern. Bissaya Barreto",
+      "group": "Centro Hospitalar e Universitário de Coimbra, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Rua Augusta",
+      "postalCode": "3000-061",
+      "locality": "Coimbra",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "matern-daniel-matos",
+      "name": "Matern. Daniel Matos",
+      "group": "Centro Hospitalar e Universitário de Coimbra, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Rua Miguel Torga",
+      "postalCode": "3030-165",
+      "locality": "Coimbra",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "matern-dr-alfredo-costa",
+      "name": "Matern. Dr. Alfredo Costa",
+      "group": "Centro Hospitalar Universitário de Lisboa Central, E.P.E.",
+      "urgency": "polyvalent",
+      "address": "Rua Viriato",
+      "postalCode": "1069-089",
+      "locality": "Lisboa",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "sub-albufeira",
+      "name": "SUB Albufeira",
+      "group": "Centro Hospitalar Universitário do Algarve, E.P.E.",
+      "urgency": "basic",
+      "address": "Urbanização dos Caliços",
+      "postalCode": "8200-200",
+      "locality": "Albufeira",
+      "region": "ARS Algarve"
+    },
+    {
+      "id": "sub-alcacer-do-sal",
+      "name": "SUB Alcácer do Sal",
+      "group": "Hospital do Litoral Alentejano - Santiago do Cacém - ULS Litoral Alentejano, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. José Saramago, 14",
+      "postalCode": "7580-206",
+      "locality": "Alcácer do Sal",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "sub-algueirao-mem-martins",
+      "name": "SUB Algueirão Mem-Martins",
+      "group": "Hospital Prof. Doutor Fernando Fonseca, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua das Eiras 34",
+      "postalCode": "2725-079",
+      "locality": "Algueirão-Mem Martins",
+      "region": "ARS Lisboa e Vale do Tejo"
+    },
+    {
+      "id": "sub-arganil",
+      "name": "SUB Arganil",
+      "group": "Grupo | Serviços de Urgência Básica | ARSC",
+      "urgency": "basic",
+      "address": "Rua Professor José Lourenço Nogueira, s/n, r/c",
+      "postalCode": "3300-063",
+      "locality": "Arganil",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "sub-arouca",
+      "name": "SUB Arouca",
+      "group": "Grupo | Serviços de Urgência Básica | ARSN",
+      "urgency": "basic",
+      "address": "Rua Dr. Ângelo Miranda",
+      "postalCode": "4540-140",
+      "locality": "Arouca",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "sub-castro-verde",
+      "name": "SUB Castro Verde",
+      "group": "Hospital José Joaquim Fernandes - Beja - ULS Baixo Alentejo, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. General Humberto Delgado, Apartado 17",
+      "postalCode": "7780-123",
+      "locality": "Castro Verde",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "sub-cinfaes",
+      "name": "SUB Cinfães",
+      "group": "Grupo | Serviços de Urgência Básica | ARSN",
+      "urgency": "basic",
+      "address": "Rua Capitão Salgueiro Maia",
+      "postalCode": "4690-047",
+      "locality": "Cinfães",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "sub-estremoz",
+      "name": "SUB Estremoz",
+      "group": "Grupo | Serviços de Urgência Básica | ARSALE",
+      "urgency": "basic",
+      "address": "Av. 9 de Abril",
+      "postalCode": "7100-500",
+      "locality": "Estremoz",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "sub-mogadouro",
+      "name": "SUB Mogadouro",
+      "group": "Centro Hospitalar do Nordeste - ULS do Nordeste, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua Congregação São Vicente de Paulo, 136",
+      "postalCode": "5200-207",
+      "locality": "Mogadouro",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "sub-moimenta-da-beira",
+      "name": "SUB Moimenta da Beira",
+      "group": "Grupo | Serviços de Urgência Básica | ARSN",
+      "urgency": "basic",
+      "address": "Av. da República",
+      "postalCode": "3620-371",
+      "locality": "Moimenta da Beira",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "sub-moncao",
+      "name": "SUB Monção",
+      "group": "Centro Hospitalar Alto Minho - ULS Alto Minho, E.P.E.",
+      "urgency": "basic",
+      "address": "Lugar de Barreiras - Mazedo",
+      "postalCode": "4950-404",
+      "locality": "Monção",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "sub-montalegre",
+      "name": "SUB Montalegre",
+      "group": "Grupo | Serviços de Urgência Básica | ARSN",
+      "urgency": "basic",
+      "address": "Rua Lama do Moinho, 400",
+      "postalCode": "5470-225",
+      "locality": "Montalegre",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "sub-moura",
+      "name": "SUB Moura",
+      "group": "Hospital José Joaquim Fernandes - Beja - ULS Baixo Alentejo, E.P.E.",
+      "urgency": "basic",
+      "address": "Rua dos Açores s/n",
+      "postalCode": "7860-222",
+      "locality": "Moura",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "sub-odemira",
+      "name": "SUB Odemira",
+      "group": "Hospital do Litoral Alentejano - Santiago do Cacém - ULS Litoral Alentejano, E.P.E.",
+      "urgency": "basic",
+      "address": "Vale Pêgas de Baixo",
+      "postalCode": "7630-236",
+      "locality": "Odemira",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "sub-ponte-de-sor",
+      "name": "SUB Ponte de Sor",
+      "group": "Hospitais da ULS do Norte Alentejano, E.P.E.",
+      "urgency": "basic",
+      "address": "Passeio Garibaldino de Andrade nº 1",
+      "postalCode": "7400-294",
+      "locality": "Ponte de Sor",
+      "region": "ARS Alentejo"
+    },
+    {
+      "id": "sub-sao-pedro-do-sul",
+      "name": "SUB São Pedro do Sul",
+      "group": "Grupo | Serviços de Urgência Básica | ARSC",
+      "urgency": "basic",
+      "address": "Av. da Ponte, nº 20",
+      "postalCode": "3660-511",
+      "locality": "São Pedro do Sul",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "sub-uc-loule",
+      "name": "SUB UC Loulé",
+      "group": "Centro Hospitalar Universitário do Algarve, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. Eng. Laginha Serafim - Centro de Saúde de Loulé",
+      "postalCode": "8100-740",
+      "locality": "Loulé",
+      "region": "ARS Algarve"
+    },
+    {
+      "id": "sub-vila-nova-de-foz-coa",
+      "name": "SUB Vila Nova de Foz Côa",
+      "group": "Hospitais da ULS da Guarda, E.P.E.",
+      "urgency": "basic",
+      "address": "Largo São Sebastião",
+      "postalCode": "5150-632",
+      "locality": "Vila Nova de Foz Côa",
+      "region": "ARS Centro"
+    },
+    {
+      "id": "sub-vila-real-de-santo-antonio",
+      "name": "SUB Vila Real de Santo António",
+      "group": "Centro Hospitalar Universitário do Algarve, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. Ministro Duarte Pacheco",
+      "postalCode": "8900-211",
+      "locality": "Vila Real de Santo António",
+      "region": "ARS Algarve"
+    },
+    {
+      "id": "u-h-braganca",
+      "name": "U. H. Bragança",
+      "group": "Centro Hospitalar do Nordeste - ULS do Nordeste, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Abade Baçal",
+      "postalCode": "5301-852",
+      "locality": "Bragança",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-chaves",
+      "name": "U. H. Chaves",
+      "group": "Centro Hospitalar de Trás-os-Montes e Alto Douro, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Dr. Francisco Sá Carneiro",
+      "postalCode": "5400-279",
+      "locality": "Chaves",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-macedo-cavaleiros",
+      "name": "U. H. Macedo Cavaleiros",
+      "group": "Centro Hospitalar do Nordeste - ULS do Nordeste, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. Dr. Urze Pires",
+      "postalCode": "5340-263",
+      "locality": "Macedo de Cavaleiros",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-mirandela",
+      "name": "U. H. Mirandela",
+      "group": "Centro Hospitalar do Nordeste - ULS do Nordeste, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Av. Nossa Senhora do Amparo",
+      "postalCode": "5370-210",
+      "locality": "Mirandela",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-povoa-varzim",
+      "name": "U. H. Póvoa Varzim",
+      "group": "Centro Hospitalar Póvoa de Varzim/Vila do Conde, E.P.E.",
+      "urgency": "medical-surgical",
+      "address": "Largo da Misericórdia",
+      "postalCode": "4490-421",
+      "locality": "Póvoa de Varzim",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-proximidade-lamego",
+      "name": "U. H. Proximidade Lamego",
+      "group": "Centro Hospitalar de Trás-os-Montes e Alto Douro, E.P.E.",
+      "urgency": "basic",
+      "address": "Quinta Calvilhe",
+      "postalCode": "5100-038",
+      "locality": "Lamego",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-santo-tirso",
+      "name": "U. H. Santo Tirso",
+      "group": "Centro Hospitalar do Médio Ave, E.P.E.",
+      "urgency": "basic",
+      "address": "Largo Domingos Moreira",
+      "postalCode": "4780-371",
+      "locality": "Santo Tirso",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-sao-joao-madeira",
+      "name": "U. H. São João Madeira",
+      "group": "Centro Hospitalar de Entre o Douro e Vouga, E.P.E.",
+      "urgency": "basic",
+      "address": "Av. da Misericórdia",
+      "postalCode": "3700-190",
+      "locality": "São João da Madeira",
+      "region": "ARS Norte"
+    },
+    {
+      "id": "u-h-sao-pedro-vila-real",
+      "name": "U. H. São Pedro - Vila Real",
+      "group": "Centro Hospitalar de Trás-os-Montes e Alto Douro, E.P.E.",
+      "urgency": "polyvalent-trauma",
+      "address": "Av. da Noruega, Lordelo",
+      "postalCode": "5000-508",
+      "locality": "Vila Real",
+      "region": "ARS Norte"
+    }
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

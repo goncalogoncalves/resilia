@@ -1,0 +1,408 @@
+{
+  "id": "flood",
+  "title": {
+    "pt-PT": "Cheias e inundações",
+    "en": "Floods"
+  },
+  "summary": {
+    "pt-PT": "O que preparar se vives numa zona que inunda, o que evitar quando a água sobe e como regressar a casa em segurança.",
+    "en": "What to prepare if you live in an area that floods, what to avoid when the water rises and how to return home safely."
+  },
+  "icon": "flood",
+  "typicalSeverity": "high",
+  "typicalDuration": {
+    "pt-PT": "Horas a dias",
+    "en": "Hours to days"
+  },
+  "keywords": {
+    "pt-PT": [
+      "cheia",
+      "inundação",
+      "inundações",
+      "rio",
+      "água",
+      "transbordo",
+      "alagado"
+    ],
+    "en": [
+      "flood",
+      "flooding",
+      "river",
+      "water",
+      "overflow"
+    ]
+  },
+  "phases": {
+    "before": [
+      {
+        "id": "flood.before.01",
+        "text": {
+          "pt-PT": "Pergunta à câmara municipal se vives ou trabalhas numa zona que pode inundar.",
+          "en": "Ask your municipal council whether you live or work in an area that can flood."
+        },
+        "detail": {
+          "pt-PT": "Se for o caso, pergunta também pelos percursos de evacuação, pelos pontos de encontro e pelos sítios altos perto de casa e do trabalho.",
+          "en": "If so, also ask about evacuation routes, meeting points and high places near your home and work."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.before.02",
+        "text": {
+          "pt-PT": "Leva animais, carros e outros bens para fora das zonas que costumam inundar.",
+          "en": "Move animals, cars and other belongings out of areas that usually flood."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-cheias-mondego-2026",
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.before.03",
+        "text": {
+          "pt-PT": "Desentope as sarjetas e os escoamentos e fixa o que a água possa arrastar.",
+          "en": "Clear drains and gutters and secure anything the water could carry away."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-cheias-mondego-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.before.04",
+        "text": {
+          "pt-PT": "Acompanha os avisos do IPMA, da Agência Portuguesa do Ambiente e da Proteção Civil.",
+          "en": "Follow the warnings of IPMA, the Portuguese Environment Agency (APA) and Civil Protection."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-cheias-mondego-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "during": [
+      {
+        "id": "flood.during.01",
+        "text": {
+          "pt-PT": "Não atravesses zonas inundadas, nem a pé nem de carro.",
+          "en": "Do not cross flooded areas, on foot or by car."
+        },
+        "detail": {
+          "pt-PT": "A água pode arrastar pessoas e carros para buracos ou caixas de esgoto abertas.",
+          "en": "The water can sweep people and cars into holes or open manholes."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-cheias-mondego-2026",
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.during.02",
+        "text": {
+          "pt-PT": "Afasta-te de rios, ribeiras e zonas que podem transbordar.",
+          "en": "Keep away from rivers, streams and places that may overflow."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-cheias-mondego-2026",
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.during.03",
+        "text": {
+          "pt-PT": "Circula o mínimo possível, a pé ou de carro, nas zonas afetadas.",
+          "en": "Move around the affected areas as little as possible, on foot or by car."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-cheias-mondego-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.during.04",
+        "text": {
+          "pt-PT": "Não estaciones em zonas que costumam inundar nem em garagens subterrâneas.",
+          "en": "Do not park in places that usually flood or in underground car parks."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-cheias-mondego-2026",
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.during.05",
+        "text": {
+          "pt-PT": "Se te mandarem evacuar, desliga a água, o gás e a eletricidade antes de sair.",
+          "en": "If you are told to evacuate, turn off the water, gas and electricity before you leave."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.during.06",
+        "text": {
+          "pt-PT": "Leva uma mochila com o indispensável e os documentos e vai para o ponto de encontro pelas ruas que não inundam.",
+          "en": "Take a bag with the essentials and your documents and go to the meeting point by streets that do not flood."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "relatedKitItemIds": [
+          "bag.documents"
+        ],
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.during.07",
+        "text": {
+          "pt-PT": "Ajuda as crianças, os mais velhos e as pessoas com deficiência.",
+          "en": "Help children, older people and disabled people."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.during.08",
+        "text": {
+          "pt-PT": "Usa o telefone só em emergência, para não ocupar as linhas.",
+          "en": "Only use the phone in an emergency, to keep the lines free."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "after": [
+      {
+        "id": "flood.after.01",
+        "text": {
+          "pt-PT": "Regressa a casa só quando a Proteção Civil disser que é seguro.",
+          "en": "Only go home when Civil Protection says it is safe."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.after.02",
+        "text": {
+          "pt-PT": "Ao entrar, vê se a casa ameaça ruir. Se parecer que sim, não entres.",
+          "en": "When you go in, check whether the house might collapse. If it looks like it might, do not go in."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.after.03",
+        "text": {
+          "pt-PT": "Não pises nem toques em cabos elétricos caídos: a água conduz a eletricidade. Anda sempre calçado e, se puderes, usa luvas.",
+          "en": "Do not step on or touch fallen power lines: water conducts electricity. Always wear shoes and, if you can, gloves."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.after.04",
+        "text": {
+          "pt-PT": "Deita fora a comida, mesmo embalada, e os medicamentos que tocaram na água da cheia.",
+          "en": "Throw away food, even if packaged, and medicines that touched the flood water."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.after.05",
+        "text": {
+          "pt-PT": "Bebe só água engarrafada ou fervida: a água da torneira pode estar contaminada.",
+          "en": "Only drink bottled or boiled water: tap water may be contaminated."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.after.06",
+        "text": {
+          "pt-PT": "Verifica os produtos inflamáveis ou tóxicos que tenhas em casa.",
+          "en": "Check any flammable or toxic products you have at home."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "flood.after.07",
+        "text": {
+          "pt-PT": "Não vás ver as zonas mais atingidas e deixa trabalhar as equipas de limpeza.",
+          "en": "Do not go to see the worst-hit areas, and let the clean-up teams work."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "note": {
+          "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens.",
+          "en": "ANEPC gives this advice for floods caused by dams."
+        },
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ]
+  },
+  "emergencyNow": [
+    "flood.during.01",
+    "flood.during.02"
+  ],
+  "alertTriggers": ["ipma:Precipitação"],
+  "relatedScenarioIds": [
+    "storm",
+    "power-outage"
+  ],
+  "sourceIds": [
+    "anepc-riscos-tecnologicos",
+    "anepc-cheias-mondego-2026",
+    "anepc-charles-2026"
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "note": {
+    "pt-PT": "Estes conselhos vêm de um guia oficial escrito para depois de tempestades e inundações. Quase todos servem para qualquer emergência.",
+    "en": "This advice comes from an official guide written for after storms and floods. Most of it applies to any emergency."
+  },
+  "guides": [
+    {
+      "id": "support-you",
+      "title": {
+        "pt-PT": "Para ti",
+        "en": "For you"
+      },
+      "summary": {
+        "pt-PT": "Como cuidar de ti nos dias a seguir.",
+        "en": "How to look after yourself in the days that follow."
+      },
+      "steps": [
+        {
+          "id": "support-you.01",
+          "text": {
+            "pt-PT": "Sentir emoções fortes é natural. É melhor exprimi-las do que ignorá-las.",
+            "en": "Feeling strong emotions is natural. It is better to express them than to ignore them."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.02",
+          "text": {
+            "pt-PT": "Fala sobre o que sentes com alguém de confiança. Também ajuda estar em silêncio com essa pessoa.",
+            "en": "Talk about how you feel with someone you trust. Simply being quietly with that person also helps."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.03",
+          "text": {
+            "pt-PT": "Não tentes resolver tudo sozinho e de uma vez. Começa por coisas pequenas e seguras e deixa para mais tarde o que é perigoso, como telhados, eletricidade, gás ou destroços pesados.",
+            "en": "Do not try to fix everything alone and all at once. Start with small, safe things and leave dangerous jobs, such as roofs, electricity, gas or heavy debris, for later."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.04",
+          "text": {
+            "pt-PT": "Combina com a família um ponto de encontro para quando não houver telefone nem internet, e tem os contactos importantes escritos em papel.",
+            "en": "Agree a meeting point with your family for when there is no phone or internet, and keep important contacts written on paper."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.05",
+          "text": {
+            "pt-PT": "Fala com pessoas que passaram pelo mesmo e evita passar muito tempo sozinho.",
+            "en": "Talk to people who went through the same thing, and avoid spending a lot of time alone."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.06",
+          "text": {
+            "pt-PT": "Vê as notícias com conta: prefere fontes oficiais e, se te deixarem ansioso, vê-as só no início e no fim do dia.",
+            "en": "Be careful with the news: prefer official sources and, if it makes you anxious, only check it at the start and end of the day."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.07",
+          "text": {
+            "pt-PT": "Mantém horários para comer, a higiene e o descanso. Dorme quando puderes, mesmo que pouco. Toma a medicação habitual. Faz pausas para respirar com calma e alongar o corpo.",
+            "en": "Keep regular times for meals, hygiene and rest. Sleep when you can, even briefly. Take your usual medication. Take breaks to breathe calmly and stretch."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.08",
+          "text": {
+            "pt-PT": "Não bebas álcool: pode piorar a ansiedade, a insónia e a tristeza.",
+            "en": "Do not drink alcohol: it can make anxiety, insomnia and sadness worse."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.09",
+          "text": {
+            "pt-PT": "Aos poucos, volta às atividades do dia a dia. Pede ajuda nas tarefas mais difíceis.",
+            "en": "Little by little, go back to your everyday activities. Ask for help with the hardest tasks."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-you.10",
+          "text": {
+            "pt-PT": "Tem paciência: cada pessoa recupera ao seu ritmo.",
+            "en": "Be patient: everyone recovers at their own pace."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        }
+      ],
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "support-children",
+      "title": {
+        "pt-PT": "Crianças e jovens",
+        "en": "Children and young people"
+      },
+      "summary": {
+        "pt-PT": "Como ajudar os mais novos a sentirem-se seguros.",
+        "en": "How to help young people feel safe."
+      },
+      "steps": [
+        {
+          "id": "support-children.01",
+          "text": {
+            "pt-PT": "É natural ficarem mais assustados, dormirem mal, terem dores de barriga ou de cabeça, ficarem irritados ou voltarem a comportamentos de quando eram mais pequenos.",
+            "en": "It is natural for them to be more frightened, sleep badly, have tummy aches or headaches, be irritable or go back to behaviour from when they were younger."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-children.02",
+          "text": {
+            "pt-PT": "Os perigos continuam depois da tempestade. Fala com a criança sobre eles, verifica a casa antes de ela andar à vontade, define sítios seguros para brincar e mantém-na por perto.",
+            "en": "Dangers remain after the storm. Talk to the child about them, check the house before they move around freely, set safe places to play and keep them close."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-children.03",
+          "text": {
+            "pt-PT": "Está disponível: colo, presença, tempo em família. Olhar nos olhos e dizer \"estou contigo\" pode bastar.",
+            "en": "Be available: cuddles, presence, family time. Looking them in the eye and saying \"I'm here with you\" can be enough."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-children.04",
+          "text": {
+            "pt-PT": "Aceita o que a criança sente e diz-lhe que é natural. Lembra-lhe que a culpa não é dela. Evita \"não te preocupes\" ou \"já viste a sorte que tens?\".",
+            "en": "Accept what the child feels and tell them it is natural. Remind them it is not their fault. Avoid \"don't worry\" or \"look how lucky you are\"."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-children.05",
+          "text": {
+            "pt-PT": "Responde às perguntas de forma direta e clara, sem mentir e sem dizer mais do que ela pergunta. Conversas, desenhos, jogos e histórias ajudam.",
+            "en": "Answer questions directly and clearly, without lying and without saying more than they ask. Talking, drawing, games and stories help."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-children.06",
+          "text": {
+            "pt-PT": "Mantém as rotinas e as regras da casa. Dá-lhe pequenas escolhas, como o que jantar ou a que brincar.",
+            "en": "Keep routines and house rules. Give them small choices, such as what to have for dinner or what to play."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-children.07",
+          "text": {
+            "pt-PT": "Incentiva as brincadeiras e o convívio, e dá-lhe pequenas tarefas para se sentir útil.",
+            "en": "Encourage play and time with friends, and give them small tasks so they feel useful."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        }
+      ],
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "support-older",
+      "title": {
+        "pt-PT": "Pessoas idosas",
+        "en": "Older people"
+      },
+      "summary": {
+        "pt-PT": "Como apoiar quem pode ficar mais confuso ou isolado.",
+        "en": "How to support those who may become more confused or isolated."
+      },
+      "steps": [
+        {
+          "id": "support-older.01",
+          "text": {
+            "pt-PT": "Combina um contacto diário (chamada, mensagem ou visita) e um plano para quando não houver rede: hora e sítio para se encontrarem, contactos escritos em papel e alguém que passa lá se não houver resposta.",
+            "en": "Arrange a daily check-in (call, message or visit) and a plan for when there is no network: a time and place to meet, contacts written on paper and someone who calls round if there is no answer."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-older.02",
+          "text": {
+            "pt-PT": "Com calma, façam juntos um plano simples: para onde ir, a quem ligar, como sair e o que levar (documentos, água, medicação, carregador). Repete-o se for preciso.",
+            "en": "Calmly make a simple plan together: where to go, who to call, how to get out and what to take (documents, water, medication, charger). Repeat it if needed."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-older.03",
+          "text": {
+            "pt-PT": "Garante uma rede de apoio de família, amigos e vizinhos para a comida, os cuidados e a conversa.",
+            "en": "Make sure there is a support network of family, friends and neighbours for food, care and company."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-older.04",
+          "text": {
+            "pt-PT": "Atenção à medicação, aos óculos, às próteses e às consultas, que podem ter-se perdido ou ficado para trás.",
+            "en": "Check medication, glasses, dentures and appointments, which may have been lost or missed."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-older.05",
+          "text": {
+            "pt-PT": "Mantém a continuidade: falar do passado e do futuro, ver fotografias e manter tarefas com significado, como cozinhar ou tratar das plantas.",
+            "en": "Keep a sense of continuity: talk about the past and the future, look at photos and keep meaningful tasks, such as cooking or looking after plants."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        }
+      ],
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "support-flashbacks",
+      "title": {
+        "pt-PT": "Se reviveres o que aconteceu",
+        "en": "If you relive what happened"
+      },
+      "summary": {
+        "pt-PT": "O que pode ajudar quando parece que está a acontecer outra vez.",
+        "en": "What can help when it feels like it is happening again."
+      },
+      "steps": [
+        {
+          "id": "support-flashbacks.01",
+          "text": {
+            "pt-PT": "Isto pode acontecer. Toca em objetos à tua volta e descreve em voz alta o que vês.",
+            "en": "This can happen. Touch objects around you and describe out loud what you see."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-flashbacks.02",
+          "text": {
+            "pt-PT": "Bebe um copo de água fria devagar, ouve uma música de que gostes, faz festas a um animal ou liga a alguém de confiança.",
+            "en": "Slowly drink a glass of cold water, listen to music you like, stroke a pet or call someone you trust."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-flashbacks.03",
+          "text": {
+            "pt-PT": "Põe as mãos num recipiente com água fria e gelo. Depois põe uma mão na testa e outra na nuca, durante 3 a 4 minutos, e sente a respiração a abrandar.",
+            "en": "Put your hands in a bowl of cold water and ice. Then put one hand on your forehead and the other on the back of your neck for 3 to 4 minutes, and feel your breathing slow down."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        }
+      ],
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "support-warning",
+      "title": {
+        "pt-PT": "Sinais de alerta",
+        "en": "Warning signs"
+      },
+      "summary": {
+        "pt-PT": "Quando pedir ajuda, sobretudo se os sinais duram há mais de um mês.",
+        "en": "When to ask for help, especially if the signs have lasted more than a month."
+      },
+      "steps": [
+        {
+          "id": "support-warning.01",
+          "text": {
+            "pt-PT": "Perder o interesse pelo que antes dava prazer.",
+            "en": "Losing interest in things you used to enjoy."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-warning.02",
+          "text": {
+            "pt-PT": "Beber álcool ou usar outras substâncias sem conseguir controlar.",
+            "en": "Drinking alcohol or using other substances without being able to control it."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-warning.03",
+          "text": {
+            "pt-PT": "Ter dificuldade em fazer as tarefas e responsabilidades do dia a dia.",
+            "en": "Struggling to do everyday tasks and responsibilities."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-warning.04",
+          "text": {
+            "pt-PT": "Dormir mal ou ter pesadelos com o que aconteceu.",
+            "en": "Sleeping badly or having nightmares about what happened."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-warning.05",
+          "text": {
+            "pt-PT": "Evitar a todo o custo lugares, pessoas ou atividades que lembram o que aconteceu.",
+            "en": "Avoiding at all costs places, people or activities that are reminders of what happened."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-warning.06",
+          "text": {
+            "pt-PT": "Estar sempre em alerta, assustar-se com facilidade e não conseguir relaxar.",
+            "en": "Always being on alert, startling easily and being unable to relax."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-warning.07",
+          "text": {
+            "pt-PT": "Irritar-se com facilidade ou ter comportamentos agressivos que antes não tinha.",
+            "en": "Getting irritated easily or behaving aggressively in ways you did not before."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        },
+        {
+          "id": "support-warning.08",
+          "text": {
+            "pt-PT": "Se não estiveres bem, ou vires estes sinais em ti ou nos outros, pede ajuda.",
+            "en": "If you are not well, or see these signs in yourself or others, ask for help."
+          },
+          "kind": "health",
+          "urgency": "soon",
+          "sourceIds": [
+            "opp-dgs-anepc-tempestades"
+          ],
+          "review": {
+            "status": "draft"
+          }
+        }
+      ],
+      "sourceIds": [
+        "opp-dgs-anepc-tempestades"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "contactIds": [
+    "sns24",
+    "suicide-1411",
+    "emergency-112"
+  ]
+}

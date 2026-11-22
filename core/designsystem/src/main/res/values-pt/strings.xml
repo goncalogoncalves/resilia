@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ds_disclaimer_footer">Informação geral. Em emergência, liga 112. Esta app não substitui os serviços de emergência nem aconselhamento profissional, e os seus autores não se responsabilizam pelo uso que lhe é dado.</string>
+    <string name="ds_draft_badge">Por rever</string>
+    <string name="ds_coming_soon">Em breve</string>
+    <string name="ds_sources_title">Fontes</string>
+    <string name="ds_sources_inline">Fonte: %1$s</string>
+    <string name="ds_step_number">Passo %1$d</string>
+    <string name="ds_no_source">Sem fonte oficial</string>
+    <string name="ds_unofficial_source">Fonte não oficial</string>
+    <string name="ds_source_published">Documento de %1$s</string>
+    <string name="ds_source_accessed">consultado a %1$s</string>
+    <string name="ds_source_open">Abrir página original</string>
+    <string name="ds_close">Fechar</string>
+    <string name="ds_call_number">Ligar %1$s</string>
+    <string name="ds_entity_gov">Governo de Portugal</string>
+    <string name="ds_entity_eu">União Europeia</string>
+    <string name="ds_entity_cvp">Cruz Vermelha Portuguesa</string>
+    <string name="ds_entity_other">Outra</string>
+    <string name="ds_region_all">Todo o país</string>
+    <string name="ds_region_mainland">Portugal continental</string>
+    <string name="ds_region_azores">Açores</string>
+    <string name="ds_region_madeira">Madeira</string>
+    <string name="ds_place_home">Casa</string>
+    <string name="ds_place_work_school">Trabalho ou escola</string>
+    <string name="ds_place_meeting">Ponto de encontro</string>
+    <string name="ds_place_health">Hospital ou centro de saúde</string>
+    <string name="ds_place_pharmacy">Farmácia</string>
+    <string name="ds_place_firefighters">Bombeiros</string>
+    <string name="ds_place_shelter">Abrigo</string>
+    <string name="ds_place_other">Outro</string>
+    <string name="ds_compass_n">a norte</string>
+    <string name="ds_compass_ne">a nordeste</string>
+    <string name="ds_compass_e">a este</string>
+    <string name="ds_compass_se">a sudeste</string>
+    <string name="ds_compass_s">a sul</string>
+    <string name="ds_compass_sw">a sudoeste</string>
+    <string name="ds_compass_w">a oeste</string>
+    <string name="ds_compass_nw">a noroeste</string>
+    <string name="ds_distance_m">%1$d m</string>
+    <string name="ds_distance_km">%1$s km</string>
+    <string name="ds_from_home">%1$s %2$s de casa</string>
+    <string name="ds_in_kit">No kit: %1$s</string>
+</resources>

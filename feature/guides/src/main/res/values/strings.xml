@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guides_search">Search guides</string>
+    <string name="guides_no_results">No guide matches your search.</string>
+    <string name="guides_phase_before">Before</string>
+    <string name="guides_phase_during">During</string>
+    <string name="guides_phase_after">After</string>
+    <string name="guides_phase_empty">We found no official steps for this phase.</string>
+    <string name="guides_activate_emergency">Use this guide in emergency mode</string>
+    <string name="guides_favorite_on">Favourite guide (tap to remove)</string>
+    <string name="guides_favorite_off">Add guide to favourites</string>
+    <string name="guides_sources_title">Sources for this guide</string>
+    <string name="guides_related_title">See also</string>
+</resources>

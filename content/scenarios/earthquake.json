@@ -1,0 +1,465 @@
+{
+  "id": "earthquake",
+  "title": {
+    "pt-PT": "Sismo",
+    "en": "Earthquake"
+  },
+  "summary": {
+    "pt-PT": "Como preparar a casa e a família, os 3 gestos durante o sismo, o que fazer a seguir e o risco de tsunami na costa.",
+    "en": "How to prepare your home and family, the 3 actions during the earthquake, what to do next and the tsunami risk on the coast."
+  },
+  "icon": "earthquake",
+  "typicalSeverity": "critical",
+  "typicalDuration": {
+    "pt-PT": "Segundos, com réplicas nos dias seguintes",
+    "en": "Seconds, with aftershocks in the following days"
+  },
+  "keywords": {
+    "pt-PT": [
+      "sismo",
+      "terramoto",
+      "tremor de terra",
+      "réplica",
+      "tsunami",
+      "maremoto"
+    ],
+    "en": [
+      "earthquake",
+      "quake",
+      "tremor",
+      "aftershock",
+      "tsunami"
+    ]
+  },
+  "phases": {
+    "before": [
+      {
+        "id": "earthquake.before.01",
+        "text": {
+          "pt-PT": "Fixa estantes e móveis pesados às paredes.",
+          "en": "Fix bookcases and heavy furniture to the walls."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.before.02",
+        "text": {
+          "pt-PT": "Põe os objetos pesados ou grandes no chão ou nas prateleiras mais baixas.",
+          "en": "Put heavy or bulky objects on the floor or on the lowest shelves."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.before.03",
+        "text": {
+          "pt-PT": "Deixa corredores e passagens livres, para te poderes mover depressa.",
+          "en": "Keep corridors and passages clear so you can move quickly."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.before.04",
+        "text": {
+          "pt-PT": "Escolhe com a família os sítios mais seguros de cada divisão, como debaixo de uma mesa ou cama robusta, e os perigosos: perto de janelas, espelhos, candeeiros e móveis que possam cair.",
+          "en": "Choose with your family the safest places in each room, such as under a sturdy table or bed, and the dangerous ones: near windows, mirrors, lamps and furniture that could fall."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.before.05",
+        "text": {
+          "pt-PT": "Combina um ponto de encontro, para o caso de a família se separar.",
+          "en": "Agree on a meeting point in case your family gets separated."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.before.06",
+        "text": {
+          "pt-PT": "Ensina todos em casa a desligar a eletricidade e a cortar a água e o gás.",
+          "en": "Teach everyone at home how to switch off the electricity and turn off the water and gas."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.before.07",
+        "text": {
+          "pt-PT": "Tem o kit de emergência num sítio que todos conheçam, com água e comida enlatada para 2 ou 3 dias, e um extintor.",
+          "en": "Keep the emergency kit somewhere everyone knows, with water and tinned food for 2 or 3 days, and a fire extinguisher."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "relatedKitItemIds": [
+          "home.water",
+          "home.food"
+        ],
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.before.08",
+        "text": {
+          "pt-PT": "Aprende os 3 gestos que podem salvar vidas: baixar, proteger, aguardar.",
+          "en": "Learn the 3 actions that can save lives: drop, cover, hold on."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-sismos-kit",
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "during": [
+      {
+        "id": "earthquake.during.01",
+        "text": {
+          "pt-PT": "Baixar, proteger, aguardar: põe-te de joelhos, protege a cabeça e o pescoço com os braços e as mãos e espera até a terra parar de tremer.",
+          "en": "Drop, cover, hold on: get down on your knees, protect your head and neck with your arms and hands and wait until the shaking stops."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit",
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.during.02",
+        "text": {
+          "pt-PT": "Em casa, abriga-te debaixo de uma mesa ou cama robusta, junto a uma viga ou pilar ou num canto da sala, longe de janelas, espelhos e objetos que possam cair.",
+          "en": "At home, take cover under a sturdy table or bed, next to a beam or pillar or in a corner of the room, away from windows, mirrors and objects that could fall."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.during.03",
+        "text": {
+          "pt-PT": "Não corras para as escadas nem para as saídas e nunca uses o elevador.",
+          "en": "Do not rush to the stairs or exits, and never use the lift."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.during.04",
+        "text": {
+          "pt-PT": "Num sítio com muita gente, fica dentro do edifício até o sismo acabar.",
+          "en": "In a crowded place, stay inside the building until the earthquake stops."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.during.05",
+        "text": {
+          "pt-PT": "Na rua, afasta-te dos edifícios, postes, muros, chaminés e varandas.",
+          "en": "In the street, keep away from buildings, poles, walls, chimneys and balconies."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.during.06",
+        "text": {
+          "pt-PT": "A conduzir, para longe de árvores grandes, edifícios, muros, postes e cabos elétricos e fica dentro do carro.",
+          "en": "If you are driving, stop away from large trees, buildings, walls, poles and power lines and stay inside the car."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "after": [
+      {
+        "id": "earthquake.after.01",
+        "text": {
+          "pt-PT": "Vê se estás ferido e depois ajuda quem está perto.",
+          "en": "Check whether you are hurt, then help the people near you."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.02",
+        "text": {
+          "pt-PT": "Não fumes nem acendas fósforos ou isqueiros: pode haver fugas de gás.",
+          "en": "Do not smoke or light matches or lighters: there may be gas leaks."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.03",
+        "text": {
+          "pt-PT": "Corta a água e o gás e desliga a eletricidade.",
+          "en": "Turn off the water and gas and switch off the electricity."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.04",
+        "text": {
+          "pt-PT": "Conta com réplicas e mantém-te atento.",
+          "en": "Expect aftershocks and stay alert."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-sismos-kit",
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.05",
+        "text": {
+          "pt-PT": "Se a casa tiver danos graves ou houver perigo de derrocada, sai com calma, com atenção a paredes, chaminés, cabos e candeeiros que possam cair.",
+          "en": "If your home is badly damaged or might collapse, leave calmly, watching out for walls, chimneys, cables and lamps that could fall."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.06",
+        "text": {
+          "pt-PT": "Vai para um local aberto, de preferência alto e longe do mar e dos rios. Só voltes para casa quando as autoridades disserem.",
+          "en": "Go to an open place, preferably high up and away from the sea and rivers. Only go home when the authorities say so."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.07",
+        "text": {
+          "pt-PT": "Evita tocar em vidros, cabos elétricos e objetos metálicos e limpa logo o que for inflamável e se tenha entornado.",
+          "en": "Avoid touching glass, power cables and metal objects, and clean up any spilled flammable products straight away."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.08",
+        "text": {
+          "pt-PT": "Liga o rádio e segue as recomendações.",
+          "en": "Turn on the radio and follow the advice."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "relatedKitItemIds": [
+          "home.radio"
+        ],
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.09",
+        "text": {
+          "pt-PT": "Não faças chamadas: usa SMS ou redes sociais para falar com a família. Liga 112 só em emergência: feridos graves, fugas de gás ou incêndios.",
+          "en": "Do not make calls: use text messages or social media to reach your family. Only call 112 in an emergency: serious injuries, gas leaks or fires."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.10",
+        "text": {
+          "pt-PT": "Deixa as ruas livres para os veículos de socorro.",
+          "en": "Keep the streets clear for emergency vehicles."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-sismos-kit"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.11",
+        "text": {
+          "pt-PT": "Se estás perto da costa e sentiste um sismo muito forte ou longo, viste o mar recuar de repente ou ouviste um barulho forte vindo do mar, sai já da praia e vai a pé para um sítio alto.",
+          "en": "If you are near the coast and felt a very strong or long earthquake, saw the sea suddenly pull back or heard a loud noise from the sea, leave the beach now and go on foot to high ground."
+        },
+        "detail": {
+          "pt-PT": "Um tsunami pode chegar logo a seguir ao sismo ou até cerca de uma hora depois, e pode haver menos de 20 minutos para sair. Serve um ponto alto ou os últimos andares de um edifício de betão armado. Sai também sempre que as autoridades derem um aviso de tsunami.",
+          "en": "A tsunami can arrive right after the earthquake or up to about an hour later, and there may be less than 20 minutes to get away. Go to high ground or the top floors of a reinforced concrete building. Also leave whenever the authorities issue a tsunami warning."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "earthquake.after.12",
+        "text": {
+          "pt-PT": "Depois de um tsunami, só voltes para junto da costa quando as autoridades disserem que já não há perigo.",
+          "en": "After a tsunami, only go back to the coast when the authorities say the danger is over."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-riscos-naturais"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ]
+  },
+  "emergencyNow": [
+    "earthquake.during.01",
+    "earthquake.during.02",
+    "earthquake.during.03",
+    "earthquake.after.01",
+    "earthquake.after.02",
+    "earthquake.after.11"
+  ],
+  "alertTriggers": [],
+  "relatedScenarioIds": [
+    "power-outage"
+  ],
+  "sourceIds": [
+    "anepc-sismos-kit",
+    "anepc-riscos-naturais"
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/plan.schema.json",
+  "title": "Family plan guide",
+  "type": "object",
+  "properties": {
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": ["members", "meeting", "contact-person", "roles", "exits", "shutoff", "contacts", "shelter", "review"]
+          },
+          "hint": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "sourceIds": {
+            "type": "array",
+            "items": { "$ref": "common.schema.json#/$defs/id" }
+          },
+          "review": { "$ref": "common.schema.json#/$defs/review" }
+        },
+        "required": ["id", "sourceIds", "review"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["sections"],
+  "additionalProperties": false
+}

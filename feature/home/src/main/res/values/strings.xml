@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_activate_emergency">Activate emergency mode</string>
+    <string name="home_scenarios_title">What is happening?</string>
+    <string name="home_shortcuts_title">Shortcuts</string>
+    <string name="home_shortcut_torch">Torch and tools</string>
+    <string name="home_shortcut_paper">Paper emergency card</string>
+    <string name="home_offline_note">All guides work without internet.</string>
+    <string name="home_alerts_title">IPMA warnings</string>
+    <string name="home_alerts_choose">Choose your area to get warnings</string>
+    <string name="home_alerts_none">No warnings for %1$s</string>
+    <string name="home_alerts_no_data">No reading yet</string>
+    <string name="home_alerts_level">%1$s warning</string>
+    <string name="home_alerts_ipma">IPMA</string>
+    <string name="home_alerts_type_area">%1$s · %2$s</string>
+    <string name="home_alerts_fire">Fire risk: %1$s</string>
+    <string name="home_alerts_see">See warnings</string>
+    <plurals name="home_alerts_others">
+        <item quantity="one">and %1$d more warning</item>
+        <item quantity="other">and %1$d more warnings</item>
+    </plurals>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_activate_emergency">Ativar modo emergência</string>
+    <string name="home_scenarios_title">O que está a acontecer?</string>
+    <string name="home_shortcuts_title">Atalhos</string>
+    <string name="home_shortcut_torch">Lanterna e ferramentas</string>
+    <string name="home_shortcut_paper">Cartão de emergência em papel</string>
+    <string name="home_offline_note">Todos os guias funcionam sem internet.</string>
+    <string name="home_alerts_title">Avisos IPMA</string>
+    <string name="home_alerts_choose">Escolhe a tua zona para receberes avisos</string>
+    <string name="home_alerts_none">Sem avisos para %1$s</string>
+    <string name="home_alerts_no_data">Ainda não há nenhuma leitura</string>
+    <string name="home_alerts_level">Aviso %1$s</string>
+    <string name="home_alerts_ipma">do IPMA</string>
+    <string name="home_alerts_type_area">%1$s · %2$s</string>
+    <string name="home_alerts_fire">Risco de incêndio: %1$s</string>
+    <string name="home_alerts_see">Ver os avisos</string>
+    <plurals name="home_alerts_others">
+        <item quantity="one">e mais %1$d aviso</item>
+        <item quantity="many">e mais %1$d avisos</item>
+        <item quantity="other">e mais %1$d avisos</item>
+    </plurals>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emergency_mode_label">EMERGENCY MODE</string>
+    <string name="emergency_change_scenario">Change situation</string>
+    <string name="emergency_now">Do this now</string>
+    <string name="emergency_show_all">Show all steps</string>
+    <string name="emergency_show_essential">Show only the essentials</string>
+    <string name="emergency_call_112">Call 112</string>
+    <string name="emergency_torch_on">Turn torch on</string>
+    <string name="emergency_torch_off">Turn torch off</string>
+    <string name="emergency_torch_unavailable">No torch on this phone</string>
+    <string name="emergency_contacts">Useful contacts</string>
+    <string name="emergency_contacts_hide">Hide contacts</string>
+    <string name="emergency_plan">My family plan</string>
+    <string name="emergency_exit">Leave emergency mode</string>
+    <string name="emergency_exit_confirm_title">Leave emergency mode?</string>
+    <string name="emergency_exit_confirm_yes">Leave</string>
+    <string name="emergency_exit_confirm_no">Cancel</string>
+    <string name="emergency_activities">Something to do (quiet, in the dark)</string>
+    <string name="emergency_places">My places</string>
+</resources>

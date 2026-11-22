@@ -1,0 +1,271 @@
+{
+  "minimumDays": 3,
+  "minimumDaysSourceIds": ["dgs-quebras-energeticas", "cvp-kit-familiar", "eu-swd-72h"],
+  "dayOptions": [3, 7, 14],
+  "reviewIntervalMonths": 6,
+  "reviewSourceIds": ["cvp-kit-familiar"],
+  "items": [
+    {
+      "id": "home.water",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Água para beber", "en": "Drinking water" },
+      "detail": {
+        "pt-PT": "Guarda-a em recipientes próprios, num sítio fresco e escuro.",
+        "en": "Keep it in suitable containers, somewhere cool and dark."
+      },
+      "note": {
+        "pt-PT": "Este valor é só para beber. A água para cozinhar e para a higiene também conta, mas não encontrámos um número oficial.",
+        "en": "This amount is for drinking only. Water for cooking and hygiene also matters, but we found no official figure for it."
+      },
+      "quantity": { "kind": "perPersonPerDay", "amount": 2, "unit": "litre" },
+      "sourceIds": ["dgs-quebras-energeticas", "cvp-kit-familiar", "eu-swd-72h"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.food",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Comida que não se estrague", "en": "Food that keeps" },
+      "detail": {
+        "pt-PT": "Por exemplo, enlatados, barras de cereais e frutos secos. Prefere comida que se coma sem cozinhar ou quase sem preparação.",
+        "en": "For example tinned food, cereal bars and nuts. Prefer food you can eat without cooking, or with very little preparation."
+      },
+      "note": {
+        "pt-PT": "Não há uma quantidade oficial em peso ou calorias.",
+        "en": "There is no official amount by weight or calories."
+      },
+      "quantity": { "kind": "forDuration" },
+      "sourceIds": ["dgs-quebras-energeticas", "cvp-kit-familiar", "eu-swd-72h"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.can-opener",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Abre-latas manual e utensílios descartáveis", "en": "Manual tin opener and disposable cutlery" },
+      "sourceIds": ["cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.torch",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Lanternas e pilhas extra", "en": "Torches and spare batteries" },
+      "detail": {
+        "pt-PT": "Usa lanternas, não velas. Verifica de vez em quando se funcionam e a validade das pilhas.",
+        "en": "Use torches, not candles. Check now and then that they work and that the batteries are in date."
+      },
+      "sourceIds": ["dgs-quebras-energeticas", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.radio",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Rádio a pilhas ou de manivela", "en": "Battery or wind-up radio" },
+      "detail": {
+        "pt-PT": "Para ouvires as informações oficiais quando não há eletricidade.",
+        "en": "So you can hear official information when there is no electricity."
+      },
+      "sourceIds": ["dgs-quebras-energeticas", "cvp-kit-familiar", "eu-swd-72h"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.powerbank",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Powerbank carregado", "en": "Charged power bank" },
+      "detail": {
+        "pt-PT": "Carregadores a pilhas ou solares também servem.",
+        "en": "Battery or solar chargers also work."
+      },
+      "sourceIds": ["eu-swd-72h", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.first-aid",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Kit de primeiros socorros e a medicação habitual", "en": "First-aid kit and usual medicines" },
+      "detail": {
+        "pt-PT": "Verifica as validades e repõe o que for preciso.",
+        "en": "Check the expiry dates and replace what you need to."
+      },
+      "sourceIds": ["cvp-kit-familiar", "eu-swd-72h", "anepc-sismos-kit"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.hygiene",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Higiene pessoal e saneamento", "en": "Personal hygiene and sanitation" },
+      "detail": {
+        "pt-PT": "Inclui o necessário para usar a casa de banho e tratar do lixo quando os serviços normais falham.",
+        "en": "Include what you need to use the toilet and deal with rubbish when normal services fail."
+      },
+      "sourceIds": ["eu-swd-72h", "cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.cash",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Dinheiro em notas pequenas e moedas", "en": "Cash in small notes and coins" },
+      "detail": {
+        "pt-PT": "Os pagamentos eletrónicos podem não funcionar.",
+        "en": "Card and electronic payments may not work."
+      },
+      "sourceIds": ["cvp-kit-familiar", "eu-swd-72h"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.clothes",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Roupa adequada ao tempo e cobertores para cada pessoa", "en": "Clothes for the weather and blankets for everyone" },
+      "detail": {
+        "pt-PT": "Guarda-os em sacos de plástico para se manterem secos.",
+        "en": "Keep them in plastic bags so they stay dry."
+      },
+      "sourceIds": ["cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.tools",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Ferramenta multifunções, fita adesiva e sacos de plástico", "en": "Multi-tool, sticky tape and plastic bags" },
+      "sourceIds": ["cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.map",
+      "list": "home",
+      "condition": "always",
+      "name": { "pt-PT": "Mapa em papel da tua zona", "en": "Paper map of your area" },
+      "detail": {
+        "pt-PT": "Para o caso de o GPS não funcionar.",
+        "en": "In case GPS is not working."
+      },
+      "sourceIds": ["cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.baby",
+      "list": "home",
+      "condition": "baby",
+      "name": { "pt-PT": "Fraldas e leite para bebé", "en": "Nappies and baby milk" },
+      "note": {
+        "pt-PT": "Não encontrámos uma quantidade oficial.",
+        "en": "We found no official amount."
+      },
+      "sourceIds": ["cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.medical",
+      "list": "home",
+      "condition": "medical",
+      "name": { "pt-PT": "Medicação extra e energia de reserva para equipamentos médicos ou de apoio", "en": "Extra medicines and backup power for medical or assistive devices" },
+      "detail": {
+        "pt-PT": "A quantidade depende de cada pessoa. Fala com o teu médico ou farmacêutico.",
+        "en": "How much depends on each person. Talk to your doctor or pharmacist."
+      },
+      "sourceIds": ["eu-swd-72h"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "home.pets",
+      "list": "home",
+      "condition": "pets",
+      "name": { "pt-PT": "Ração, água e medicamentos para os animais", "en": "Food, water and medicines for your pets" },
+      "detail": {
+        "pt-PT": "Junta também um objeto que os conforte. Verifica a validade da ração.",
+        "en": "Add something that comforts them. Check the pet food's expiry date."
+      },
+      "note": {
+        "pt-PT": "Não encontrámos uma quantidade oficial.",
+        "en": "We found no official amount."
+      },
+      "sourceIds": ["cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.documents",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Cópias dos documentos importantes", "en": "Copies of important documents" },
+      "detail": {
+        "pt-PT": "Identificação, seguros e documentos financeiros, num saco à prova de água. Também podes guardar uma cópia digital numa pen ou na nuvem.",
+        "en": "ID, insurance and financial documents, in a waterproof bag. You can also keep a digital copy on a USB stick or in the cloud."
+      },
+      "sourceIds": ["anepc-sismos-kit", "cvp-kit-familiar", "eu-swd-72h"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.cash",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Dinheiro", "en": "Cash" },
+      "sourceIds": ["anepc-sismos-kit", "eu-swd-72h"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.water-food",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Água e comida que não se estrague", "en": "Water and food that keeps" },
+      "sourceIds": ["anepc-sismos-kit"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.first-aid",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Kit de primeiros socorros e medicação habitual", "en": "First-aid kit and usual medicines" },
+      "sourceIds": ["anepc-sismos-kit"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.torch-radio-whistle",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Lanterna, rádio e apito", "en": "Torch, radio and whistle" },
+      "sourceIds": ["anepc-sismos-kit"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.powerbank",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Powerbank", "en": "Power bank" },
+      "sourceIds": ["anepc-sismos-kit"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.hygiene-clothes",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Higiene pessoal e uma muda de roupa", "en": "Personal hygiene items and a change of clothes" },
+      "sourceIds": ["anepc-sismos-kit"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.contacts",
+      "list": "bag",
+      "condition": "always",
+      "name": { "pt-PT": "Contactos da família", "en": "Family contacts" },
+      "sourceIds": ["anepc-sismos-kit"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "bag.baby",
+      "list": "bag",
+      "condition": "baby",
+      "name": { "pt-PT": "Fraldas e leite para bebé", "en": "Nappies and baby milk" },
+      "sourceIds": ["cvp-kit-familiar"],
+      "review": { "status": "draft" }
+    }
+  ]
+}

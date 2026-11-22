@@ -1,0 +1,278 @@
+{
+  "id": "storm",
+  "title": {
+    "pt-PT": "Tempestade: chuva e vento fortes",
+    "en": "Storm: heavy rain and strong wind"
+  },
+  "summary": {
+    "pt-PT": "Como preparar a casa, o que evitar durante a tempestade e o cuidado a ter depois.",
+    "en": "How to prepare your home, what to avoid during the storm and what to watch out for afterwards."
+  },
+  "icon": "air",
+  "typicalSeverity": "high",
+  "typicalDuration": {
+    "pt-PT": "Horas a dias",
+    "en": "Hours to days"
+  },
+  "keywords": {
+    "pt-PT": [
+      "tempestade",
+      "temporal",
+      "depressão",
+      "vento",
+      "chuva",
+      "mau tempo",
+      "rajadas"
+    ],
+    "en": [
+      "storm",
+      "wind",
+      "rain",
+      "gale",
+      "bad weather",
+      "gusts"
+    ]
+  },
+  "phases": {
+    "before": [
+      {
+        "id": "storm.before.01",
+        "text": {
+          "pt-PT": "Desentope as sarjetas e os escoamentos à volta de casa e retira o que a água possa arrastar.",
+          "en": "Clear the drains and gutters around your home and remove anything the water could carry away."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.before.02",
+        "text": {
+          "pt-PT": "Recolhe ou fixa vasos, mobiliário de varanda e outros objetos no exterior que o vento possa projetar.",
+          "en": "Bring in or secure plant pots, balcony furniture and other outdoor objects that the wind could throw."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.before.03",
+        "text": {
+          "pt-PT": "Fecha e reforça estores e janelas, sobretudo os virados para o vento.",
+          "en": "Close and secure shutters and windows, especially those facing the wind."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.before.04",
+        "text": {
+          "pt-PT": "Tem uma forma de iluminação alternativa e o telemóvel carregado.",
+          "en": "Have another source of light ready and keep your phone charged."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "relatedKitItemIds": [
+          "home.torch",
+          "home.powerbank"
+        ],
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.before.05",
+        "text": {
+          "pt-PT": "Não estaciones em zonas que costumam inundar, em garagens subterrâneas nem debaixo de árvores.",
+          "en": "Do not park in places that usually flood, in underground car parks or under trees."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.before.06",
+        "text": {
+          "pt-PT": "Acompanha os avisos do IPMA e as recomendações da Proteção Civil.",
+          "en": "Follow IPMA weather warnings and Civil Protection advice."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "during": [
+      {
+        "id": "storm.during.01",
+        "text": {
+          "pt-PT": "Evita sair sem necessidade enquanto a chuva e o vento estiverem mais fortes.",
+          "en": "Avoid going out unless you need to while the rain and wind are at their strongest."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.during.02",
+        "text": {
+          "pt-PT": "Não atravesses zonas inundadas, a pé ou de carro.",
+          "en": "Do not cross flooded areas, on foot or by car."
+        },
+        "detail": {
+          "pt-PT": "A água pode arrastar pessoas e carros para buracos ou caixas de esgoto abertas.",
+          "en": "The water can sweep people and cars into holes or open manholes."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.during.03",
+        "text": {
+          "pt-PT": "Afasta-te de praias, arribas, molhes e zonas junto a rios e ribeiras.",
+          "en": "Keep away from beaches, cliffs, piers and the banks of rivers and streams."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.during.04",
+        "text": {
+          "pt-PT": "Cuidado ao passar junto a árvores: podem cair ramos ou árvores inteiras.",
+          "en": "Take care near trees: branches or whole trees can fall."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.during.05",
+        "text": {
+          "pt-PT": "Se tiveres mesmo de conduzir, reduz a velocidade e cuidado com a água acumulada na estrada.",
+          "en": "If you really have to drive, slow down and watch out for standing water on the road."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.during.06",
+        "text": {
+          "pt-PT": "Segue as indicações da Proteção Civil e das forças de segurança.",
+          "en": "Follow the instructions of Civil Protection and the police."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "after": [
+      {
+        "id": "storm.after.01",
+        "text": {
+          "pt-PT": "Não pises nem toques em cabos elétricos caídos.",
+          "en": "Do not step on or touch fallen power lines."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "anepc-riscos-tecnologicos"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "storm.after.02",
+        "text": {
+          "pt-PT": "Continua atento aos avisos do IPMA e às recomendações da Proteção Civil.",
+          "en": "Keep following IPMA warnings and Civil Protection advice."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": [
+          "anepc-charles-2026"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ]
+  },
+  "emergencyNow": [
+    "storm.during.01",
+    "storm.during.02"
+  ],
+  "alertTriggers": ["ipma:Vento", "ipma:Trovoada", "ipma:Agitação Marítima"],
+  "relatedScenarioIds": [
+    "flood",
+    "power-outage"
+  ],
+  "sourceIds": [
+    "anepc-charles-2026",
+    "anepc-riscos-tecnologicos"
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

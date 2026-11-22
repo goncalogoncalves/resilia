@@ -1,0 +1,84 @@
+{
+  "contacts": [
+    {
+      "id": "emergency-112",
+      "name": { "pt-PT": "Número Europeu de Emergência", "en": "European emergency number" },
+      "number": "112",
+      "purpose": {
+        "pt-PT": "Risco de vida ou situação grave.",
+        "en": "Danger to life or a serious situation."
+      },
+      "region": "all",
+      "sourceIds": ["gov-a-minha-saude", "inem-ciav"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "sns24",
+      "name": { "pt-PT": "Linha SNS 24", "en": "SNS 24 health line" },
+      "number": "808 24 24 24",
+      "purpose": {
+        "pt-PT": "Aconselhamento de saúde quando não há risco de vida. Em emergência, passa a chamada ao INEM. Também tem aconselhamento psicológico.",
+        "en": "Health advice when life is not at risk. In an emergency, it transfers the call to INEM. It also offers psychological counselling."
+      },
+      "region": "all",
+      "sourceIds": ["sns24-linha", "gov-a-minha-saude", "gov-sns24-psicologico"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "suicide-1411",
+      "name": { "pt-PT": "Linha Nacional de Prevenção do Suicídio", "en": "National Suicide Prevention Line" },
+      "number": "1411",
+      "purpose": {
+        "pt-PT": "Apoio na prevenção do suicídio, por profissionais de saúde.",
+        "en": "Suicide prevention support from health professionals."
+      },
+      "region": "all",
+      "hours": { "pt-PT": "24 horas, todos os dias", "en": "24 hours, every day" },
+      "cost": { "pt-PT": "Chamada gratuita e confidencial", "en": "Free and confidential call" },
+      "sourceIds": ["sns-linha-1411"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "ciav",
+      "name": { "pt-PT": "CIAV — Centro de Informação Antivenenos (INEM)", "en": "CIAV — Poison Information Centre (INEM)" },
+      "number": "800 250 250",
+      "purpose": {
+        "pt-PT": "Intoxicações, picadas e mordeduras.",
+        "en": "Poisoning, stings and bites."
+      },
+      "region": "all",
+      "hours": { "pt-PT": "24 horas, todos os dias", "en": "24 hours, every day" },
+      "cost": { "pt-PT": "Chamada gratuita", "en": "Free call" },
+      "sourceIds": ["inem-ciav"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "eredes-avarias",
+      "name": { "pt-PT": "E-REDES — Avarias elétricas", "en": "E-REDES — Power faults" },
+      "number": "800 506 506",
+      "purpose": {
+        "pt-PT": "Comunicar avarias na rede elétrica (Portugal continental).",
+        "en": "Report faults on the power grid (mainland Portugal)."
+      },
+      "region": "mainland",
+      "hours": { "pt-PT": "24 horas, todos os dias", "en": "24 hours, every day" },
+      "cost": { "pt-PT": "Chamada gratuita", "en": "Free call" },
+      "sourceIds": ["eredes-contactos"],
+      "review": { "status": "draft" }
+    },
+    {
+      "id": "eda-callcenter",
+      "name": { "pt-PT": "EDA — Electricidade dos Açores", "en": "EDA — Azores electricity company" },
+      "number": "800 20 25 25",
+      "purpose": {
+        "pt-PT": "Call center, incluindo informações sobre avarias (Açores).",
+        "en": "Call centre, including information on faults (Azores)."
+      },
+      "region": "azores",
+      "hours": { "pt-PT": "Informações sobre avarias: 24 horas", "en": "Fault information: 24 hours" },
+      "cost": { "pt-PT": "Chamada gratuita", "en": "Free call" },
+      "sourceIds": ["eda-callcenter"],
+      "review": { "status": "draft" }
+    }
+  ]
+}

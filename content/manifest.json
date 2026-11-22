@@ -1,0 +1,23 @@
+{
+  "contentVersion": "0.9.0",
+  "schemaVersion": 1,
+  "sources": "sources.json",
+  "contacts": "contacts/national.json",
+  "kit": "kit/kit.json",
+  "plan": "plan/plan.json",
+  "battery": "tools/battery.json",
+  "activities": "morale/activities.json",
+  "materials": "morale/materials.json",
+  "support": "morale/support.json",
+  "alerts": "alerts/alerts.json",
+  "hospitals": "places/sns-urgencias.json",
+  "scenarios": [
+    "scenarios/power-outage.json",
+    "scenarios/storm.json",
+    "scenarios/flood.json",
+    "scenarios/earthquake.json",
+    "scenarios/heat.json",
+    "scenarios/cold.json",
+    "scenarios/wildfire.json"
+  ]
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">Início</string>
+    <string name="nav_guides">Guias</string>
+    <string name="nav_prepare">Preparar</string>
+    <string name="nav_morale">Calma</string>
+    <string name="nav_tools">Ferramentas</string>
+    <string name="title_scenario">Guia</string>
+    <string name="title_settings">Definições</string>
+    <string name="title_legal">Aviso legal</string>
+    <string name="title_about">Sobre</string>
+    <string name="title_contacts">Contactos úteis</string>
+    <string name="title_kit_calculator">Calculadora de kit</string>
+    <string name="title_inventory">O meu inventário</string>
+    <string name="title_family_plan">Plano familiar</string>
+    <string name="title_paper">Em papel</string>
+    <string name="title_screen_light">Ecrã como luz</string>
+    <string name="title_sos">Sinal de luz SOS</string>
+    <string name="title_whistle">Apito</string>
+    <string name="title_battery">Fazer a bateria durar</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_settings">Definições</string>
+    <string name="title_activity">Atividade</string>
+    <string name="title_support">Apoio emocional</string>
+    <string name="title_alerts">Avisos IPMA</string>
+    <string name="title_alert_settings">Definições dos avisos</string>
+    <string name="alert_emergency_title">Ativar o modo emergência?</string>
+    <string name="alert_emergency_text">%1$s\n\nO modo emergência mostra só o essencial, em letra grande. Podes sair quando quiseres.</string>
+    <string name="alert_emergency_confirm">Ativar</string>
+    <string name="alert_emergency_cancel">Agora não</string>
+    <string name="title_places">Locais</string>
+    <string name="title_place_edit">Local</string>
+    <string name="title_hospitals">Hospitais com urgência</string>
+    <string name="title_backup">Exportar e importar</string>
+    <string name="title_privacy">Privacidade</string>
+</resources>

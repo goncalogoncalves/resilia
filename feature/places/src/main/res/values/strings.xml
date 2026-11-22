@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="places_intro">Save the places that matter in an emergency: home, where the family meets, health services. Everything stays on this phone.</string>
+    <string name="places_add">Add a place</string>
+    <string name="places_empty">No places yet. Start with your home and a meeting point.</string>
+    <string name="places_home_hint">Add coordinates to your home to see how far each place is.</string>
+    <string name="places_official_title">Official lists</string>
+    <string name="places_no_map_note">There is no map inside the app yet. \"Open in maps\" uses the maps app on your phone; it only works offline if that app has offline maps.</string>
+    <string name="places_open_maps">Open in maps</string>
+    <string name="places_copy_coordinates">Copy coordinates</string>
+    <string name="places_copied">Copied</string>
+    <string name="places_edit">Edit</string>
+    <string name="places_no_maps_app">No maps app found. Copy the address or coordinates instead.</string>
+    <string name="places_back">Back</string>
+    <string name="places_emergency_title">My places</string>
+    <string name="places_emergency_empty">You have not saved any places. You can add them later in Prepare → Places.</string>
+
+    <string name="place_type">Type</string>
+    <string name="place_name">Name</string>
+    <string name="place_address">Address</string>
+    <string name="place_coordinates">Coordinates (optional)</string>
+    <string name="place_coordinates_help">Type \"38.7167, -9.1333\" or paste a share link from a maps app.</string>
+    <string name="place_coordinates_read">Read as: %1$s</string>
+    <string name="place_coordinates_invalid">Could not read coordinates from this text.</string>
+    <string name="place_paste">Paste</string>
+    <string name="place_notes">Notes</string>
+    <string name="place_privacy">The app does not ask for your location. These details stay on this phone and are not backed up to the cloud.</string>
+    <string name="place_save">Save</string>
+    <string name="place_delete">Delete</string>
+    <string name="place_cancel">Cancel</string>
+    <string name="place_delete_title">Delete \"%1$s\"?</string>
+    <string name="place_delete_text">This cannot be undone.</string>
+
+    <string name="hospitals_title">Hospitals with A&amp;E (SNS)</string>
+    <string name="hospitals_subtitle">Official list of public hospitals with an emergency department</string>
+    <string name="hospitals_data_line">SNS data, updated on %1$s.</string>
+    <string name="hospitals_search">Search by name, town or postcode</string>
+    <string name="hospitals_none">No hospital matches this search.</string>
+    <string name="hospitals_copy_address">Copy address</string>
+    <string name="hospitals_no_coordinates">The SNS list has coordinates, but on 21/11/2026 many did not match the address, so the app does not use them. \"Open in maps\" searches by address.</string>
+    <string name="urgency_polyvalent_trauma">Multi-specialty A&amp;E with trauma centre</string>
+    <string name="urgency_polyvalent">Multi-specialty A&amp;E</string>
+    <string name="urgency_medical_surgical">Medical-surgical A&amp;E</string>
+    <string name="urgency_basic">Basic A&amp;E</string>
+</resources>

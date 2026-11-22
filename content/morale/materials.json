@@ -1,0 +1,46 @@
+{
+  "materials": [
+    {
+      "id": "paper",
+      "name": {
+        "pt-PT": "Papel",
+        "en": "Paper"
+      }
+    },
+    {
+      "id": "pencil",
+      "name": {
+        "pt-PT": "Lápis ou caneta",
+        "en": "Pencil or pen"
+      }
+    },
+    {
+      "id": "torch",
+      "name": {
+        "pt-PT": "Lanterna",
+        "en": "Torch"
+      }
+    },
+    {
+      "id": "household-objects",
+      "name": {
+        "pt-PT": "Objetos da casa",
+        "en": "Household objects"
+      }
+    },
+    {
+      "id": "kitchen-utensils",
+      "name": {
+        "pt-PT": "Tachos, colheres e frascos",
+        "en": "Pots, spoons and jars"
+      }
+    },
+    {
+      "id": "box",
+      "name": {
+        "pt-PT": "Caixa ou frasco",
+        "en": "Box or jar"
+      }
+    }
+  ]
+}

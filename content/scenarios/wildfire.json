@@ -1,0 +1,347 @@
+{
+  "id": "wildfire",
+  "title": {
+    "pt-PT": "Incêndio rural",
+    "en": "Wildfire"
+  },
+  "summary": {
+    "pt-PT": "Como preparar a casa, o que fazer se o fogo se aproximar, se ficares cercado ou fechado em casa, e como evacuar.",
+    "en": "How to prepare your home, what to do if the fire comes close, if you are surrounded or shut in at home, and how to evacuate."
+  },
+  "icon": "local_fire_department",
+  "typicalSeverity": "critical",
+  "typicalDuration": {
+    "pt-PT": "Horas a dias",
+    "en": "Hours to days"
+  },
+  "keywords": {
+    "pt-PT": [
+      "incêndio",
+      "fogo",
+      "incêndio florestal",
+      "incêndio rural",
+      "fumo",
+      "evacuação",
+      "faúlhas"
+    ],
+    "en": [
+      "wildfire",
+      "forest fire",
+      "fire",
+      "smoke",
+      "evacuation",
+      "embers"
+    ]
+  },
+  "phases": {
+    "before": [
+      {
+        "id": "wildfire.before.01",
+        "text": {
+          "pt-PT": "Se vives em zona rural, a lei obriga a limpar o terreno à volta da casa. Junto às paredes deve haver uma faixa de 1 a 2 metros sem nada que arda.",
+          "en": "If you live in a rural area, the law requires you to clear the land around your home. Next to the walls there should be a 1 to 2 metre strip with nothing that can burn."
+        },
+        "detail": {
+          "pt-PT": "As outras distâncias dependem do terreno. Pergunta ao Gabinete Técnico Florestal da tua câmara municipal.",
+          "en": "The other distances depend on the land. Ask the forestry technical office (Gabinete Técnico Florestal) of your municipal council."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "agif-gestao-combustivel"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.before.02",
+        "text": {
+          "pt-PT": "Não guardes lenha, madeira ou materiais inflamáveis à volta da casa.",
+          "en": "Do not store firewood, timber or flammable materials around your home."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "agif-gestao-combustivel"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.before.03",
+        "text": {
+          "pt-PT": "Limpa o telhado com frequência e põe rede de retenção de faúlhas nas chaminés.",
+          "en": "Clean the roof often and fit spark-arrester mesh to the chimneys."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": [
+          "agif-gestao-combustivel"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.before.04",
+        "text": {
+          "pt-PT": "Prepara um kit de evacuação: primeiros socorros, medicação habitual, água e comida não perecível, higiene, uma muda de roupa, rádio, lanterna, apito, dinheiro e os contactos da família.",
+          "en": "Prepare an evacuation kit: first aid, your usual medication, water and non-perishable food, hygiene items, a change of clothes, radio, torch, whistle, cash and family contacts."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "relatedKitItemIds": [
+          "bag.first-aid",
+          "bag.water-food",
+          "bag.torch-radio-whistle",
+          "bag.cash",
+          "bag.contacts",
+          "bag.hygiene-clothes"
+        ],
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.before.05",
+        "text": {
+          "pt-PT": "Informa-te sobre o perigo de incêndio e as ocorrências na tua zona.",
+          "en": "Keep informed about the fire danger and any fires in your area."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": [
+          "agif-gestao-combustivel"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "during": [
+      {
+        "id": "wildfire.during.01",
+        "text": {
+          "pt-PT": "Se vires um incêndio perto de ti, liga já 112.",
+          "en": "If you see a fire near you, call 112 straight away."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "agif-autoprotecao",
+          "agif-gestao-combustivel"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.02",
+        "text": {
+          "pt-PT": "Não atrapalhes os bombeiros e segue as indicações deles. Tira o carro dos caminhos de acesso ao incêndio.",
+          "en": "Do not get in the firefighters' way and follow their instructions. Move your car off the roads leading to the fire."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.03",
+        "text": {
+          "pt-PT": "Se o incêndio se aproximar de casa, avisa os vizinhos e fecha portas, janelas e estores.",
+          "en": "If the fire comes close to your home, warn your neighbours and close doors, windows and shutters."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.04",
+        "text": {
+          "pt-PT": "Se o incêndio se aproximar de casa, rega as paredes, o telhado e 10 metros à volta.",
+          "en": "If the fire comes close to your home, wet the walls, the roof and 10 metres around it."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.05",
+        "text": {
+          "pt-PT": "Se o incêndio se aproximar de casa, afasta móveis, lonas e lenha e, se for seguro, desliga as botijas de gás e leva-as para um sítio seguro.",
+          "en": "If the fire comes close to your home, move furniture, tarpaulins and firewood away and, if it is safe, turn off the gas cylinders and move them somewhere safe."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.06",
+        "text": {
+          "pt-PT": "Se o incêndio se aproximar de casa, afasta das janelas o que possa arder e põe toalhas molhadas nas frestas.",
+          "en": "If the fire comes close to your home, move anything that can burn away from the windows and put wet towels in the gaps."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.07",
+        "text": {
+          "pt-PT": "Se ficares cercado pelo fogo, vai para um abrigo ou refúgio coletivo. Se não houver nenhum perto, procura uma zona plana, com água ou pouca vegetação.",
+          "en": "If you are surrounded by fire, go to a shelter or collective refuge. If there is none nearby, look for flat ground with water or little vegetation."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.08",
+        "text": {
+          "pt-PT": "Se ficares cercado, respira junto ao chão, se possível através de um pano molhado, cobre a cabeça e o corpo e liga 112.",
+          "en": "If you are surrounded, breathe close to the ground, through a wet cloth if possible, cover your head and body and call 112."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.09",
+        "text": {
+          "pt-PT": "Se ficares fechado em casa, fecha portas, janelas e outras aberturas por onde possam entrar faúlhas e põe toalhas molhadas nas frestas.",
+          "en": "If you are shut in at home, close doors, windows and any other openings embers could get through, and put wet towels in the gaps."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.10",
+        "text": {
+          "pt-PT": "Se ficares fechado em casa, afasta cortinas e sofás das janelas, fica longe das paredes e abriga-te no lado da casa oposto ao fogo. Liga 112.",
+          "en": "If you are shut in at home, move curtains and sofas away from the windows, keep away from the walls and shelter on the side of the house away from the fire. Call 112."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.11",
+        "text": {
+          "pt-PT": "Se te mandarem evacuar, leva o kit, os documentos e os animais, fecha portas e janelas ao sair e não voltes atrás.",
+          "en": "If you are told to evacuate, take the kit, your documents and your pets, close doors and windows as you leave and do not go back."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "relatedKitItemIds": [
+          "bag.documents"
+        ],
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      },
+      {
+        "id": "wildfire.during.12",
+        "text": {
+          "pt-PT": "Na evacuação, ajuda as crianças, os mais velhos e quem tem pouca mobilidade e vai depressa para o abrigo ou refúgio mais próximo.",
+          "en": "When evacuating, help children, older people and anyone with limited mobility, and go quickly to the nearest shelter or refuge."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ],
+    "after": [
+      {
+        "id": "wildfire.after.01",
+        "text": {
+          "pt-PT": "Quando o fogo passar, procura focos de incêndio à volta da casa e no telhado.",
+          "en": "When the fire has passed, look for spot fires around the house and on the roof."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": [
+          "agif-autoprotecao"
+        ],
+        "review": {
+          "status": "draft"
+        }
+      }
+    ]
+  },
+  "emergencyNow": [
+    "wildfire.during.01",
+    "wildfire.during.03",
+    "wildfire.during.07",
+    "wildfire.during.08",
+    "wildfire.during.09",
+    "wildfire.during.10"
+  ],
+  "alertTriggers": ["rcm:4", "rcm:5"],
+  "relatedScenarioIds": [],
+  "sourceIds": [
+    "agif-gestao-combustivel",
+    "agif-autoprotecao"
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

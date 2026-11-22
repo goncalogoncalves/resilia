@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/manifest.schema.json",
+  "title": "Content manifest",
+  "type": "object",
+  "properties": {
+    "contentVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "sources": {
+      "type": "string"
+    },
+    "scenarios": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^scenarios/[a-z0-9-]+\\.json$"
+      },
+      "uniqueItems": true
+    },
+    "contacts": {
+      "type": "string"
+    },
+    "kit": {
+      "type": "string"
+    },
+    "plan": {
+      "type": "string"
+    },
+    "battery": {
+      "type": "string"
+    },
+    "activities": {
+      "type": "string"
+    },
+    "materials": {
+      "type": "string"
+    },
+    "support": {
+      "type": "string"
+    },
+    "alerts": {
+      "type": "string"
+    },
+    "hospitals": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "contentVersion",
+    "schemaVersion",
+    "sources",
+    "contacts",
+    "kit",
+    "plan",
+    "battery",
+    "activities",
+    "materials",
+    "support",
+    "alerts",
+    "hospitals",
+    "scenarios"
+  ],
+  "additionalProperties": false
+}

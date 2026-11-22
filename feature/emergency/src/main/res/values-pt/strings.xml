@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="emergency_mode_label">MODO EMERGÊNCIA</string>
+    <string name="emergency_change_scenario">Mudar situação</string>
+    <string name="emergency_now">Faz isto agora</string>
+    <string name="emergency_show_all">Ver todos os passos</string>
+    <string name="emergency_show_essential">Ver só o essencial</string>
+    <string name="emergency_call_112">Ligar 112</string>
+    <string name="emergency_torch_on">Ligar lanterna</string>
+    <string name="emergency_torch_off">Desligar lanterna</string>
+    <string name="emergency_torch_unavailable">Este telemóvel não tem lanterna</string>
+    <string name="emergency_contacts">Contactos úteis</string>
+    <string name="emergency_contacts_hide">Esconder contactos</string>
+    <string name="emergency_plan">O meu plano familiar</string>
+    <string name="emergency_exit">Sair do modo emergência</string>
+    <string name="emergency_exit_confirm_title">Sair do modo emergência?</string>
+    <string name="emergency_exit_confirm_yes">Sair</string>
+    <string name="emergency_exit_confirm_no">Cancelar</string>
+    <string name="emergency_activities">Algo para fazer (em silêncio, às escuras)</string>
+    <string name="emergency_places">Os meus locais</string>
+</resources>

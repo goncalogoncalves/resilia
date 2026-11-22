@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guides_search">Pesquisar guias</string>
+    <string name="guides_no_results">Nenhum guia corresponde à pesquisa.</string>
+    <string name="guides_phase_before">Antes</string>
+    <string name="guides_phase_during">Durante</string>
+    <string name="guides_phase_after">Depois</string>
+    <string name="guides_phase_empty">Não encontrámos passos oficiais para esta fase.</string>
+    <string name="guides_activate_emergency">Usar este guia no modo emergência</string>
+    <string name="guides_favorite_on">Guia favorito (toca para remover)</string>
+    <string name="guides_favorite_off">Adicionar guia aos favoritos</string>
+    <string name="guides_sources_title">Fontes deste guia</string>
+    <string name="guides_related_title">Ver também</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LEGAL TEXT: draft, must be reviewed by someone with legal training before release. -->
+    <string name="disclaimer_title">Before you start</string>
+    <string name="disclaimer_accept">I understand and accept</string>
+    <string name="legal_p1_not_112">In an emergency, call 112. This app does not replace the emergency services, the civil protection authorities, doctors or any other professional.</string>
+    <string name="legal_p2_general_info">The information in this app is general and may not suit your situation. Always follow instructions from the authorities and from emergency services on the scene.</string>
+    <string name="legal_p3_no_liability">You use this app and its information at your own risk. Its authors and contributors accept no liability for any decision, action or omission based on it, or for any damage resulting from its use.</string>
+    <string name="legal_p4_unreviewed">Some content is still marked “Not yet reviewed”. Read it with extra care.</string>
+    <string name="legal_p5_alerts">Alerts shown in the app depend on public data and on your internet connection. They may be late, incomplete or unavailable. They are never real-time.</string>
+    <string name="legal_p6_privacy">The app has no account, no ads and no tracking. Everything you enter stays on this phone.</string>
+    <string name="settings_legal">Legal notice</string>
+    <string name="settings_about">About and licences</string>
+    <string name="settings_alerts">Weather warnings (area and notifications)</string>
+    <string name="about_purpose">A free, open-source app to help you prepare for and respond to emergencies in Portugal.</string>
+    <string name="about_licenses_title">Licences</string>
+    <string name="about_licenses">Code: Apache License 2.0.\nContent (guides and texts): CC BY-SA 4.0.\nFont Atkinson Hyperlegible: SIL Open Font License 1.1 (© Braille Institute of America).\nIcons: Material Icons, Apache License 2.0.\nData: IPMA (weather warnings and fire risk); SNS – Transparency Portal (hospitals with A&amp;E). Sources and dates in each screen.</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_subtitle">Portuguese or English, for this app only</string>
+    <string name="settings_language_system">The app follows your phone\'s language</string>
+    <string name="settings_backup">Export and import data</string>
+    <string name="settings_backup_subtitle">Move your inventory, family plan and places to another phone</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="backup_intro">Your data only lives on this phone and is not backed up to the cloud. To change phones, export a file, keep it somewhere safe and import it on the new phone.</string>
+    <string name="backup_export_title">Export</string>
+    <string name="backup_password_required">Your family plan has medical sheets, so the file must be protected with a password.</string>
+    <string name="backup_password_optional">A password is optional but recommended: the file contains your plan, contacts and places.</string>
+    <string name="backup_password">Password</string>
+    <string name="backup_password_confirm">Repeat the password</string>
+    <string name="backup_password_warning">If you forget the password, nobody can open the file. Not even us.</string>
+    <string name="backup_export">Export to a file</string>
+    <string name="backup_import_title">Import</string>
+    <string name="backup_import_note">Importing replaces the inventory, family plan, places and alert settings on this phone.</string>
+    <string name="backup_import">Choose a file to import</string>
+    <string name="backup_working">Working… With a password this can take a few seconds.</string>
+    <string name="backup_exported">File saved. Keep it somewhere safe.</string>
+    <string name="backup_imported">Data imported.</string>
+    <string name="backup_replace_title">Replace the data on this phone?</string>
+    <string name="backup_replace_text">The inventory, family plan, places and alert settings on this phone will be replaced by the file\'s. This cannot be undone.</string>
+    <string name="backup_replace_confirm">Replace</string>
+    <string name="backup_cancel">Cancel</string>
+    <string name="backup_error_password">Wrong password, or the file is damaged. Nothing was changed.</string>
+    <string name="backup_error_not_backup">This file is not a copy of this app\'s data. Nothing was changed.</string>
+    <string name="backup_error_newer">This file was made by a newer version of the app. Update the app first.</string>
+    <string name="backup_error_generic">Something went wrong. Nothing was changed.</string>
+    <string name="privacy_title">Privacy</string>
+    <string name="privacy_p1_summary">The app has no account, no ads, no analytics and no tracking. We do not run any server.</string>
+    <string name="privacy_p2_on_device">What you write (inventory, family plan, medical sheets, places and settings) stays on this phone only. Medical sheets are encrypted. This data is excluded from cloud backups and from phone-to-phone transfers.</string>
+    <string name="privacy_p3_network">The app only uses the internet to download public IPMA files (weather warnings and fire risk), and only if you choose an area. It downloads the national file: the request does not include your area or any identifier. Like any internet request, the IPMA server sees your IP address.</string>
+    <string name="privacy_p4_other_apps">When you tap \"Call\", \"Open in maps\", \"Share\" or a source link, the app opens another app (dialler, maps, browser…) and gives it only what is needed for that action. What happens there follows that app\'s rules.</string>
+    <string name="privacy_p5_export">If you export your data, the file is saved where you choose. With a password it is encrypted.</string>
+    <string name="privacy_p6_permissions">Permissions: notifications (reminders and warnings, only if you turn them on), internet (IPMA files) and biometrics (optional lock for medical sheets). The app never asks for location, camera, contacts or calls.</string>
+    <string name="privacy_p7_delete">To delete everything, uninstall the app or clear its data in the phone\'s settings.</string>
+    <string name="privacy_p8_contact">Contact: to be defined before publication.</string>
+    <string name="privacy_review_note">Draft. To be reviewed by someone with legal training before publication.</string>
+    <plurals name="backup_password_rule">
+        <item quantity="one">At least %1$d character.</item>
+        <item quantity="other">At least %1$d characters.</item>
+    </plurals>
+</resources>

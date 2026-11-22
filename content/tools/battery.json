@@ -1,0 +1,202 @@
+{
+  "id": "battery",
+  "title": {
+    "pt-PT": "Fazer a bateria durar",
+    "en": "Make the battery last"
+  },
+  "summary": {
+    "pt-PT": "O que preparar antes e o que fazer no telemóvel para a bateria durar mais quando falta a eletricidade.",
+    "en": "What to prepare beforehand, and what to do on your phone, so the battery lasts longer when the power is out."
+  },
+  "steps": [
+    {
+      "id": "battery.01",
+      "text": {
+        "pt-PT": "Antes de um temporal ou de uma falha de energia anunciada, carrega o telemóvel e os outros equipamentos de comunicação.",
+        "en": "Before a storm or an announced power cut, charge your phone and your other communication devices."
+      },
+      "detail": {
+        "pt-PT": "Tem também iluminação alternativa, como uma lanterna.",
+        "en": "Have another source of light too, such as a torch."
+      },
+      "kind": "practical",
+      "urgency": "soon",
+      "sourceIds": [
+        "anepc-charles-2026",
+        "anepc-serra-estrela-2026"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.02",
+      "text": {
+        "pt-PT": "Tem um powerbank carregado no kit.",
+        "en": "Keep a charged power bank in your kit."
+      },
+      "kind": "practical",
+      "urgency": "soon",
+      "sourceIds": [
+        "anepc-sismos-kit",
+        "eu-swd-72h"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.03",
+      "text": {
+        "pt-PT": "Usa lanternas e um rádio a pilhas, com pilhas extra.",
+        "en": "Use torches and a battery radio, with spare batteries."
+      },
+      "detail": {
+        "pt-PT": "Assim não dependes do telemóvel para teres luz e informação.",
+        "en": "That way you do not depend on your phone for light and information."
+      },
+      "kind": "practical",
+      "urgency": "soon",
+      "sourceIds": [
+        "dgs-quebras-energeticas",
+        "eu-swd-72h"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.04",
+      "text": {
+        "pt-PT": "Usa o telefone só quando for preciso, para não sobrecarregar as linhas.",
+        "en": "Use the phone only when you need to, so the lines are not overloaded."
+      },
+      "kind": "safety",
+      "urgency": "now",
+      "note": {
+        "pt-PT": "A ANEPC dá este conselho para cheias causadas por barragens e para emergências radiológicas.",
+        "en": "ANEPC gives this advice for dam floods and radiological emergencies."
+      },
+      "sourceIds": [
+        "anepc-riscos-tecnologicos"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.05",
+      "text": {
+        "pt-PT": "Depois de um sismo, não telefones: usa SMS ou redes sociais para falar com a família e os amigos.",
+        "en": "After an earthquake, do not phone: use text messages or social media to reach family and friends."
+      },
+      "detail": {
+        "pt-PT": "Em emergência (feridos graves, fugas de gás ou incêndios), liga 112.",
+        "en": "In an emergency (serious injuries, gas leaks or fires), call 112."
+      },
+      "kind": "safety",
+      "urgency": "now",
+      "sourceIds": [
+        "anepc-sismos-kit"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.06",
+      "text": {
+        "pt-PT": "Liga a poupança de bateria do Android.",
+        "en": "Turn on Android's battery saver."
+      },
+      "detail": {
+        "pt-PT": "O botão acima abre essa definição.",
+        "en": "The button above opens that setting."
+      },
+      "kind": "practical",
+      "urgency": "now",
+      "sourceIds": [
+        "google-android-bateria"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.07",
+      "text": {
+        "pt-PT": "Baixa o brilho do ecrã e encurta o tempo até ele se desligar.",
+        "en": "Lower the screen brightness and shorten the time before it turns off."
+      },
+      "kind": "practical",
+      "urgency": "now",
+      "sourceIds": [
+        "google-android-bateria"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.08",
+      "text": {
+        "pt-PT": "Desliga o Bluetooth e a localização quando não precisares deles.",
+        "en": "Turn off Bluetooth and location when you do not need them."
+      },
+      "kind": "practical",
+      "urgency": "now",
+      "sourceIds": [
+        "google-android-bateria"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.09",
+      "text": {
+        "pt-PT": "Quando não precisares da rede móvel, usa o modo de avião.",
+        "en": "When you do not need the mobile network, use aeroplane mode."
+      },
+      "kind": "practical",
+      "urgency": "now",
+      "note": {
+        "pt-PT": "Em modo de avião não recebes chamadas nem avisos. Desliga-o para ligar 112.",
+        "en": "In aeroplane mode you get no calls or alerts. Turn it off to call 112."
+      },
+      "sourceIds": [
+        "google-android-bateria"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "battery.10",
+      "text": {
+        "pt-PT": "Evita ver vídeos, usar o GPS durante muito tempo e partilhar internet (hotspot).",
+        "en": "Avoid streaming video, long GPS navigation and sharing your connection (hotspot)."
+      },
+      "kind": "practical",
+      "urgency": "now",
+      "sourceIds": [
+        "google-android-bateria"
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "sourceIds": [
+    "anepc-charles-2026",
+    "anepc-serra-estrela-2026",
+    "anepc-sismos-kit",
+    "eu-swd-72h",
+    "dgs-quebras-energeticas",
+    "anepc-riscos-tecnologicos",
+    "google-android-bateria"
+  ],
+  "review": {
+    "status": "draft"
+  }
+}

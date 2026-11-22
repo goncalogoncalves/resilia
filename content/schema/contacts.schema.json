@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/contacts.schema.json",
+  "title": "Contacts",
+  "type": "object",
+  "properties": {
+    "contacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/id" },
+          "name": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "number": { "type": "string", "pattern": "^\\+?[0-9]+(?: [0-9]+)*$" },
+          "purpose": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "region": { "enum": ["all", "mainland", "azores", "madeira"] },
+          "hours": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "cost": { "$ref": "common.schema.json#/$defs/localizedText" },
+          "sourceIds": {
+            "type": "array",
+            "items": { "$ref": "common.schema.json#/$defs/id" },
+            "minItems": 1
+          },
+          "review": { "$ref": "common.schema.json#/$defs/review" }
+        },
+        "required": ["id", "name", "number", "purpose", "region", "sourceIds", "review"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["contacts"],
+  "additionalProperties": false
+}

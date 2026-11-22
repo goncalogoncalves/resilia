@@ -1,0 +1,418 @@
+{
+  "id": "power-outage",
+  "title": { "pt-PT": "Falha de eletricidade", "en": "Power outage" },
+  "summary": {
+    "pt-PT": "O que preparar, o que fazer quando falta a luz e como avaliar alimentos e água quando a eletricidade volta.",
+    "en": "What to prepare, what to do when the power goes out, and how to check food and water when it comes back."
+  },
+  "icon": "power_off",
+  "typicalSeverity": "high",
+  "typicalDuration": { "pt-PT": "Horas a dias", "en": "Hours to days" },
+  "keywords": {
+    "pt-PT": ["apagão", "luz", "eletricidade", "corte de energia", "falta de luz", "gerador", "frigorífico"],
+    "en": ["blackout", "power cut", "electricity", "outage", "generator", "fridge"]
+  },
+  "phases": {
+    "before": [
+      {
+        "id": "power-outage.before.01",
+        "text": {
+          "pt-PT": "Guarda água potável: cerca de 2 litros por pessoa e por dia, para pelo menos 3 dias.",
+          "en": "Store drinking water: about 2 litres per person per day, for at least 3 days."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.02",
+        "text": {
+          "pt-PT": "Tem uma pequena reserva de alimentos não perecíveis, como conservas.",
+          "en": "Keep a small stock of non-perishable food, such as tinned food."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.03",
+        "text": {
+          "pt-PT": "Tem uma lanterna e um rádio a pilhas, com pilhas de reserva à mão.",
+          "en": "Have a torch and a battery radio, with spare batteries within reach."
+        },
+        "detail": {
+          "pt-PT": "Guarda a lanterna num sítio que consigas encontrar às escuras.",
+          "en": "Keep the torch somewhere you can find it in the dark."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.04",
+        "text": {
+          "pt-PT": "Tem um powerbank para o telemóvel e mantém-no carregado.",
+          "en": "Have a power bank for your phone and keep it charged."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": ["anepc-sismos-kit"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.05",
+        "text": {
+          "pt-PT": "Guarda gelo ou acumuladores de frio no congelador e tem um termómetro para alimentos em casa.",
+          "en": "Keep ice or freezer packs in the freezer and have a food thermometer at home."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.06",
+        "text": {
+          "pt-PT": "Prepara um kit de emergência numa mochila e guarda-o num sítio que todos em casa conheçam.",
+          "en": "Pack an emergency kit in a backpack and keep it somewhere everyone at home knows."
+        },
+        "detail": {
+          "pt-PT": "A ANEPC sugere: estojo de primeiros socorros, medicação habitual, água e comida não perecível, higiene pessoal, muda de roupa, rádio, lanterna, apito, powerbank, contactos de familiares, cópia de documentos e dinheiro. Adapta-o a cada pessoa e revê-o com regularidade.",
+          "en": "ANEPC suggests: first-aid kit, usual medication, water and non-perishable food, personal hygiene items, a change of clothes, radio, torch, whistle, power bank, family contacts, copies of documents and cash. Adapt it to each person and check it regularly."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": ["anepc-sismos-kit"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.07",
+        "text": {
+          "pt-PT": "Aprende a desligar a eletricidade no quadro elétrico e ensina todos em casa.",
+          "en": "Learn how to switch off the electricity at the fuse box and teach everyone at home."
+        },
+        "kind": "safety",
+        "urgency": "later",
+        "sourceIds": ["anepc-sismos-kit"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.08",
+        "text": {
+          "pt-PT": "Escreve num papel os números de emergência e de avarias de eletricidade da tua região e guarda-o à mão.",
+          "en": "Write down the emergency and power-fault numbers for your region on paper and keep it handy."
+        },
+        "detail": {
+          "pt-PT": "Encontras os números em Ferramentas > Contactos úteis.",
+          "en": "You can find the numbers in Tools > Useful contacts."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "sourceIds": ["anepc-sismos-kit"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.09",
+        "text": {
+          "pt-PT": "Se tomas medicamentos que precisam de frio, pergunta ao teu médico ou farmacêutico o que fazer se faltar a eletricidade.",
+          "en": "If you take medicines that must be kept cold, ask your doctor or pharmacist what to do if the power goes out."
+        },
+        "detail": {
+          "pt-PT": "Em caso de dúvida, liga para a Linha SNS 24 (808 24 24 24).",
+          "en": "If in doubt, call the SNS 24 line (808 24 24 24)."
+        },
+        "kind": "health",
+        "urgency": "later",
+        "sourceIds": ["gov-a-minha-saude", "sns24-linha"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.before.10",
+        "text": {
+          "pt-PT": "Se alguém em casa depende de equipamento médico elétrico, combina antes com o médico ou com o fornecedor do equipamento um plano para falhas de eletricidade.",
+          "en": "If someone at home depends on electrical medical equipment, agree a plan for power cuts with their doctor or the equipment supplier in advance."
+        },
+        "kind": "health",
+        "urgency": "later",
+        "sourceIds": ["gov-a-minha-saude"],
+        "review": { "status": "draft" }
+      }
+    ],
+    "during": [
+      {
+        "id": "power-outage.during.01",
+        "text": {
+          "pt-PT": "Usa lanternas, não velas.",
+          "en": "Use torches, not candles."
+        },
+        "detail": {
+          "pt-PT": "É a recomendação da DGS, por segurança.",
+          "en": "This is the DGS recommendation, for safety."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.02",
+        "text": {
+          "pt-PT": "Mantém o frigorífico e o congelador fechados.",
+          "en": "Keep the fridge and freezer closed."
+        },
+        "detail": {
+          "pt-PT": "Fechado, o frigorífico mantém a temperatura cerca de 4 horas. O congelador mantém os alimentos congelados até 48 horas se estiver cheio, ou 24 horas se estiver meio cheio.",
+          "en": "Kept closed, the fridge stays cold for about 4 hours. The freezer keeps food frozen for up to 48 hours if full, or 24 hours if half full."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.03",
+        "text": {
+          "pt-PT": "Nunca uses um gerador dentro de casa, na garagem ou noutro espaço fechado ou semifechado.",
+          "en": "Never use a generator indoors, in a garage or in any enclosed or partly enclosed space."
+        },
+        "detail": {
+          "pt-PT": "Abrir portas ou janelas não chega: o monóxido de carbono pode atingir níveis mortais em minutos.",
+          "en": "Opening doors or windows is not enough: carbon monoxide can reach deadly levels within minutes."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": ["gov-kristin-geradores"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.04",
+        "text": {
+          "pt-PT": "Se usares um gerador, põe-no no exterior, a pelo menos 6 metros de casa, com o escape virado para longe de portas, janelas e entradas de ar.",
+          "en": "If you use a generator, put it outside, at least 6 metres from the house, with the exhaust pointing away from doors, windows and air vents."
+        },
+        "detail": {
+          "pt-PT": "Tem em conta a direção do vento.",
+          "en": "Take the wind direction into account."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": ["gov-kristin-geradores"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.05",
+        "text": {
+          "pt-PT": "Se suspeitares de monóxido de carbono, ou se alguém tiver sintomas de intoxicação, liga 112 de imediato.",
+          "en": "If you suspect carbon monoxide, or someone has symptoms of poisoning, call 112 immediately."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": ["gov-kristin-geradores"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.06",
+        "text": {
+          "pt-PT": "Se a vida de alguém depende de um equipamento elétrico que ficou sem energia, liga 112.",
+          "en": "If someone's life depends on electrical equipment that has lost power, call 112."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": ["anepc-riscos-tecnologicos"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.07",
+        "text": {
+          "pt-PT": "Não pises nem mexas em cabos elétricos caídos.",
+          "en": "Do not step on or touch fallen power cables."
+        },
+        "kind": "safety",
+        "urgency": "now",
+        "sourceIds": ["anepc-riscos-tecnologicos"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.08",
+        "text": {
+          "pt-PT": "Vê se a falha é só em tua casa ou também nos vizinhos e na rua.",
+          "en": "Check whether the outage is only in your home or also affects neighbours and the street."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.09",
+        "text": {
+          "pt-PT": "Para comunicar uma avaria na rede: E-REDES 800 506 506 (continente) ou EDA 800 20 25 25 (Açores). Na Madeira, contacta a Empresa de Electricidade da Madeira (EEM).",
+          "en": "To report a grid fault: E-REDES 800 506 506 (mainland) or EDA 800 20 25 25 (Azores). In Madeira, contact the Madeira electricity company (EEM)."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": ["eredes-contactos", "eda-callcenter"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.10",
+        "text": {
+          "pt-PT": "Anota a hora a que a eletricidade falhou.",
+          "en": "Write down the time the power went out."
+        },
+        "detail": {
+          "pt-PT": "Ajuda a saber quanto tempo os alimentos estiveram sem frio.",
+          "en": "It helps you know how long food has been without refrigeration."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.11",
+        "text": {
+          "pt-PT": "Evita deslocações desnecessárias.",
+          "en": "Avoid unnecessary journeys."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": ["anepc-interrupcao-rede"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.12",
+        "text": {
+          "pt-PT": "Se tiveres de conduzir, reduz a velocidade, redobra a atenção e segue as indicações das autoridades no terreno.",
+          "en": "If you have to drive, slow down, pay extra attention and follow the instructions of the authorities on site."
+        },
+        "kind": "safety",
+        "urgency": "soon",
+        "sourceIds": ["anepc-interrupcao-rede"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.13",
+        "text": {
+          "pt-PT": "Informa-te pela rádio e pelos canais oficiais. Não partilhes informação que não esteja confirmada.",
+          "en": "Get information from the radio and official channels. Do not share information that has not been confirmed."
+        },
+        "kind": "practical",
+        "urgency": "soon",
+        "sourceIds": ["anepc-interrupcao-rede", "dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.during.14",
+        "text": {
+          "pt-PT": "Desliga da tomada os aparelhos mais sensíveis, para os proteger de picos de tensão quando a eletricidade voltar.",
+          "en": "Unplug sensitive appliances to protect them from power surges when the electricity comes back."
+        },
+        "note": {
+          "pt-PT": "Conselho comum, mas não encontrámos uma fonte oficial que o confirme.",
+          "en": "Common advice, but we found no official source confirming it."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "review": { "status": "draft" }
+      }
+    ],
+    "after": [
+      {
+        "id": "power-outage.after.01",
+        "text": {
+          "pt-PT": "Não proves os alimentos para saber se ainda estão bons. Na dúvida, deita fora.",
+          "en": "Do not taste food to find out whether it is still safe. If in doubt, throw it out."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.after.02",
+        "text": {
+          "pt-PT": "Deita fora qualquer alimento com cheiro, cor ou textura estranhos.",
+          "en": "Throw away any food with an unusual smell, colour or texture."
+        },
+        "kind": "health",
+        "urgency": "now",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.after.03",
+        "text": {
+          "pt-PT": "Carne, peixe, lacticínios e refeições preparadas que estiveram acima de 5 °C durante mais de 2 horas podem já não ser seguros.",
+          "en": "Meat, fish, dairy and prepared meals that have been above 5 °C for more than 2 hours may no longer be safe."
+        },
+        "detail": {
+          "pt-PT": "Se tiveres termómetro, mede a temperatura dos alimentos.",
+          "en": "If you have a thermometer, check the food temperature."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.after.04",
+        "text": {
+          "pt-PT": "Alimentos congelados que ainda tenham cristais de gelo, ou que estejam tão frios como no frigorífico, podem na maioria dos casos ser cozinhados ou voltar a ser congelados.",
+          "en": "Frozen food that still has ice crystals, or is as cold as in a fridge, can in most cases be cooked or refrozen."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.after.05",
+        "text": {
+          "pt-PT": "Se a água da torneira mudar de cor, cheiro ou sabor, ou se tiveres dúvidas, usa água engarrafada ou fervida e segue as indicações das autoridades locais.",
+          "en": "If tap water changes colour, smell or taste, or if you are unsure, use bottled or boiled water and follow the local authorities' instructions."
+        },
+        "detail": {
+          "pt-PT": "Ferve durante pelo menos 1 minuto. Usa essa água também para lavar os dentes, preparar alimentos e papas de bebé. Água de poço: só para lavagens e rega.",
+          "en": "Boil for at least 1 minute. Use that water for brushing teeth and preparing food and baby food as well. Well water: for washing and watering only."
+        },
+        "kind": "health",
+        "urgency": "soon",
+        "sourceIds": ["dgs-quebras-energeticas"],
+        "review": { "status": "draft" }
+      },
+      {
+        "id": "power-outage.after.06",
+        "text": {
+          "pt-PT": "Revê o que usaste do kit e anota o que tens de repor.",
+          "en": "Check what you used from your kit and note what needs replacing."
+        },
+        "kind": "practical",
+        "urgency": "later",
+        "review": { "status": "draft" }
+      }
+    ]
+  },
+  "emergencyNow": [
+    "power-outage.during.01",
+    "power-outage.during.03",
+    "power-outage.during.05",
+    "power-outage.during.06",
+    "power-outage.during.02"
+  ],
+  "alertTriggers": [],
+  "relatedScenarioIds": ["storm", "earthquake"],
+  "sourceIds": [
+    "dgs-quebras-energeticas",
+    "gov-kristin-geradores",
+    "anepc-interrupcao-rede",
+    "anepc-sismos-kit",
+    "anepc-riscos-tecnologicos",
+    "gov-a-minha-saude",
+    "sns24-linha",
+    "eredes-contactos",
+    "eda-callcenter"
+  ],
+  "review": { "status": "draft" }
+}

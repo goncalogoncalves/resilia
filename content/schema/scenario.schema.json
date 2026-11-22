@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://resilia.local/schema/scenario.schema.json",
+  "title": "Scenario",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "title": { "$ref": "common.schema.json#/$defs/localizedText" },
+    "summary": { "$ref": "common.schema.json#/$defs/localizedText" },
+    "icon": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "typicalSeverity": { "enum": ["low", "medium", "high", "critical"] },
+    "typicalDuration": { "$ref": "common.schema.json#/$defs/localizedText" },
+    "keywords": {
+      "type": "object",
+      "properties": {
+        "pt-PT": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+        "en": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 }
+      },
+      "required": ["pt-PT", "en"],
+      "additionalProperties": false
+    },
+    "phases": {
+      "type": "object",
+      "properties": {
+        "before": { "type": "array", "items": { "$ref": "#/$defs/step" } },
+        "during": { "type": "array", "items": { "$ref": "#/$defs/step" } },
+        "after": { "type": "array", "items": { "$ref": "#/$defs/step" } }
+      },
+      "required": ["before", "during", "after"],
+      "additionalProperties": false
+    },
+    "emergencyNow": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+    "alertTriggers": { "type": "array", "items": { "type": "string", "pattern": "^[a-z]+:.+$" } },
+    "relatedScenarioIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+    "sourceIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+    "review": { "$ref": "common.schema.json#/$defs/review" }
+  },
+  "required": ["id", "title", "summary", "icon", "typicalSeverity", "typicalDuration", "keywords", "phases", "review"],
+  "additionalProperties": false,
+  "$defs": {
+    "step": {
+      "type": "object",
+      "properties": {
+        "id": { "$ref": "common.schema.json#/$defs/id" },
+        "text": { "$ref": "common.schema.json#/$defs/localizedText" },
+        "detail": { "$ref": "common.schema.json#/$defs/localizedText" },
+        "kind": { "enum": ["safety", "health", "practical", "wellbeing"] },
+        "urgency": { "enum": ["now", "soon", "later", "info"] },
+        "relatedKitItemIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+        "note": { "$ref": "common.schema.json#/$defs/localizedText" },
+        "sourceIds": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+        "review": { "$ref": "common.schema.json#/$defs/review" }
+      },
+      "required": ["id", "text", "kind", "urgency", "review"],
+      "additionalProperties": false
+    }
+  }
+}

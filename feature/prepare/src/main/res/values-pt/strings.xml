@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prepare_intro">Prepara-te antes de acontecer alguma coisa. Tudo fica guardado só neste telemóvel.</string>
+    <string name="prepare_kit_calculator">Calculadora de kit</string>
+    <string name="prepare_kit_calculator_subtitle">O que ter em casa e na mochila, para a tua família</string>
+    <string name="prepare_inventory">O meu inventário</string>
+    <string name="prepare_inventory_subtitle">O que tens, com validades e lembretes</string>
+    <string name="prepare_family_plan">Plano familiar</string>
+    <string name="prepare_paper">Cartão em papel (para quando a bateria acabar)</string>
+    <string name="prepare_places">Locais</string>
+
+    <!-- Calculadora -->
+    <string name="prepare_kit_intro">Diz-nos como é a tua casa. A lista adapta-se e cada quantidade mostra de onde vem.</string>
+    <string name="prepare_kit_people">Pessoas em casa</string>
+    <string name="prepare_kit_people_less">Menos uma pessoa</string>
+    <string name="prepare_kit_people_more">Mais uma pessoa</string>
+    <string name="prepare_kit_days">Para quantos dias</string>
+    <string name="prepare_kit_minimum">O mínimo oficial é de %1$s. Fonte: %2$s</string>
+    <string name="prepare_kit_baby">Há um bebé</string>
+    <string name="prepare_kit_medical">Alguém precisa de medicação ou de equipamentos médicos</string>
+    <string name="prepare_kit_pets">Há animais de estimação</string>
+    <string name="prepare_list_home">Reserva em casa</string>
+    <string name="prepare_list_bag">Mochila de emergência</string>
+    <string name="prepare_list_home_intro">Para ficares em casa quando falham a água, a eletricidade ou as lojas.</string>
+    <string name="prepare_list_bag_intro">Uma mochila leve, pronta a levar se tiveres de sair de casa depressa.</string>
+    <string name="prepare_amount_litres_per_person">%1$s L (%2$s L por pessoa e por dia)</string>
+    <string name="prepare_amount_for_duration">Para %1$s durante %2$s</string>
+    <string name="prepare_add_to_inventory">Adicionar ao inventário</string>
+    <string name="prepare_in_inventory">No inventário</string>
+    <string name="prepare_open_inventory">Abrir o meu inventário</string>
+    <plurals name="prepare_days">
+        <item quantity="one">%d dia</item>
+        <item quantity="many">%d dias</item>
+        <item quantity="other">%d dias</item>
+    </plurals>
+    <plurals name="prepare_people">
+        <item quantity="one">%d pessoa</item>
+        <item quantity="many">%d pessoas</item>
+        <item quantity="other">%d pessoas</item>
+    </plurals>
+
+    <!-- Inventário -->
+    <string name="prepare_inventory_intro">Regista o que tens e quando expira. Fica guardado só neste telemóvel.</string>
+    <string name="prepare_inventory_add">Adicionar produto</string>
+    <string name="prepare_inventory_edit">Editar produto</string>
+    <string name="prepare_inventory_empty">Ainda não tens nada aqui. Usa a calculadora de kit ou adiciona produtos.</string>
+    <string name="prepare_expiry_none">Sem validade</string>
+    <string name="prepare_expiry_date">Validade: %1$s</string>
+    <string name="prepare_expiry_today">Expira hoje</string>
+    <string name="prepare_expiry_ok">Dentro da validade</string>
+    <plurals name="prepare_expiry_soon">
+        <item quantity="one">Expira daqui a %d dia</item>
+        <item quantity="many">Expira daqui a %d dias</item>
+        <item quantity="other">Expira daqui a %d dias</item>
+    </plurals>
+    <plurals name="prepare_expiry_expired">
+        <item quantity="one">Expirou há %d dia</item>
+        <item quantity="many">Expirou há %d dias</item>
+        <item quantity="other">Expirou há %d dias</item>
+    </plurals>
+    <string name="prepare_field_name">Nome</string>
+    <string name="prepare_field_quantity">Quantidade (opcional)</string>
+    <string name="prepare_field_quantity_hint">por exemplo, 6 L ou 2 latas</string>
+    <string name="prepare_field_pick_date">Escolher a validade</string>
+    <string name="prepare_field_no_date">Sem validade</string>
+    <string name="prepare_save">Guardar</string>
+    <string name="prepare_cancel">Cancelar</string>
+    <string name="prepare_ok">OK</string>
+    <string name="prepare_continue">Continuar</string>
+    <string name="prepare_delete">Apagar</string>
+    <string name="prepare_delete_title">Apagar este produto?</string>
+    <string name="prepare_delete_text">\"%1$s\" vai sair do teu inventário.</string>
+
+    <!-- Revisão -->
+    <string name="prepare_review_title">Revisão do kit</string>
+    <string name="prepare_review_next">Próxima revisão: %1$s</string>
+    <string name="prepare_review_due">Está na altura de rever o teu kit.</string>
+    <string name="prepare_review_hint">Vê as validades, as pilhas e se o kit ainda serve a todos em casa. Revê-o a cada seis meses, junto com o plano familiar.</string>
+    <string name="prepare_review_done">Já revi</string>
+
+    <!-- Lembretes -->
+    <string name="prepare_reminders">Lembretes</string>
+    <string name="prepare_reminders_hint">Avisamos-te 30 dias antes de um produto expirar, no dia em que expira e quando for altura de rever o kit.</string>
+    <string name="prepare_reminders_denied">As notificações não estão autorizadas. As validades continuam a aparecer aqui. Podes autorizá-las nas definições do Android.</string>
+    <string name="prepare_reminders_dialog_title">Autorizar notificações?</string>
+    <string name="prepare_reminders_dialog_text">Para te lembrar das validades e da revisão do kit, a app precisa de mostrar notificações. Não as usa para mais nada. Se disseres que não, tudo o resto continua a funcionar.</string>
+
+    <!-- Notificações -->
+    <string name="prepare_notif_channel">Lembretes do kit</string>
+    <string name="prepare_notif_public">Lembrete do Resilia</string>
+    <string name="prepare_notif_expiry_title">Validades do teu kit</string>
+    <plurals name="prepare_notif_expired">
+        <item quantity="one">%d produto expirou ou expira hoje.</item>
+        <item quantity="many">%d produtos expiraram ou expiram hoje.</item>
+        <item quantity="other">%d produtos expiraram ou expiram hoje.</item>
+    </plurals>
+    <plurals name="prepare_notif_soon">
+        <item quantity="one">%d produto expira nos próximos 30 dias.</item>
+        <item quantity="many">%d produtos expiram nos próximos 30 dias.</item>
+        <item quantity="other">%d produtos expiram nos próximos 30 dias.</item>
+    </plurals>
+    <string name="prepare_notif_review_title">Está na altura de rever o teu kit</string>
+    <string name="prepare_notif_review_text">Vê as validades, as pilhas, o plano familiar e se o kit ainda serve a todos em casa.</string>
+
+    <!-- Family plan and paper (Marco 4) -->
+    <string name="prepare_family_plan_subtitle">Quem está em casa, onde se encontram, a quem ligar</string>
+    <string name="prepare_paper_subtitle">Cartão A4, cartão de carteira e os guias, para imprimir</string>
+    <string name="plan_title">Plano familiar</string>
+    <string name="plan_intro">Preenche o que puderes: todos os campos são opcionais. Tudo fica só neste telemóvel e as fichas médicas ficam cifradas.</string>
+    <string name="plan_open_paper">Imprimir ou partilhar</string>
+    <string name="plan_members">Pessoas da casa</string>
+    <string name="plan_add_member">Adicionar pessoa</string>
+    <string name="plan_edit_member">Editar pessoa</string>
+    <string name="plan_meeting">Pontos de encontro</string>
+    <string name="plan_meeting_near">Perto de casa</string>
+    <string name="plan_meeting_far">Fora da tua zona</string>
+    <string name="plan_contact_person">Pessoa de contacto</string>
+    <string name="plan_roles">Quem faz o quê</string>
+    <string name="plan_roles_helps">Ajuda as crianças, os idosos ou os animais</string>
+    <string name="plan_roles_kit">Leva o kit</string>
+    <string name="plan_roles_calls">Liga para o 112</string>
+    <string name="plan_exits">Como sair de casa</string>
+    <string name="plan_exits_main">Saída principal</string>
+    <string name="plan_exits_alt">Saída alternativa</string>
+    <string name="plan_shutoff">Desligar em casa</string>
+    <string name="plan_shutoff_power">Eletricidade (quadro elétrico)</string>
+    <string name="plan_shutoff_water">Água</string>
+    <string name="plan_shutoff_gas">Gás</string>
+    <string name="plan_contacts">Contactos úteis</string>
+    <string name="plan_add_contact">Adicionar contacto</string>
+    <string name="plan_on_wallet">no cartão de carteira</string>
+    <string name="plan_on_wallet_choice">Mostrar no cartão de carteira</string>
+    <string name="plan_wallet_full">O cartão de carteira tem espaço para 3 contactos. Tira um primeiro.</string>
+    <string name="plan_shelter">Zona de concentração ou abrigo</string>
+    <string name="plan_shelter_field">Indicado pela tua câmara (se souberes)</string>
+    <string name="plan_review">Treinar e rever</string>
+    <string name="plan_field_name">Nome</string>
+    <string name="plan_field_phone">Telefone</string>
+    <string name="plan_field_address">Morada</string>
+    <string name="plan_field_relation">Relação</string>
+    <string name="plan_field_notes">Notas</string>
+    <string name="plan_edit">Editar</string>
+    <string name="plan_save">Guardar</string>
+    <string name="plan_cancel">Cancelar</string>
+    <string name="plan_delete">Apagar</string>
+    <string name="plan_delete_title">Apagar?</string>
+    <string name="plan_delete_text">\"%1$s\" vai sair do plano.</string>
+    <string name="plan_medical">Ficha médica</string>
+    <string name="plan_medical_hint">Opcional. Escreve como dirias a um médico. A app não interpreta estes dados.</string>
+    <string name="plan_medical_blood">Grupo sanguíneo</string>
+    <string name="plan_medical_allergies">Alergias</string>
+    <string name="plan_medical_medication">Medicação</string>
+    <string name="plan_medical_conditions">Condições relevantes</string>
+    <string name="plan_medical_doctor">Médico (nome e contacto)</string>
+    <string name="plan_medical_on_paper">Imprimir esta ficha médica no cartão A4</string>
+    <string name="plan_medical_on_paper_warning">Quem encontrar o papel pode ler estes dados.</string>
+    <string name="plan_medical_filled">Ficha médica preenchida</string>
+    <string name="plan_medical_locked">Ficha médica bloqueada</string>
+    <string name="plan_medical_show">Mostrar ficha médica</string>
+    <string name="plan_lock">Bloquear as fichas médicas</string>
+    <string name="plan_lock_hint">Pede o bloqueio do telemóvel (PIN, padrão ou impressão digital) antes de mostrar as fichas médicas. A app nunca vê o teu PIN nem a tua impressão digital.</string>
+    <string name="plan_lock_unavailable">Define primeiro um bloqueio de ecrã no telemóvel.</string>
+    <string name="plan_unlock_title">Desbloquear as fichas médicas</string>
+    <string name="plan_emergency_back">Voltar</string>
+    <string name="plan_emergency_empty">O teu plano familiar está vazio. Preenche-o quando estiveres em segurança: Preparar, depois Plano familiar.</string>
+    <string name="paper_intro">Imprime e guarda num sítio que todos conheçam. O papel funciona quando o telemóvel não funciona.</string>
+    <string name="paper_a4">Cartão A4</string>
+    <string name="paper_a4_desc">O plano familiar completo, os contactos úteis e a lista do kit. Os campos vazios ficam com linhas para preencher à mão.</string>
+    <string name="paper_wallet">Cartão de carteira</string>
+    <string name="paper_wallet_desc">Tamanho de cartão bancário: 112, a pessoa de contacto, os pontos de encontro e até 3 contactos. Recorta e dobra.</string>
+    <string name="paper_booklet">Caderno de guias</string>
+    <string name="paper_booklet_desc">Todos os guias (antes, durante, depois), com a fonte de cada passo.</string>
+    <string name="paper_print">Imprimir</string>
+    <string name="paper_share">Partilhar</string>
+    <string name="paper_save">Guardar</string>
+    <string name="paper_privacy">O PDF é criado neste telemóvel. Só sai dele se o partilhares ou imprimires.</string>
+    <string name="paper_footer">Resilia · criado a %1$s · Em emergência, liga 112 · página</string>
+    <string name="paper_generated">Criado a %1$s</string>
+    <string name="paper_call_112">Em emergência, liga 112</string>
+    <string name="paper_a4_title">Plano familiar de emergência</string>
+    <string name="paper_source">Fonte: %1$s</string>
+    <string name="paper_no_source">Sem fonte oficial</string>
+    <string name="paper_kit_litres">%1$s: %2$s L (%3$s L por pessoa e por dia)</string>
+    <string name="paper_kit_duration">%1$s: para %2$s durante %3$s</string>
+    <string name="paper_wallet_title">Cartão de carteira</string>
+    <string name="paper_wallet_instructions">Recorta pela linha tracejada e dobra pela linha pontilhada do meio. Frente à esquerda, verso à direita.</string>
+    <string name="paper_wallet_contact">Pessoa de contacto: %1$s %2$s</string>
+    <string name="paper_wallet_meeting_near">Encontro perto de casa: %1$s</string>
+    <string name="paper_wallet_meeting_far">Encontro fora da zona: %1$s</string>
+    <string name="paper_wallet_contacts">Contactos</string>
+    <string name="paper_wallet_disclaimer">Resilia · informação geral, não substitui o 112</string>
+    <string name="paper_booklet_title">Guias de emergência</string>
+    <string name="paper_booklet_contents">Conteúdo</string>
+    <string name="paper_phase_before">Antes</string>
+    <string name="paper_phase_during">Durante</string>
+    <string name="paper_phase_after">Depois</string>
+    <string name="paper_sources_title">Fontes</string>
+    <string name="paper_source_published">documento de %1$s</string>
+    <string name="paper_source_accessed">consultado a %1$s</string>
+    <string name="prepare_places_subtitle">Os teus locais: casa, ponto de encontro, saúde e outros</string>
+    <string name="paper_places">Locais</string>
+</resources>

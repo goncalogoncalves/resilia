@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# Private repo: Actions minutes are limited, so cancel superseded runs and keep one job.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: App name only in allowed places
+        run: bash scripts/check-app-name.sh
+
+      - name: Validate content (JSON Schema + rules)
+        run: ./gradlew :tools:content-validator:validateContent
+
+      - name: Unit and UI (Robolectric) tests
+        run: ./gradlew test testDebugUnitTest
+
+      - name: Lint
+        run: ./gradlew lintDebug
+
+      - name: Build debug APK
+        run: ./gradlew :app:assembleDebug
+
+      - name: Build release App Bundle (unsigned; the upload key is never in CI)
+        run: ./gradlew :app:bundleRelease
+
+      - name: Upload reports on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: '**/build/reports/'
+          retention-days: 7

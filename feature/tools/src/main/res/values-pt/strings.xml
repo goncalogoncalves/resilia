@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tools_torch">Lanterna</string>
+    <string name="tools_torch_is_on">Ligada — toca para desligar</string>
+    <string name="tools_torch_is_off">Desligada — toca para ligar</string>
+    <string name="tools_torch_unavailable">Este telemóvel não tem lanterna. Usa o ecrã como luz.</string>
+    <string name="tools_screen_light">Ecrã como luz</string>
+    <string name="tools_sos">Sinal de luz SOS</string>
+    <string name="tools_battery">Fazer a bateria durar</string>
+    <string name="tools_contacts">Contactos úteis</string>
+    <string name="tools_contacts_subtitle">112, SNS 24, antivenenos, avarias de eletricidade</string>
+    <string name="tools_contacts_intro">Ao tocar num número abre-se o marcador do telemóvel. É lá que confirmas a chamada.</string>
+    <string name="tools_contacts_madeira_note">Madeira: ainda não confirmámos numa fonte oficial o número de avarias de eletricidade. Contacta a Empresa de Electricidade da Madeira (EEM).</string>
+    <string name="tools_screen_light_subtitle">O ecrã inteiro como luz branca ou quente</string>
+    <string name="tools_screen_light_hint">Toca para mudar entre luz branca e quente. O ecrã fica ligado e no brilho máximo enquanto isto estiver aberto.</string>
+    <string name="tools_screen_light_switch">Mudar a cor</string>
+    <string name="tools_sos_subtitle">Pisca ··· ––– ··· com a lanterna</string>
+    <string name="tools_sos_start">Começar o sinal SOS</string>
+    <string name="tools_sos_stop">Parar</string>
+    <string name="tools_sos_what">Pisca SOS em código Morse (··· ––– ···), devagar e repetidamente, até o parares.</string>
+    <string name="tools_sos_uses_torch">Usa a lanterna. Desliga o ecrã para poupar bateria: o sinal continua enquanto este ecrã estiver aberto.</string>
+    <string name="tools_sos_uses_screen">Este telemóvel não tem lanterna: em vez dela pisca o ecrã a branco.</string>
+    <string name="tools_sos_no_source">Não encontrámos uma fonte oficial que recomende este sinal.</string>
+    <string name="tools_call_112_first">Se puderes, liga 112.</string>
+    <string name="tools_sos_flash_warning">A luz pisca no máximo duas vezes por segundo, abaixo do limite de 3 usado nas normas de acessibilidade. Se és sensível a luzes a piscar, não olhes para ela.</string>
+    <string name="tools_whistle">Apito</string>
+    <string name="tools_whistle_subtitle">Um som alto e intermitente pelo altifalante</string>
+    <string name="tools_whistle_start">Começar o apito</string>
+    <string name="tools_whistle_stop">Parar</string>
+    <string name="tools_whistle_ear">Não encostes o telemóvel ao ouvido.</string>
+    <string name="tools_whistle_real">Um apito verdadeiro não gasta bateria e ouve-se mais longe. A ANEPC recomenda ter um no kit.</string>
+    <string name="tools_whistle_no_source">Não encontrámos uma fonte oficial sobre como usar sinais sonoros.</string>
+    <string name="tools_battery_subtitle">Nível de bateria, poupança de energia e um guia curto</string>
+    <string name="tools_battery_level">Bateria: %1$d%%</string>
+    <string name="tools_battery_open_saver">Abrir a poupança de bateria</string>
+</resources>

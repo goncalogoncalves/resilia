@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prepare_intro">Get ready before anything happens. Everything stays on this phone.</string>
+    <string name="prepare_kit_calculator">Kit calculator</string>
+    <string name="prepare_kit_calculator_subtitle">What to have at home and in your bag, for your household</string>
+    <string name="prepare_inventory">My supplies</string>
+    <string name="prepare_inventory_subtitle">What you have, with expiry dates and reminders</string>
+    <string name="prepare_family_plan">Family plan</string>
+    <string name="prepare_paper">Paper card (for when the battery dies)</string>
+    <string name="prepare_places">Places</string>
+
+    <!-- Calculator -->
+    <string name="prepare_kit_intro">Tell us about your household. The list adapts, and every amount shows where it comes from.</string>
+    <string name="prepare_kit_people">People in the household</string>
+    <string name="prepare_kit_people_less">One person fewer</string>
+    <string name="prepare_kit_people_more">One person more</string>
+    <string name="prepare_kit_days">For how many days</string>
+    <string name="prepare_kit_minimum">The official minimum is %1$s. Source: %2$s</string>
+    <string name="prepare_kit_baby">There is a baby</string>
+    <string name="prepare_kit_medical">Someone needs medicines or medical equipment</string>
+    <string name="prepare_kit_pets">There are pets</string>
+    <string name="prepare_list_home">Home supplies</string>
+    <string name="prepare_list_bag">Emergency bag</string>
+    <string name="prepare_list_home_intro">To stay at home when water, electricity or shops fail.</string>
+    <string name="prepare_list_bag_intro">A light bag, ready to grab if you need to leave home quickly.</string>
+    <string name="prepare_amount_litres_per_person">%1$s L (%2$s L per person per day)</string>
+    <string name="prepare_amount_for_duration">Enough for %1$s for %2$s</string>
+    <string name="prepare_add_to_inventory">Add to my supplies</string>
+    <string name="prepare_in_inventory">In my supplies</string>
+    <string name="prepare_open_inventory">Open my supplies</string>
+    <plurals name="prepare_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="prepare_people">
+        <item quantity="one">%d person</item>
+        <item quantity="other">%d people</item>
+    </plurals>
+
+    <!-- Inventory -->
+    <string name="prepare_inventory_intro">Write down what you have and when it expires. It is stored only on this phone.</string>
+    <string name="prepare_inventory_add">Add item</string>
+    <string name="prepare_inventory_edit">Edit item</string>
+    <string name="prepare_inventory_empty">Nothing here yet. Use the kit calculator or add items yourself.</string>
+    <string name="prepare_expiry_none">No expiry date</string>
+    <string name="prepare_expiry_date">Expires %1$s</string>
+    <string name="prepare_expiry_today">Expires today</string>
+    <string name="prepare_expiry_ok">In date</string>
+    <plurals name="prepare_expiry_soon">
+        <item quantity="one">Expires in %d day</item>
+        <item quantity="other">Expires in %d days</item>
+    </plurals>
+    <plurals name="prepare_expiry_expired">
+        <item quantity="one">Expired %d day ago</item>
+        <item quantity="other">Expired %d days ago</item>
+    </plurals>
+    <string name="prepare_field_name">Name</string>
+    <string name="prepare_field_quantity">Quantity (optional)</string>
+    <string name="prepare_field_quantity_hint">e.g. 6 L or 2 tins</string>
+    <string name="prepare_field_pick_date">Choose expiry date</string>
+    <string name="prepare_field_no_date">No expiry date</string>
+    <string name="prepare_save">Save</string>
+    <string name="prepare_cancel">Cancel</string>
+    <string name="prepare_ok">OK</string>
+    <string name="prepare_continue">Continue</string>
+    <string name="prepare_delete">Delete</string>
+    <string name="prepare_delete_title">Delete this item?</string>
+    <string name="prepare_delete_text">\"%1$s\" will be removed from your supplies.</string>
+
+    <!-- Review -->
+    <string name="prepare_review_title">Kit review</string>
+    <string name="prepare_review_next">Next review: %1$s</string>
+    <string name="prepare_review_due">It is time to review your kit.</string>
+    <string name="prepare_review_hint">Check expiry dates, batteries and whether the kit still suits everyone at home. Review it every six months, together with the family plan.</string>
+    <string name="prepare_review_done">I have reviewed it</string>
+
+    <!-- Reminders -->
+    <string name="prepare_reminders">Reminders</string>
+    <string name="prepare_reminders_hint">We remind you 30 days before an item expires, on the day it expires, and when it is time to review the kit.</string>
+    <string name="prepare_reminders_denied">Notifications are not allowed. Expiry dates are still shown here. You can allow notifications in the Android settings.</string>
+    <string name="prepare_reminders_dialog_title">Allow notifications?</string>
+    <string name="prepare_reminders_dialog_text">To remind you about expiry dates and the kit review, the app needs to show notifications. It uses them for nothing else. If you say no, everything else keeps working.</string>
+
+    <!-- Notifications -->
+    <string name="prepare_notif_channel">Kit reminders</string>
+    <string name="prepare_notif_public">Resilia reminder</string>
+    <string name="prepare_notif_expiry_title">Expiry dates in your kit</string>
+    <plurals name="prepare_notif_expired">
+        <item quantity="one">%d item has expired or expires today.</item>
+        <item quantity="other">%d items have expired or expire today.</item>
+    </plurals>
+    <plurals name="prepare_notif_soon">
+        <item quantity="one">%d item expires in the next 30 days.</item>
+        <item quantity="other">%d items expire in the next 30 days.</item>
+    </plurals>
+    <string name="prepare_notif_review_title">Time to review your kit</string>
+    <string name="prepare_notif_review_text">Check expiry dates, batteries, the family plan and whether the kit still suits everyone at home.</string>
+
+    <!-- Family plan and paper (Marco 4) -->
+    <string name="prepare_family_plan_subtitle">Who is at home, where to meet, who to call</string>
+    <string name="prepare_paper_subtitle">A4 card, wallet card and the guides, to print</string>
+    <string name="plan_title">Family plan</string>
+    <string name="plan_intro">Fill in what you can: every field is optional. Everything stays on this phone, and medical sheets are encrypted.</string>
+    <string name="plan_open_paper">Print or share</string>
+    <string name="plan_members">People at home</string>
+    <string name="plan_add_member">Add person</string>
+    <string name="plan_edit_member">Edit person</string>
+    <string name="plan_meeting">Meeting points</string>
+    <string name="plan_meeting_near">Near home</string>
+    <string name="plan_meeting_far">Outside your area</string>
+    <string name="plan_contact_person">Contact person</string>
+    <string name="plan_roles">Who does what</string>
+    <string name="plan_roles_helps">Helps children, older people or pets</string>
+    <string name="plan_roles_kit">Takes the kit</string>
+    <string name="plan_roles_calls">Calls 112</string>
+    <string name="plan_exits">How to get out of the house</string>
+    <string name="plan_exits_main">Main way out</string>
+    <string name="plan_exits_alt">Alternative way out</string>
+    <string name="plan_shutoff">Turning things off at home</string>
+    <string name="plan_shutoff_power">Electricity (fuse box)</string>
+    <string name="plan_shutoff_water">Water</string>
+    <string name="plan_shutoff_gas">Gas</string>
+    <string name="plan_contacts">Useful contacts</string>
+    <string name="plan_add_contact">Add contact</string>
+    <string name="plan_on_wallet">on the wallet card</string>
+    <string name="plan_on_wallet_choice">Show on the wallet card</string>
+    <string name="plan_wallet_full">The wallet card has room for 3 contacts. Remove one first.</string>
+    <string name="plan_shelter">Gathering point or shelter</string>
+    <string name="plan_shelter_field">Indicated by your council (if you know it)</string>
+    <string name="plan_review">Practise and review</string>
+    <string name="plan_field_name">Name</string>
+    <string name="plan_field_phone">Phone</string>
+    <string name="plan_field_address">Address</string>
+    <string name="plan_field_relation">Relationship</string>
+    <string name="plan_field_notes">Notes</string>
+    <string name="plan_edit">Edit</string>
+    <string name="plan_save">Save</string>
+    <string name="plan_cancel">Cancel</string>
+    <string name="plan_delete">Delete</string>
+    <string name="plan_delete_title">Delete?</string>
+    <string name="plan_delete_text">\"%1$s\" will be removed from the plan.</string>
+    <string name="plan_medical">Medical sheet</string>
+    <string name="plan_medical_hint">Optional. Write it as you would tell a doctor. The app does not interpret it.</string>
+    <string name="plan_medical_blood">Blood group</string>
+    <string name="plan_medical_allergies">Allergies</string>
+    <string name="plan_medical_medication">Medicines</string>
+    <string name="plan_medical_conditions">Relevant conditions</string>
+    <string name="plan_medical_doctor">Doctor (name and contact)</string>
+    <string name="plan_medical_on_paper">Print this medical sheet on the A4 card</string>
+    <string name="plan_medical_on_paper_warning">Anyone who finds the paper can read this information.</string>
+    <string name="plan_medical_filled">Medical sheet filled in</string>
+    <string name="plan_medical_locked">Medical sheet locked</string>
+    <string name="plan_medical_show">Show medical sheet</string>
+    <string name="plan_lock">Lock medical sheets</string>
+    <string name="plan_lock_hint">Asks for your phone\'s screen lock (PIN, pattern or fingerprint) before showing medical sheets. The app never sees your PIN or fingerprint.</string>
+    <string name="plan_lock_unavailable">Set up a screen lock on your phone first.</string>
+    <string name="plan_unlock_title">Unlock medical sheets</string>
+    <string name="plan_emergency_back">Back</string>
+    <string name="plan_emergency_empty">Your family plan is empty. Fill it in when you are safe: Prepare, then Family plan.</string>
+    <string name="paper_intro">Print these and keep them where everyone can find them. Paper works when the phone does not.</string>
+    <string name="paper_a4">A4 card</string>
+    <string name="paper_a4_desc">The whole family plan, useful contacts and the kit checklist. Empty fields become lines to fill in by hand.</string>
+    <string name="paper_wallet">Wallet card</string>
+    <string name="paper_wallet_desc">Bank-card size: 112, the contact person, the meeting points and up to 3 contacts. Cut out and fold.</string>
+    <string name="paper_booklet">Guide booklet</string>
+    <string name="paper_booklet_desc">Every guide (before, during, after), with the source of each step.</string>
+    <string name="paper_print">Print</string>
+    <string name="paper_share">Share</string>
+    <string name="paper_save">Save</string>
+    <string name="paper_privacy">The PDF is created on this phone. It only leaves it if you share or print it.</string>
+    <string name="paper_footer">Resilia · created %1$s · In an emergency, call 112 · page</string>
+    <string name="paper_generated">Created on %1$s</string>
+    <string name="paper_call_112">In an emergency, call 112</string>
+    <string name="paper_a4_title">Family emergency plan</string>
+    <string name="paper_source">Source: %1$s</string>
+    <string name="paper_no_source">No official source</string>
+    <string name="paper_kit_litres">%1$s: %2$s L (%3$s L per person per day)</string>
+    <string name="paper_kit_duration">%1$s: for %2$s for %3$s</string>
+    <string name="paper_wallet_title">Wallet card</string>
+    <string name="paper_wallet_instructions">Cut along the dashed line and fold along the dotted line in the middle. Front on the left, back on the right.</string>
+    <string name="paper_wallet_contact">Contact person: %1$s %2$s</string>
+    <string name="paper_wallet_meeting_near">Meet near home: %1$s</string>
+    <string name="paper_wallet_meeting_far">Meet outside the area: %1$s</string>
+    <string name="paper_wallet_contacts">Contacts</string>
+    <string name="paper_wallet_disclaimer">Resilia · general information, does not replace 112</string>
+    <string name="paper_booklet_title">Emergency guides</string>
+    <string name="paper_booklet_contents">Contents</string>
+    <string name="paper_phase_before">Before</string>
+    <string name="paper_phase_during">During</string>
+    <string name="paper_phase_after">After</string>
+    <string name="paper_sources_title">Sources</string>
+    <string name="paper_source_published">document of %1$s</string>
+    <string name="paper_source_accessed">accessed on %1$s</string>
+    <string name="prepare_places_subtitle">Your places: home, meeting point, health and more</string>
+    <string name="paper_places">Places</string>
+</resources>

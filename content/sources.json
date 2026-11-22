@@ -1,0 +1,354 @@
+{
+  "sources": [
+    {
+      "id": "dgs-quebras-energeticas",
+      "entity": "DGS",
+      "title": {
+        "pt-PT": "Segurança alimentar e cuidados gerais a ter após quebras energéticas",
+        "en": "Food safety and general care after power cuts (in Portuguese)"
+      },
+      "url": "https://www.dgs.pt/em-destaque/seguranca-alimentar-e-cuidados-gerais-a-ter-apos-quebras-energeticas.aspx",
+      "accessedAt": "2026-11-20"
+    },
+    {
+      "id": "gov-kristin-geradores",
+      "entity": "GOV",
+      "publisher": "Governo de Portugal / DGS",
+      "title": {
+        "pt-PT": "Tempestade \"Kristin\": uso seguro de geradores e cuidados com alimentos",
+        "en": "Storm \"Kristin\": safe use of generators and care with food (in Portuguese)"
+      },
+      "url": "https://portugal.gov.pt/pt/gc25/comunicacao/noticias/tempestade-kristin-uso-seguro-de-geradores-e-cuidados-com-alimentos",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2026-02-02"
+    },
+    {
+      "id": "anepc-interrupcao-rede",
+      "entity": "ANEPC",
+      "title": {
+        "pt-PT": "Interrupção da Rede Eléctrica Nacional",
+        "en": "National power grid interruption (in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/pt/noticias/interrupcao-da-rede-eletrica-nacional",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2025-04-28"
+    },
+    {
+      "id": "anepc-sismos-kit",
+      "entity": "ANEPC",
+      "publisher": "ANEPC / Associação Portuguesa de Seguradores",
+      "title": {
+        "pt-PT": "Sismos: prepare-se e proteja-se (folheto com a lista do kit de emergência)",
+        "en": "Earthquakes: get ready and protect yourself (leaflet with the emergency kit list, in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/media/ovjbpe1c/sismos-prepare-se-e-proteja-se.pdf",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2018-11-01"
+    },
+    {
+      "id": "anepc-riscos-tecnologicos",
+      "entity": "ANEPC",
+      "title": {
+        "pt-PT": "Riscos tecnológicos",
+        "en": "Technological risks (in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/pt/prevencao-e-preparacao/avaliacao-de-riscos/riscos-tecnologicos/",
+      "accessedAt": "2026-11-20"
+    },
+    {
+      "id": "gov-a-minha-saude",
+      "entity": "GOV",
+      "publisher": "gov.pt",
+      "title": {
+        "pt-PT": "Vida adulta: a minha saúde",
+        "en": "Adult life: my health (in Portuguese)"
+      },
+      "url": "https://www.gov.pt/guias/a-minha-saude",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "id": "sns24-linha",
+      "entity": "SNS24",
+      "title": {
+        "pt-PT": "SNS 24 — página inicial (Canais SNS 24)",
+        "en": "SNS 24 — home page (SNS 24 channels, in Portuguese)"
+      },
+      "url": "https://www.sns24.gov.pt/",
+      "accessedAt": "2026-11-20"
+    },
+    {
+      "id": "inem-ciav",
+      "entity": "INEM",
+      "title": {
+        "pt-PT": "CIAV — Centro de Informação Antivenenos",
+        "en": "CIAV — Poison Information Centre (in Portuguese)"
+      },
+      "url": "https://www.inem.pt/category/servicos/centro-de-informacao-antivenenos/",
+      "accessedAt": "2026-11-20"
+    },
+    {
+      "id": "eredes-contactos",
+      "entity": "UTILITY",
+      "publisher": "E-REDES",
+      "title": {
+        "pt-PT": "Contactos e Pontos de Atendimento",
+        "en": "Contacts and service points (in Portuguese)"
+      },
+      "url": "https://www.e-redes.pt/pt-pt/contactos",
+      "accessedAt": "2026-11-20"
+    },
+    {
+      "id": "eda-callcenter",
+      "entity": "UTILITY",
+      "publisher": "EDA — Electricidade dos Açores",
+      "title": {
+        "pt-PT": "Call Center (folheto)",
+        "en": "Call centre (leaflet, in Portuguese)"
+      },
+      "url": "https://files.eda.pt/edasharepointfiles/Biblioteca%20Internet%20EDA/Clientes/Produtos%20e%20Servi%C3%A7os/Call%20Center/Documentos/CallCenter.pdf",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2024-07-01"
+    },
+    {
+      "id": "eu-preparedness",
+      "entity": "EU",
+      "title": {
+        "pt-PT": "EU preparedness union strategy (Comissão Europeia, em inglês)",
+        "en": "EU preparedness union strategy"
+      },
+      "url": "https://commission.europa.eu/topics/preparedness_en",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2025-05-23"
+    },
+    {
+      "id": "cvp-kit-familiar",
+      "entity": "CVP",
+      "title": {
+        "pt-PT": "Como Elaborar um Kit de Emergência Familiar: Manual prático",
+        "en": "How to put together a family emergency kit: practical manual (in Portuguese)"
+      },
+      "url": "https://www.cruzvermelha.pt/files/uploads/2024/12/CVP_ElaborarUmKitDeEmergencia_BOOK_.pdf",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2024-12-01"
+    },
+    {
+      "id": "eu-swd-72h",
+      "entity": "EU",
+      "title": {
+        "pt-PT": "Orientações para uma autossuficiência de pelo menos 72 horas, SWD(2026) 826 (Comissão Europeia, em inglês)",
+        "en": "Implementation of Population Preparedness Guidelines on Reaching a Population Self Sufficiency of at least 72 Hours, SWD(2026) 826"
+      },
+      "url": "https://ec.europa.eu/echo/files/policies/preparedness/guidelines_preparedness_selfsufficiency.pdf",
+      "accessedAt": "2026-11-20",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "cm-matosinhos-plano",
+      "entity": "MUNICIPAL",
+      "publisher": "Câmara Municipal de Matosinhos",
+      "title": {
+        "pt-PT": "Plano Familiar de Emergência",
+        "en": "Family emergency plan (in Portuguese)"
+      },
+      "url": "https://www.cm-matosinhos.pt/servicos/protecao-civil/prevencao-e-autoprotecao/medidas-de-autoprotecao/plano-familiar-de-emergencia",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "cm-valongo-plano",
+      "entity": "MUNICIPAL",
+      "publisher": "Câmara Municipal de Valongo",
+      "title": {
+        "pt-PT": "Plano de Emergência Familiar: um passo simples que pode salvar vidas",
+        "en": "Family emergency plan: a simple step that can save lives (in Portuguese)"
+      },
+      "url": "https://www.cm-valongo.pt/diretorio-servicos/comunicacao/noticias/noticia/plano-de-emergencia-familiar-um-passo-simples-que-pode-salvar-vidas",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2026-01-23"
+    },
+    {
+      "id": "anepc-charles-2026",
+      "entity": "ANEPC",
+      "title": {
+        "pt-PT": "Depressão Charles | Medidas Preventivas",
+        "en": "Storm Charles: preventive measures (in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/pt/noticias/depressao-charles-medidas-preventivas/",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "anepc-serra-estrela-2026",
+      "entity": "ANEPC",
+      "title": {
+        "pt-PT": "Dispositivo Serra da Estrela",
+        "en": "Serra da Estrela response team (in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/pt/noticias/23022026-dispositivo-serra-da-estrela/",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2026-02-23"
+    },
+    {
+      "id": "google-android-bateria",
+      "entity": "OTHER",
+      "publisher": "Google (Ajuda do Android)",
+      "title": {
+        "pt-PT": "Get the most life from your Android device's battery (em inglês)",
+        "en": "Get the most life from your Android device's battery"
+      },
+      "url": "https://support.google.com/android/answer/7664692?hl=en-GB",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "w3c-wcag22-flashes",
+      "entity": "OTHER",
+      "publisher": "W3C",
+      "title": {
+        "pt-PT": "WCAG 2.2, critério 2.3.1: Three Flashes or Below Threshold (em inglês)",
+        "en": "WCAG 2.2, success criterion 2.3.1: Three Flashes or Below Threshold"
+      },
+      "url": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2024-12-12"
+    },
+    {
+      "id": "anepc-riscos-naturais",
+      "entity": "ANEPC",
+      "title": {
+        "pt-PT": "Riscos naturais",
+        "en": "Natural hazards (in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/pt/prevencao-e-preparacao/avaliacao-de-riscos/riscos-naturais/",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "anepc-cheias-mondego-2026",
+      "entity": "ANEPC",
+      "title": {
+        "pt-PT": "Aviso à população: risco de cheias e inundações (rio Mondego), medidas preventivas e de autoproteção",
+        "en": "Public warning: flood risk (Mondego river), preventive and self-protection measures (in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/media/gxmnaw3k/aviso-%C3%A0-popula%C3%A7%C3%A3o-_-risco-de-cheias-e-inunda%C3%A7%C3%B5es-_-rio-mondego-_-medidas-preventivas_10fev.pdf",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2026-02-10"
+    },
+    {
+      "id": "agif-autoprotecao",
+      "entity": "AGIF",
+      "title": {
+        "pt-PT": "Medidas de autoproteção (incêndios rurais)",
+        "en": "Self-protection measures (rural fires, in Portuguese)"
+      },
+      "url": "https://www.sgifr.gov.pt/medidas-de-autoprotecao",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "agif-gestao-combustivel",
+      "entity": "AGIF",
+      "title": {
+        "pt-PT": "Gestão de combustível",
+        "en": "Fuel management around buildings (in Portuguese)"
+      },
+      "url": "https://www.sgifr.gov.pt/gestao-de-combustivel",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "opp-dgs-anepc-tempestades",
+      "entity": "DGS",
+      "publisher": "Ordem dos Psicólogos, DGS e ANEPC",
+      "title": {
+        "pt-PT": "Como recuperar emocionalmente de tempestades e inundações? Guia prático para a população",
+        "en": "How to recover emotionally from storms and floods: a practical guide for the public (in Portuguese)"
+      },
+      "url": "https://www.ordemdospsicologos.pt/ficheiros/documentos/comorecuperaremocionalmentedetempestadeseinundacoes.pdf",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2026-02-01"
+    },
+    {
+      "id": "gov-sns24-psicologico",
+      "entity": "GOV",
+      "title": {
+        "pt-PT": "Linha de Aconselhamento Psicológico do SNS 24 disponível em inglês",
+        "en": "SNS 24 psychological counselling line available in English (in Portuguese)"
+      },
+      "url": "https://www.gov.pt/noticias/linha-de-aconselhamento-psicologico-do-sns-24-disponivel-em-ingles",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2022-04-22"
+    },
+    {
+      "id": "sns-linha-1411",
+      "entity": "GOV",
+      "publisher": "Serviço Nacional de Saúde",
+      "title": {
+        "pt-PT": "Campanha de prevenção do suicídio",
+        "en": "Suicide prevention campaign (in Portuguese)"
+      },
+      "url": "https://www.sns.gov.pt/noticias/2025/12/22/nova-campanha-de-prevencao-do-suicidio/",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2025-12-22"
+    },
+    {
+      "id": "ipma-api",
+      "entity": "IPMA",
+      "title": {
+        "pt-PT": "IPMA API — documentação e condições de utilização",
+        "en": "IPMA API — documentation and terms of use (in Portuguese)"
+      },
+      "url": "https://api.ipma.pt/",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "ipma-guia-avisos",
+      "entity": "IPMA",
+      "title": {
+        "pt-PT": "Guia de utilização dos avisos meteorológicos",
+        "en": "Guide to weather warnings (in Portuguese)"
+      },
+      "url": "https://www.ipma.pt/pt/enciclopedia/otempo/sam/index.html",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "ipma-avisos",
+      "entity": "IPMA",
+      "title": {
+        "pt-PT": "Avisos meteorológicos",
+        "en": "Weather warnings (in Portuguese)"
+      },
+      "url": "https://www.ipma.pt/pt/otempo/prev-sam/",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "ipma-risco-incendio",
+      "entity": "IPMA",
+      "title": {
+        "pt-PT": "Risco de incêndio",
+        "en": "Fire risk (in Portuguese)"
+      },
+      "url": "https://www.ipma.pt/pt/riscoincendio/rcm.pt/",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "anepc-avisos-populacao",
+      "entity": "ANEPC",
+      "title": {
+        "pt-PT": "Avisos à população",
+        "en": "Warnings to the population (in Portuguese)"
+      },
+      "url": "https://prociv.gov.pt/pt/avisos-a-populacao/",
+      "accessedAt": "2026-11-21"
+    },
+    {
+      "id": "sns-urgencias",
+      "entity": "GOV",
+      "publisher": "SNS — Portal da Transparência",
+      "title": {
+        "pt-PT": "Caracterização das Valências de Urgência",
+        "en": "Emergency department services (in Portuguese)"
+      },
+      "url": "https://transparencia.sns.gov.pt/explore/dataset/caracterizacao-das-valencias-de-urgencia/",
+      "accessedAt": "2026-11-21",
+      "publishedAt": "2026-06-17"
+    }
+  ]
+}
