@@ -7,6 +7,31 @@ Funciona sem internet, não tem conta, nem anúncios, nem rastreio.
 
 *English summary below.*
 
+## Instalar
+
+Enquanto a app não está na Google Play, podes instalar o APK diretamente:
+
+**[⬇️ Descarregar resilia.apk](https://github.com/goncalogoncalves/resilia/releases/latest/download/resilia.apk)** (Android 8 ou mais recente · [todas as versões](https://github.com/goncalogoncalves/resilia/releases))
+
+1. Abre a ligação no telemóvel e descarrega o ficheiro.
+2. Abre-o. O Android pede para autorizar a instalação a partir do navegador: aceita só para esta instalação.
+3. Para atualizar, descarrega a versão nova e instala por cima. Os teus dados mantêm-se.
+
+O APK é compilado a partir deste repositório e assinado sempre com a mesma chave. Na página de cada versão está o SHA-256 do ficheiro, para confirmares que não foi alterado.
+
+## Capturas
+
+<p>
+<img src="docs/screenshots/marco-7/03-inicio-com-aviso.png" width="200" alt="Início com aviso do IPMA">
+<img src="docs/screenshots/marco-9/06-ligacao-ao-kit.png" width="200" alt="Guia com passos e fontes">
+<img src="docs/screenshots/marco-9/04-emergencia-letra-200-112-fixo.png" width="200" alt="Modo emergência com o botão 112">
+<img src="docs/screenshots/marco-3/03-inventario.png" width="200" alt="Inventário do kit">
+<img src="docs/screenshots/marco-4/03-plano.png" width="200" alt="Plano familiar">
+<img src="docs/screenshots/marco-8/03-os-meus-locais.png" width="200" alt="Os meus locais">
+<img src="docs/screenshots/marco-5/01-ferramentas.png" width="200" alt="Ferramentas">
+<img src="docs/screenshots/marco-6b/01-calma.png" width="200" alt="Calma">
+</p>
+
 ## Estado
 
 Em desenvolvimento, por marcos. Ver [docs/marco-0-proposta.md](docs/marco-0-proposta.md) para a visão, as decisões e o plano.
@@ -76,3 +101,5 @@ Resilia is a free, open-source Android app that helps people in Portugal prepare
 emergencies (power outages, water outages, floods, fires, earthquakes, storms, heatwaves, cold spells,
 evacuation). It works offline, has no account, ads or tracking, and is available in Portuguese (pt-PT)
 and English. Code is Apache-2.0; content is CC BY-SA 4.0. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Until it is on Google Play, you can [download the APK](https://github.com/goncalogoncalves/resilia/releases/latest/download/resilia.apk) (Android 8+). The SHA-256 is on each [release page](https://github.com/goncalogoncalves/resilia/releases).
