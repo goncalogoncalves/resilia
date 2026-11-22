@@ -9,7 +9,8 @@
 - **Contacto**: goncalofbg@live.com.pt (política de privacidade e ficha da loja).
 - **Sem revisão jurídica** (decisão do autor). O aviso legal diz que os textos resumem fontes oficiais e não foram revistos por profissionais; o selo "Por rever" saiu dos ecrãs.
 - **Nome**: fica "Resilia" para já, numa app pessoal. Se um dia houver um conflito de marca, o nome muda num só sítio (`app_name` e `AppInfo.NAME`).
-- **Ainda por resolver**: a licença dos dados do SNS (secção 9).
+- **Ainda por resolver**: a licença dos dados do SNS (secção 9) e a rejeição por conta pessoal (secção 4).
+- **Distribuição atual**: APK no [release do GitHub](https://github.com/goncalogoncalves/resilia/releases/latest), assinado com a chave de upload. Com a Play App Signing, a versão da Play terá outra assinatura: quem tiver o APK do GitHub terá de exportar os dados, desinstalar e instalar a da Play.
 
 ## 1. Chave de upload (fazes tu, uma vez)
 
@@ -65,10 +66,21 @@ Dentro da app, a política já está em Definições → Privacidade.
 
 **Não** faz diagnóstico, tratamento nem monitorização.
 
-Proposta:
-- escolher na consola as categorias que correspondem a **informação e referência de saúde** e a **bem-estar emocional**. Confirma os nomes exatos no formulário, que eu não consigo ver;
-- declarar que **não é dispositivo médico**;
-- pôr na descrição a frase que a política pede (está nas secções 6.2 e 6.3).
+**Rejeitada a 22/11/2026 ("Violation of Play Console Requirements", área "Developer Account").** A proposta anterior deste guia escolhia categorias do grupo "Medical", e a Google exige uma **conta de organização** para apps de saúde como as apps médicas ([Play Console Requirements](https://support.google.com/googleplay/android-developer/answer/10788890)). A conta atual é pessoal.
+
+Categorias do formulário ([lista oficial](https://support.google.com/googleplay/android-developer/answer/14738291)):
+- **Health and fitness:** Activity and Fitness; Nutrition and Weight Management; Period Tracking; Sleep Management; Stress Management, Relaxation, Mental Acuity.
+- **Medical:** Diseases and Conditions Management; Clinical Decision Support; Disease Prevention and Public Health; **Emergency and First Aid** ("Resources for emergency preparedness, first aid instructions, and disaster response information"); Healthcare Services and Management; Mental and Behavioral Health; Medical Reference and Education; Medication and Treatment Management; Physical Therapy and Rehabilitation; Reproductive and Sexual Health; Medical Device Apps.
+- Opção "My app doesn't provide any health features".
+
+A categoria que descreve a app é **Emergency and First Aid**, que está no grupo "Medical". **Não declarar "sem funcionalidades de saúde"** só para passar: a declaração ficava falsa. A página oficial não diz quais são, exatamente, as categorias que exigem conta de organização (**por rever**).
+
+Caminhos:
+1. distribuir o APK pelo GitHub (feito: release v1.0.0);
+2. perguntar ao apoio da Play se "Emergency and First Aid" exige conta de organização;
+3. criar uma conta de organização (é preciso uma entidade legal e um número D-U-N-S, gratuito).
+
+Em qualquer caso: declarar que **não é dispositivo médico** e manter na descrição a frase que a política pede (secções 6.2 e 6.3).
 
 ## 5. Classificação etária e público-alvo
 
